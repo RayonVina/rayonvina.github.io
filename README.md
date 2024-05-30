@@ -2,21 +2,21 @@
 |:----------------------------------|:----------------------------------|
 |                                   |                                   |
 | **🎓 Estudios:** | **🎓 Studies:** |
-| Grado en Biología <br> Máster en Conservación Marina <br> Doctorado en Ingeniería Ambiental  | Bachelor's degree in Biology <br> Master's degree in Marine Conservation <br> PhD in Environmental Engineering |
+| Grado en Biología <br>  &nbsp;&nbsp;&nbsp;&nbsp;  Máster en Conservación Marina <br>  &nbsp;&nbsp;&nbsp;&nbsp;  Doctorado en Ingeniería Ambiental  | Bachelor's degree in Biology <br>  &nbsp;&nbsp;&nbsp;&nbsp;  Master's degree in Marine Conservation <br>  &nbsp;&nbsp;&nbsp;&nbsp;  PhD in Environmental Engineering |
 |                                   |                                   |
 | **🌱 Aprendiendo** | **Learning:** |
-| Python <br> PostgreSQL | Python <br> PostgreSQL |
+| Python <br>  &nbsp;&nbsp;&nbsp;&nbsp;  PostgreSQL | Python <br>  &nbsp;&nbsp;&nbsp;&nbsp;  PostgreSQL |
 |                                   |                                   |
 | **👨‍💻 Trabajo:** | **👨‍💻 Work:** |
-| Científico de datos <br> Asistente de investigación <br> Grupo VGOHAB del IEO de Vigo | Data scientist <br> Research assistant <br> VGOHAB group of IEO in Vigo |
+| Científico de datos <br>  &nbsp;&nbsp;&nbsp;&nbsp;  Asistente de investigación <br>  &nbsp;&nbsp;&nbsp;&nbsp;  Grupo VGOHAB del IEO de Vigo | Data scientist <br>  &nbsp;&nbsp;&nbsp;&nbsp;  Research assistant <br>  &nbsp;&nbsp;&nbsp;&nbsp;  VGOHAB group of IEO in Vigo |
 |                                   |                                   |
 | **🛠️ Proyectos actuales:** | **🛠️ Current projects:** |
-| Construcción de una base de datos de plancton y de VAO <br> Análisis de datos | Building a plankton and EOV database <br> Data analysis |
+| Construcción de una base de datos de plancton y de VAO <br>  &nbsp;&nbsp;&nbsp;&nbsp;  Análisis de datos | Building a plankton and EOV database <br>  &nbsp;&nbsp;&nbsp;&nbsp;  Data analysis |
 |                                   |                                   |
 | **💻 Programación** | **Programming:** |
-| R <br> QGIS | R <br> QGIS |
+| R <br>  &nbsp;&nbsp;&nbsp;&nbsp;  QGIS | R <br>  &nbsp;&nbsp;&nbsp;&nbsp;  QGIS |
 |                                   |                                   |
 | **🛠️ Habilidades técnicas** | **🛠️ Technical Skills** |
-| Lenguajes de programación: R, Python <br> Herramientas y tecnologías: QGIS, PostgreSQL, RStudio | Programming languages: R, Python <br> Tools and technologies: QGIS, PostgreSQL |
+| Lenguajes de programación: R, Python <br>  &nbsp;&nbsp;&nbsp;&nbsp;  Herramientas y tecnologías: QGIS, PostgreSQL, RStudio | Programming languages: R, Python <br>  &nbsp;&nbsp;&nbsp;&nbsp;  Tools and technologies: QGIS, PostgreSQL |
 |                                   |                                   |
 | ¡Gracias por visitar mi perfil de GitHub! 😊 | Thanks for visiting my GitHub profile! 😊 |
