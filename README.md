@@ -1,6 +1,5 @@
 | <h2>Hola, soy Fernando Rayón Viña 👋</h2> | <h2>Hello, I'm Fernando Rayón Viña 👋</h2> |
 |----------------------------------|----------------------------------|
-| Aquí almaceno los archivos de mi página web (en desarrollo). | Here I store the files of my website (under development). |
 |                                   |                                   |
 | **🎓 Estudios:** | **🎓 Studies:** |
 | &nbsp;&nbsp;&nbsp;&nbsp; Grado en Biología <br>  &nbsp;&nbsp;&nbsp;&nbsp;  Máster en Conservación Marina <br>  &nbsp;&nbsp;&nbsp;&nbsp;  Doctorado en Ingeniería Ambiental  | &nbsp;&nbsp;&nbsp;&nbsp; Bachelor's degree in Biology <br>  &nbsp;&nbsp;&nbsp;&nbsp;  Master's degree in Marine Conservation <br>  &nbsp;&nbsp;&nbsp;&nbsp;  PhD in Environmental Engineering |
