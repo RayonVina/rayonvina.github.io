@@ -1,4 +1,4 @@
-| <h1>Hola, soy Fernando Rayón Viña </h1> 👋 | <h1>Hello, I'm Fernando Rayón Viña 👋</h1> |
+| <h2>Hola, soy Fernando Rayón Viña 👋</h2> | <h2>Hello, I'm Fernando Rayón Viña 👋</h2> |
 |----------------------------------|----------------------------------|
 | Aquí almaceno los archivos de mi página web (en desarrollo). | Here I store the files of my website (under development). |
 |                                   |                                   |
