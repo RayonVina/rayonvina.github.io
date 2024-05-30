@@ -11,8 +11,6 @@
 |   |   |
 | ## 💻 Programación: <br> &nbsp;&nbsp; R <br> &nbsp;&nbsp; QGIS | ## 💻 Programming: <br> &nbsp;&nbsp; R <br> &nbsp;&nbsp; QGIS |
 |   |   |
-| ## 🛠️ Habilidades técnicas | ## 🛠️ Technical Skills |
-| - Lenguajes de programación: R, Python | - Programming languages: R, Python |
-| - Herramientas y tecnologías: QGIS, PostgreSQL, RStudio | - Tools and technologies: QGIS, PostgreSQL |
+| ## 🛠️ Habilidades técnicas <br> &nbsp;&nbsp; Lenguajes de programación: R, Python <br> &nbsp;&nbsp; Herramientas y tecnologías: QGIS, PostgreSQL, RStudio | ## 🛠️ Technical Skills <br> &nbsp;&nbsp; Programming languages: R, Python <br> &nbsp;&nbsp; Tools and technologies: QGIS, PostgreSQL |
 |   |   |
 | ¡Gracias por visitar mi perfil de GitHub! 😊 | Thanks for visiting my GitHub profile! 😊 |
