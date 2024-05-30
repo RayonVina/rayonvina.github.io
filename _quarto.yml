@@ -1,0 +1,60 @@
+project:
+  type: website
+
+website:
+  favicon: /assets/images/icon_FRV_blue.png
+  title: "Fernando Rayón Viña"
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis."
+  page-navigation: true
+  back-to-top-navigation: true
+  twitter-card: true
+  comments: 
+    utterances: 
+      repo: rayonvina/rayonvina 
+      label: utterances
+      theme: body-light
+      issue-term: title
+  navbar:
+    logo: /assets/images/icon_FRV_white.png
+    background: primary
+    pinned: true
+    search: true
+    tools:
+      - icon: github
+        href: https://github.com/RayonVina
+    right:
+      - text: "About"
+        href: about/index.qmd
+      - text: "Blog"
+        href: blog/index.qmd
+      - text: "Talks"
+        href: talks.qmd
+      - text: "Projects"
+        href: projects.qmd
+
+        
+  page-footer:  
+    left: >-
+      &#169; 2024 Fernando Rayón Viña &#8729; Made with [Quarto](https://quarto.org)
+    center:
+      <a class="link-dark me-1" href="https://git.csic.es/53676339C" title="Git-CSIC" target="_blank" rel="noopener">{{< fa brands git-alt >}}</a>
+      <a class="link-dark me-1" href="https://vgohab.com/" title="Group Webpage" target="_blank" rel="noopener">{{< fa globe >}}</a>
+      <a class="link-dark me-1" href="https://orcid.org/0000-0002-1622-2180" title="Orcid" target="_blank" rel="noopener">{{< ai orcid >}}</a>
+      <a class="link-dark me-1" href="https://scholar.google.com/citations?user=CTlje38AAAAJ&hl=es" title="Google Scholar" target="_blank"rel="noopener">{{< ai google-scholar >}}</a>
+      <a class="link-dark me-1" href="https://x.com/RayonVina" title="Twitter" target="_blank" rel="noopener">{{< fa brands square-twitter >}}</a>
+      <a class="link-dark me-1" href="https://www.researchgate.net/profile/Fernando-Rayon-Vina" title="ResearchGate" target="_blank" rel="noopener">{{< ai researchgate >}}</a>
+    right: 
+      - text: "Contact"
+        aria-label: "Contact Form"
+        href: "contact.qmd"
+      - text: "License"
+        aria-label: "License Details"
+        href: license.qmd
+      - icon: rss
+        href: blog/index.xml
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true

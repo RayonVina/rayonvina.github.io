@@ -1,0 +1,64 @@
+---
+title: "Fernando Rayón Viña"
+pagetitle: "Fernando Rayón Viña"
+subtitle: "Data scientist and research assistant at the Spanish Institute of Oceanography (IEO-CSIC)"
+image: assets/images/pc_boat.png
+image-alt: "A photo of me"
+
+twitter-card:
+    title: Fernando Rayón Viña
+    description: |
+      Data scientist and research assistant at the Spanish Institute of Oceanography (IEO-CSIC).
+    image: assets/images/photos/IMG_2517.png
+
+about:
+  template: solana
+  image-width: 28em
+  id: hero-heading
+  links:
+    - text: "{{< fa brands git-alt >}}"
+      aria-label: Professional repository 
+      href: https://git.csic.es/53676339C/
+      
+    - icon: globe
+      aria-label: Group webpage
+      href: https://vgohab.com/
+      
+    - text: "{{< ai orcid >}}"
+      aria-label: Orcid
+      href: https://orcid.org/0000-0002-1622-2180/
+      
+    - text: "{{< ai google-scholar >}}"
+      aria-label: Google scholar
+      href: https://scholar.google.com/citations?user=CTlje38AAAAJ&hl=es/
+      
+    - text: "{{< fa brands square-twitter >}}"
+      aria-label: Twitter
+      href: https://x.com/RayonVina/
+      
+    - text: "{{< ai researchgate >}}"
+      aria-label: ResearchGate
+      href: https://www.researchgate.net/profile/Fernando-Rayon-Vina/
+
+page-layout: full
+
+execute: 
+  freeze: false
+  echo: false
+  warning: false
+
+header-includes: >
+  <link rel="stylesheet" href="assets/index.css">
+resources:
+  - assets/index.css
+---
+
+<br><br>
+
+::: {#hero-heading}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+[More about me →](/about/index.qmd)
+:::
+
+<!-- hero-heading -->

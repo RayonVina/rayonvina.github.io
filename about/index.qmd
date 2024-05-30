@@ -1,0 +1,81 @@
+---
+title: "Fernando Rayón Viña"
+subtitle: Data scientist and research assistant <br> at the Spanish Institute of Oceanography (IEO-CSIC)
+image: assets/profile.png
+about:
+  template: trestles
+  image-width: 14em
+  image-shape: rounded
+  id: hero-heading
+  links:
+    - text: "{{< fa brands git-alt >}}"
+      aria-label: Professional repository 
+      href: https://git.csic.es/53676339C/
+    - icon: globe
+      aria-label: Group webpage
+      href: https://vgohab.com/
+    - text: "{{< ai orcid >}}"
+      aria-label: Orcid
+      href: https://orcid.org/0000-0002-1622-2180/
+    - text: "{{< ai google-scholar >}}"
+      aria-label: Google scholar
+      href: https://scholar.google.com/citations?user=CTlje38AAAAJ&hl=es/
+    - text: "{{< fa brands square-twitter >}}"
+      aria-label: Twitter
+      href: https://x.com/RayonVina/
+    - text: "{{< ai researchgate >}}"
+      aria-label: ResearchGate
+      href: https://www.researchgate.net/profile/Fernando-Rayon-Vina/
+
+format: 
+  html: 
+    page-layout: full
+    toc: false
+
+header-includes: |
+  <link rel="stylesheet" href="../assets/about.css">
+resources:
+  - ../assets/about.css
+---
+
+::: {#hero-heading}
+# Hey, I'm happy you're here
+
+Thanks for stopping by!
+
+I'm a data scientist and research assistant at the [Spanish Institute of Oceanography (IEO-CSIC)](https://www.ieo.csic.es/). My research interests include applications of data science in oceanography and environmental science.
+
+I work on projects that utilize various data sources to explore and solve environmental problems. Learn more about my research interests in [publications](/about/publications.qmd).
+
+Get in touch by [sending me a note](/contact.qmd)! {{< fa feather-pointed >}}
+:::
+
+## About me
+
+::: {.grid}
+::: {.g-col-6 #about-me-1}
+Environmental scientist with a passion for data science and its applications to oceanography and environmental research.
+
+I enjoy using [R](https://www.r-project.org/about.html) and other data science tools to optimize workflows and uncover insights from complex data. Keep up with my work in my [publications](/about/publications.qmd).
+
+:::
+
+::: {.g-col-6 #about-me-2}
+Prior to joining the IEO-CSIC, I developed methods to analyze environmental data and study ecological trends. My work aims to support sustainable practices and policies through data-driven research.
+
+:::
+:::
+
+<!-- INICIO de la sección de dos columnas -->
+::: {.grid}
+::: {.g-col-6}
+## Curriculum Vitae
+[View CV](cv.qmd){.btn .btn-primary}
+:::
+
+::: {.g-col-6}
+## Publications
+[View Publications](publications.qmd){.btn .btn-primary}
+:::
+:::
+<!-- FIN de la sección de dos columnas -->
