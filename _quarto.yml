@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  favicon: /assets/images/icon_FRV_blue.png
+  favicon: /assets/images/icon_FRV_white.png
   title: "Fernando Rayón Viña"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis."
   page-navigation: true
