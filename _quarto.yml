@@ -28,9 +28,9 @@ website:
       - text: "Blog"
         href: blog/index.qmd
       - text: "Talks"
-        href: talks.qmd
+        href: talks/index.qmd
       - text: "Projects"
-        href: projects.qmd
+        href: projects/index.qmd
 
         
   page-footer:  
