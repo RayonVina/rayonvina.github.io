@@ -1,9 +1,21 @@
 ---
-title: "404"
+title: "Sorry, this was not supposed to happen"
+format: 
+  html: 
+    page-layout: full
+    toc: false
+header-includes: 
+  - <link rel="stylesheet" href="../assets/404.css">
+resources:
+  - ../assets/404.css
 ---
 
-# Oh no! That page is nowhere to be found <i class="fas fa-search pr2"></i>
+::: center-container
+![](/assets/images/404.jpg){.center fig-align="center" width="300"}
 
-It might have been removed, renamed, or has mysteriously disappeared. 
+# 404 - Page Not Found
 
-Head back to the [homepage](/) to try finding it again, or try using the search feature.
+The page you are looking for doesn't exist.
+
+Please return to the homepage or contact me to solve the problem.
+:::
