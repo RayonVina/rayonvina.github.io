@@ -1,6 +1,7 @@
 ---
+# About index
 title: "Fernando Rayón Viña"
-subtitle: Data scientist and research assistant <br> at the Spanish Institute of Oceanography (IEO-CSIC)
+subtitle: Data scientist and research assistant <br> at the Spanish Institute of Oceanography <br>(IEO-CSIC)
 image: assets/profile.png
 about:
   template: trestles
@@ -52,30 +53,32 @@ Get in touch by [sending me a note](/contact.qmd)! {{< fa feather-pointed >}}
 
 ## About me
 
-::: {.grid}
-::: {.g-col-6 #about-me-1}
+::: grid
+::: {#about-me-1 .g-col-6}
 Environmental scientist with a passion for data science and its applications to oceanography and environmental research.
 
 I enjoy using [R](https://www.r-project.org/about.html) and other data science tools to optimize workflows and uncover insights from complex data. Keep up with my work in my [publications](/about/publications.qmd).
-
 :::
 
-::: {.g-col-6 #about-me-2}
+::: {#about-me-2 .g-col-6}
 Prior to joining the IEO-CSIC, I developed methods to analyze environmental data and study ecological trends. My work aims to support sustainable practices and policies through data-driven research.
-
 :::
 :::
 
 <!-- INICIO de la sección de dos columnas -->
-::: {.grid}
-::: {.g-col-6}
+
+::: grid
+::: g-col-6
 ## Curriculum Vitae
+
 [View CV](cv.qmd){.btn .btn-primary}
 :::
 
-::: {.g-col-6}
+::: g-col-6
 ## Publications
+
 [View Publications](publications.qmd){.btn .btn-primary}
 :::
 :::
+
 <!-- FIN de la sección de dos columnas -->
