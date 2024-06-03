@@ -2,11 +2,9 @@
 title: "Publications" 
 description: |
   This is home for my research publications, each linked with<br>
-  ac
-  companying preprints, posters, and/or news pieces.
+  accompanying preprints, posters, and/or news pieces.
 listing: 
   contents: 
-    - "**/index.qmd"
     - "**/index.markdown"
     - "**/index.md"
   sort: "date desc"
