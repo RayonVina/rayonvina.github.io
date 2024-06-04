@@ -1,4 +1,6 @@
 ---
+#Homepage index
+
 title: "Fernando Rayón Viña"
 pagetitle: "Fernando Rayón Viña"
 subtitle: "Data scientist and research assistant at the Spanish Institute of Oceanography (IEO-CSIC)"
@@ -43,7 +45,7 @@ about:
 page-layout: full
 
 execute: 
-  freeze: false
+  freeze: auto
   echo: false
   warning: false
 
