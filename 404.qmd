@@ -1,4 +1,5 @@
 ---
+# 404
 title: "Sorry, this was not supposed to happen"
 format: 
   html: 
@@ -10,12 +11,10 @@ resources:
   - ../assets/404.css
 ---
 
-::: center-container
-![](/assets/images/404.jpg){.center fig-align="center" width="300"}
+<div class="center-container">
+  ![](/assets/images/404.jpg){.center fig-align="center" width="300"}
 
-# 404 - Page Not Found
-
-The page you are looking for doesn't exist.
-
-Please return to the homepage or contact me to solve the problem.
-:::
+  <h1>404 - Page Not Found</h1>
+  <p>The page you are looking for doesn't exist.</p>
+  <p>Please return to the <a href="/">homepage</a> or contact me to solve the problem.</p>
+</div>
