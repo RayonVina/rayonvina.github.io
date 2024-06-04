@@ -50,8 +50,6 @@ website:
       - text: "License"
         aria-label: "License Details"
         href: license.qmd
-      - icon: rss
-        href: blog/index.xml
 
 format:
   html:
