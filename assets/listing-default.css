@@ -52,3 +52,45 @@
 .card-img {
   border-radius: 8px 8px 0px 0px;
 }
+
+
+/* listing items  */
+.listing-item {
+  display: flex;
+  align-items: center;
+}
+
+.listing-item img {
+  margin-right: 10px; /* Ajusta el margen según necesites */
+}
+
+
+/* Pagination Styles */
+
+/* Cambiar el color de fondo de los botones de paginación */
+.page-item .page-link {
+  background-color: #2C3E50; /* Color azul oscuro de Flatly */
+  color: #FFFFFF; /* Color del texto */
+  border-color: #2C3E50; /* Bordes en azul oscuro */
+}
+
+/* Cambiar el color de fondo y el texto de los botones de paginación activos */
+.page-item.active .page-link {
+  background-color: #1A242F; /* Azul oscuro más intenso para el estado activo */
+  border-color: #1A242F;
+  color: #FFFFFF; /* Color del texto */
+}
+
+/* Cambiar el color de fondo y el texto de los botones de paginación al pasar el ratón */
+.page-item .page-link:hover {
+  background-color: #1A242F; /* Azul oscuro más intenso al pasar el ratón */
+  border-color: #1A242F;
+  color: #FFFFFF; /* Color del texto */
+}
+
+/* Opcional: cambiar el color del borde y el fondo de los botones deshabilitados */
+.page-item.disabled .page-link {
+  background-color: #E9ECEF;
+  border-color: #DEE2E6;
+  color: #6C757D;
+}
