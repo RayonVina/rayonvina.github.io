@@ -1,0 +1,57 @@
+---
+title: "Flotsam, an overlooked vector of alien dispersal from ports"
+author:
+  - name: Fernando Rayón Viña
+    orcid: 0000-0002-1622-2180    
+  - name: Sara Fernández
+    orcid: 0000-0002-6290-588X
+  - name: Aitor Ibabe Arrieta
+    orcid: 0000-0003-4146-1842
+  - name: Alba Ardura Gutierrez
+    orcid: 0000-0003-2598-6534
+  - name: Marlene Bartolomé
+    orcid: 0000-0002-4702-7505
+  - name: Yaisel Juan Borrell Pichs
+    orcid: 0000-0003-2840-4384
+  - name: Eduardo Dopico
+    orcid: 0000-0001-6777-5407
+  - name: Mónica González
+  - name: Laura Miralles
+    orcid: 0000-0002-7146-9776
+  - name: Horacio J. Montes
+  - name: Trinidad Pérez
+    orcid: 0000-0003-1216-5593
+  - name: Noemí Rodríguez
+    orcid: 0000-0002-1374-7061
+  - name: Eva García Vázquez
+    orcid: 0000-0002-8429-838X
+
+date: "2022-07"
+slug: flotsam
+categories:
+  - Publication
+  - Marine litter
+  - Non-indigenous species
+  - Species dispersal
+  - Community diversity
+
+description: "Estuarine, Coastal and Shelf Science"
+# publication_short: ""
+subtitle: "The study suggests that marine litter, surprisingly hosting a diverse range of species, may facilitate the spread of invasive species across different marine environments in the Bay of Gijon."
+abstract: ""
+links:
+  - icon: file-richtext-fill
+    name: Publication
+    url: https://doi.org/10.1016/j.ecss.2022.107879
+    
+format: 
+  html: 
+    page-layout: full
+    toc: false
+---
+
+## Abstract
+
+Anthropogenic litter is considered a potential vector for the dispersal of non-indigenous species (NIS) in marine ecosystems. Using the bay of Gijon (Southwestern Bay of Biscay) as a case study, we studied the composition and potential transfer of the communities inhabiting three different environment components: 1) natural and artificial substrates from the international port of Gijon, 2) six proximate rocky beaches and 3) floating litter collected in the adjacent coast. A total of 717 organisms were morphologically identified and DNA barcoded using COI and 18S genes. In total 23 NIS were detected, six of them considered invasive in the area. The taxonomic profiles of the three environment components were significantly different, flotsam containing higher proportions of Hexanauplia and less mollusks, echinoderms and polychaetes than ports and beaches. Contrary to expectations, floating litter showed higher densities of native and exotic species than beaches or port surfaces. This and shared haplotypes between port, flotsam and beaches in some invasive species may indicate that marine litter could represent a new habitat for species to disperse into new areas.
+
+<a href="../publications.html"><i class="fas fa-arrow-left"></i> Back to Publications</a>

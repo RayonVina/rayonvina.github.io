@@ -1,12 +1,10 @@
 ---
 title: "Publications" 
 description: |
-  This is home for my research publications, each linked with<br>
-  accompanying preprints, posters, and/or news pieces.
+  Here you will find all my research papers and other publications
 listing: 
   contents: 
-    - "**/index.markdown"
-    - "**/index.md"
+    - "**/publications/*.qmd"
   sort: "date desc"
   type: default
   categories: false
@@ -19,7 +17,9 @@ listing:
 
 format: 
   html: 
+    toc: false    
     page-layout: full
+
 title-block-banner: false
 
 header-includes: >

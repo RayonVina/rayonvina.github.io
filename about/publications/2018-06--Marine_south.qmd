@@ -1,0 +1,42 @@
+---
+title: "Marine litter in south Bay of Biscay: Local differences in beach littering are associated with citizen perception and awareness"
+author:
+  - name: Fernando Rayón Viña
+    orcid: 0000-0002-1622-2180
+  - name: Laura Miralles
+    orcid: 0000-0002-7146-9776
+  - name: Marta Gómez Agengo
+  - name: Eduardo Dopico
+    orcid: 0000-0001-6777-5407
+  - name: Eva García Vázquez
+    orcid: 0000-0002-8429-838X
+
+date: "2018-06"
+slug: marine_south
+categories:
+  - Research
+  - Beached litter
+  - Plastics
+  - ALDFG
+  - Awareness
+  - Perception
+description: "Marine Pollution Bulletin"
+publication_short: "JNC"
+subtitle: "The study analyzes litter on nine Bay of Biscay beaches, revealing plastic as the predominant waste, and finds that public awareness and cleanup actions vary by gender and beach visitation frequency, aiding targeted anti-litter campaigns."
+abstract: ""
+links:
+  - icon: file-richtext-fill
+    name: Publication
+    url: https://doi.org/10.1016/j.marpolbul.2018.04.066
+    
+format: 
+  html: 
+    page-layout: full
+    toc: false
+---
+
+## Abstract
+
+Marine litter is often left by beachgoers. Thus, understanding beachgoers" perception and awareness is important. In this study, the amount and type of litter was measured from nine beaches of central south Bay of Biscay (Spain), and a survey about perception and awareness of the beach littering was conducted among beachgoers. The region could be considered moderately littered compared with other studies, with significant differences among beaches for litter amount and types. Plastic was the most abundant item, followed by fishing gear. Differences among beaches for awareness and litter perception correlated significantly with differences in litter amount. Perception was positively correlated with beach frequentation. Significant gender differences were found, males taking more actions against litter than females regardless how much litter they perceived. These results could be employed for designing campaigns of beach litter treatment and awareness raising, by taking into account local differences detected in this study.
+
+<a href="../publications.html"><i class="fas fa-arrow-left"></i> Back to Publications</a>

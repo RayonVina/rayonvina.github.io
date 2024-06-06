@@ -1,0 +1,40 @@
+---
+title: "Environmental DNA from plastic and textile marine litter detects exotic and nuisance species nearby ports"
+author:
+  - name: Aitor Ibabe Arrieta
+    orcid: 0000-0003-4146-1842
+  - name: Fernando Rayón Viña
+    orcid: 0000-0002-1622-2180
+  - name: Jose Luis Martinez
+  - name: Eva García Vázquez
+    orcid: 0000-0002-8429-838X
+
+date: "2020-06"
+slug: environmental-dna-plastic
+categories:
+  - Research
+  - Beached litter
+  - Plastics
+  - ALDFG
+  - Awareness
+  - Perception
+description: "Plos One"
+publication_short: "PONE"
+subtitle: "The research found that textile debris in the ocean is more likely to carry invasive species than plastic, with DNA analysis of litter from Asturias beaches showing species distribution influenced by proximity to ports."
+abstract: ""
+links:
+  - icon: file-richtext-fill
+    name: Publication
+    url: https://doi.org/10.1371/journal.pone.0228811
+    
+format: 
+  html: 
+    page-layout: full
+    toc: false
+---
+
+## Abstract
+
+Marine debris is currently a significant source of environmental and economic problems. Floating litter can be employed by marine organisms as a surface to attach to and use as spreading vector. Human activities are promoting the expansion of potentially harmful species into novel ecosystems, endangering autochthonous communities. In this project, more than 1,000 litter items were collected and classified from five beaches eastwards the port of Gijon, in Asturias, Spain. Next generation sequencing was employed to study biofouling communities attached to items of different materials. A dominance of DNA from Florideophyceae, Dinophyceae and Arthropoda was found, and four non-indigenous species (NIS) were identified. Results showed a clear preference of Florideophyceae and Bryozoa to attach on textile surfaces versus plastic ones. Considering that these taxa contain several highly invasive species described to date, these data emphasize the potential of textile marine debris as a vector for dispersal of NIS. Moreover, the closest beaches to the port contained a more similar biota profile than the farther ones, confirming that both plastic and textile marine litter can be vectors for species dispersal from ports.
+
+<a href="../publications.html"><i class="fas fa-arrow-left"></i> Back to Publications</a>

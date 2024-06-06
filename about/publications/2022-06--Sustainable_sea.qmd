@@ -1,0 +1,40 @@
+---
+title: "Sustainable Sea: A board game for engaging students in sustainable fisheries management"
+author:
+
+  - name: Fernando Rayón Viña
+    orcid: 0000-0002-1622-2180
+  - name: Marina Parrondo Lombardía
+    orcid: 0000-0003-0715-4400
+  - name: Yaisel Juan Borrell Pichs
+    orcid: 0000-0003-2840-4384
+  - name: Laura Miralles
+    orcid: 0000-0002-7146-9776
+
+date: "2021-06-11"
+slug: sustainable-sea
+categories:
+  - Publication
+  - Sustainable Development
+  - Climate Change
+  - Serious Game
+description: "Applied Environmental Education & Communication"
+# publication_short: ""
+subtitle: "“Sustainable Sea,” an educational strategy game, effectively enhanced students’ understanding of sustainable fishing practices in Asturias, Spain, with a notable impact on bachelor’s degree students."
+abstract: ""
+links:
+  - icon: file-richtext-fill
+    name: Publication
+    url: https://doi.org/10.1080/1533015X.2021.1930608
+    
+format: 
+  html: 
+    page-layout: full
+    toc: false
+---
+
+## Abstract
+
+Sustainable Sea is a strategy game developed for educational purposes in which players assume the role of fishermen while learning concepts related to the sustainable management of fishing resources. Players earn points as they apply sustainable policies. The game was tested on high-school students and students pursuing bachelor’s and master’s degrees in Asturias (Spain). Pre- and post-tests were performed to evaluate the knowledge acquired from playing the game. The game was also evaluated as an educational tool using a satisfaction survey. A general increase in the understanding of fisheries sustainable management concepts was observed (significant in the bachelor’s degree group), and the students exhibited a significant preference for this alternative teaching tool.
+
+<a href="../publications.html"><i class="fas fa-arrow-left"></i> Back to Publications</a>

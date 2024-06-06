@@ -1,0 +1,43 @@
+---
+title: "Marine litter and public involvement in beach cleaning: Disentangling perception and awareness among adults and children, Bay of Biscay, Spain"
+author:
+  - name: Fernando Rayón Viña
+    orcid: 0000-0002-1622-2180    
+  - name: Laura Miralles
+    orcid: 0000-0002-7146-9776
+  - name: Sara Fernández Rodríguez
+  - name: Eduardo Dopico
+    orcid: 0000-0001-6777-5407
+  - name: Eva García Vázquez
+    orcid: 0000-0002-8429-838X
+
+date: "2019-04"
+slug: marine_litter_public_involvement
+categories:
+  - Research
+  - Marine litter
+  - Beach clean-up
+  - Volunteering
+  - Awareness
+  - Perception
+  - Age
+description: "Plos One"
+publication_short: "PONE"
+subtitle: "The study suggests that beach cleanups by locals can enhance awareness and correct misconceptions about litter sources, despite existing perception gaps between volunteers and non-volunteers, and among different age groups."
+abstract: ""
+links:
+  - icon: file-richtext-fill
+    name: Publication
+    url: https://doi.org/10.1016/j.marpolbul.2019.02.034
+    
+format: 
+  html: 
+    page-layout: full
+    toc: false
+---
+
+## Abstract
+
+Coastal litter abundance and its effects have increased for years. Waste reduction is the most effective countermeasure to fight against this problem. Littering attitudes may have an effect on people"s involvement in coastal cleanups. In this study, coastal litter perception, awareness about its impact and likely sources were investigated in local population from south Bay of Biscay, Spain. People of different age groups and commitment levels regarding litter were interviewed and their answers compared with data from the area. Results showed differences in perception between volunteers and non-volunteers, but not between children and adults. Interaction effect of age was found for awareness. Volunteers and children tended to erroneously attribute the main litter origin to beachgoers, more than non-volunteers or adults. Our results suggest that encouraging local population to clean beaches would contribute to improve their perception of the problem and their attitudes toward taking action.
+
+<a href="../publications.html"><i class="fas fa-arrow-left"></i> Back to Publications</a>

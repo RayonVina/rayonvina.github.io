@@ -1,0 +1,45 @@
+---
+title: "Maritime ports and beach management as sources of coastal macro-, meso-, and microplastic pollution"
+author:
+  - name: Paula Masiá Lillo
+    orcid: 0000-0002-7471-2962
+  - name: Alba Ardura Gutierrez
+    orcid: 0000-0003-2598-6534
+  - name: Mario Gaitán 
+  - name: Steve Gerber
+  - name: Fernando Rayón Viña
+    orcid: 0000-0002-1622-2180
+  - name: Eva García Vázquez
+    orcid: 0000-0002-8429-838X
+
+date: "2021-06"
+slug: marine-ports
+categories:
+  - Publication
+  - Environmental Monitoring
+  - Microplastics
+  - Plastics
+  - Spain
+  - Waste Products
+  - Water Pollutants
+  - Chemical
+description: "Environmental Science and Pollution Research"
+publication_short: "ESPR"
+subtitle: "The study reveals that managing beach services and controlling maritime activities are key to reducing plastic pollution on the Asturian coast."
+abstract: ""
+links:
+  - icon: file-richtext-fill
+    name: Publication
+    url: https://doi.org/10.1007/s11356-021-12821-0
+    
+format: 
+  html: 
+    page-layout: full
+    toc: false
+---
+
+## Abstract
+
+Plastic pollution is a major environmental issue that affects coasts all around the world. Many studies point out the importance of a better management of this type of pollution. In this pioneering study, we have analyzed the distribution of macro-, meso-, and microplastics along the coast of Asturias (southwest Bay of Biscay, Spain). Significant correlation analysis suggests that mesoplastics are produced in situ by fragmentation of macroplastics. Differences between groups of beaches revealed the importance of maritime ports and fishing activities as sources of macroplastics and likely of microplastics as well. Another source of microplastics could be atmospheric deposition, especially for fibers. Multiple regression model allowed to confirm the utility of beach services like cleaning and trash bins to control macroplastics. These results emphasize the need of an integral treatment of marine plastic pollution involving fishers and maritime ports, as well as the importance of providing beach services.
+
+<a href="../publications.html"><i class="fas fa-arrow-left"></i> Back to Publications</a>

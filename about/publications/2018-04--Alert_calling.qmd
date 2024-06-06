@@ -1,0 +1,41 @@
+---
+title: "Alert calling in port areas: Marine litter as possible secondary dispersal vector for hitchhiking invasive species"
+author:
+  - name: Laura Miralles
+    orcid: 0000-0002-7146-9776
+  - name: Marta Gómez Agengo
+  - name: Fernando Rayón Viña
+    orcid: 0000-0002-1622-2180
+  - name: Greta Gyraitė
+  - name: Eva García Vázquez
+    orcid: 0000-0002-8429-838X
+
+date: "2018-04"
+slug: alert-calling
+categories:
+  - Research
+  - Plastic bottles
+  - Fishing gear
+  - Non-indigenous species
+  - Cantabrian coast
+  - Barcoding
+description: "Journal for Nature Conservation"
+publication_short: "JNC"
+subtitle: "Publication found that plastic debris, including ropes, can transport non-indigenous species (NIS), and monitoring biota on marine litter could aid in NIS detection."
+abstract: ""
+links:
+  - icon: file-richtext-fill
+    name: Publication
+    url: https://doi.org/10.1016/j.jnc.2018.01.005
+    
+format: 
+  html: 
+    page-layout: full
+    toc: false
+---
+
+## Abstract
+
+Floating plastic debris, such as bottles and fishing gear, is a shelter for different species in the oceans. Litter may therefore help the spread of non-indigenous species (NIS). Here we have challenged the idea of using the abundance of marine litter present in a zone to estimate the risk of NIS introduction. To test this, a targeted sampling of plastic bottles and fishing gear (ropes and nets) was performed along 22 beaches from the Cantabrian coast where ports have been reported as a source of biological invasions. All items with attached organisms were collected and recorded. Genetic barcoding was used to ascertain the species and identify NIS. In total 17 species attached to plastic bottles and fishing gears were identified. Three of them, found on the two types of items, are catalogued as invasive species: Austrominius modestus; Magallana gigas; and, Amphibalanus amphitrite. Prevalence and mean intensity of non-indigenous biota on plastic bottles and fishing gear were not significantly different. The abundance of barnacles in litter was significantly correlated with that found from ports in the same region. The results suggest that ropes are able to transport different marine organisms and NIS as plastic bottles do. Monitoring biota on marine litter could serve as an additional tool for NIS detection.
+
+<a href="../publications.html"><i class="fas fa-arrow-left"></i> Back to Publications</a>
