@@ -1,7 +1,7 @@
 ---
 # About index
 
-title: "Fernando Rayón Viña"
+title: "About me"
 subtitle: Data scientist and research assistant <br> at the Spanish Institute of Oceanography <br>(IEO-CSIC)
 image: ../assets/images/profile.png
 about:
