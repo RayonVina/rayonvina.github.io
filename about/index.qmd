@@ -72,7 +72,7 @@ Prior to joining the IEO-CSIC, I developed methods to analyze environmental data
 ::: g-col-6
 ## Curriculum Vitae
 
-[View CV](cv.qmd){.btn .btn-primary}
+[View CV](resume.qmd){.btn .btn-primary}
 :::
 
 ::: g-col-6
