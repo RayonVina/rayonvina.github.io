@@ -11,10 +11,6 @@ resources:
   - ../assets/404.css
 ---
 
-<div class="center-container">
-  ![](/assets/images/404.jpg){.center fig-align="center" width="300"}
+![](assets/images/404.jpg){fig-align="center" width="400"}
 
-  <h1>404 - Page Not Found</h1>
-  <p>The page you are looking for doesn't exist.</p>
-  <p>Please return to the <a href="/">homepage</a> or contact me to solve the problem.</p>
-</div>
+The page you are looking for doesn't exist. Please return to the [homepage](/index.qmd) or [contact me](contact.qmd) to solve the problem.
