@@ -5,8 +5,12 @@ title: "License"
 ```{r}
 #| echo: false
 current_date <- Sys.Date()
-cat(format(current_date, "%Y-%m-%d"))
 ```
+
+Last version `{r} current_date`
+
+<br>
+
 <center>
 {{< fa brands creative-commons size=2xl >}} {{< fa brands creative-commons-by size=2xl >}} {{< fa brands creative-commons-sa size=2xl >}}
 </center>
