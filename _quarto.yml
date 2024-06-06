@@ -24,7 +24,13 @@ website:
         href: https://github.com/RayonVina
     right:
       - text: "About"
-        href: about/index.qmd
+        menu:
+          - text: "About me"
+            href: about/index.qmd
+          - text: "Curriculum vitæ"
+            href: about/resume.qmd
+          - text: "Publications"
+            href: about/publications.qmd
       - text: "Blog"
         href: blog/index.qmd
       - text: "Talks"
