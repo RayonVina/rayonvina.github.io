@@ -1,0 +1,113 @@
+---
+title: "Curriculum Vitae"
+format: 
+  html: 
+    page-layout: full
+    toc: true
+    toc-depth: 2
+    toc-title: "Contents"
+    toc-location: left
+header-includes: |
+  <link rel="stylesheet" href="../assets/about.css">
+resources:
+  - ../assets/about.css
+---
+
+_Last updated on May 29, 2024_
+
+## Education
+
+- **PhD Cum Laude in Chemical, Environmental and Bio-alimentary Engineering**, University of Oviedo (Sept. 2016 – July 2019)
+  - Supervisors: [Eva García Vázquez {{< ai orcid >}}](https://orcid.org/0000-0002-8429-838X) and [Eduardo Dopico Rodríguez {{< ai orcid >}}](https://orcid.org/0000-0001-6777-5407)
+  - Thesis: "Analysis and evaluation of the origin, sociocultural components and biological risks of marine litter in the Asturian coast."
+  - Focused on:
+    - Integrated Coastal Zone Management
+    - Marine litter threat assessment
+    - Invasive species monitoring and management
+    - Social implications of coastal biological impacts  
+
+- **Master‘s Degree in Marine Conservation**, University of Oviedo (2016)
+  - Focused on:
+    - Integrated Coastal Zone Management (ICZM)
+    - Marine protected areas (MPAs)
+    - Aquaculture
+    - Invasive species
+    - Global change
+    - Evaluation of Impacts
+    - Geographic Information Systems and Remote Sensing
+  - Thesis: "Social perception of biotic and abiotic marine pollution in the Cantabrian coast. A socioenvironmental approach"  
+
+- **Bachelor‘s Degree in Biology**, University of Oviedo (2015)
+  - Thesis: "Diversity and function of insectivorous birds in cider apple crop"
+  - Results presented at the 9th National Congress of Applied Entomology: "Control biológico de carpocapsa y riqueza de aves en pomaradas asturianas"
+
+## International Research and Studies
+
+- **Doctoral international internship**, University of Klaipeda, Lithuania (April – June 2018)
+  - Supervisor: [Marija Katarzyte {{< ai orcid >}}](https://orcid.org/0000-0001-7751-3187)
+  - Focused on:
+    - Acquisition of new competences
+    - Baltic – Atlantic coastal litter comparison
+    - Learning coastal litter sampling protocols
+    - Monitoring of IAS on maritime and fluvial areas
+
+## Work Experience
+
+- **Research Assistant** for HAB and Planktonic Ecology Group, Spanish Oceanography Institute (IEO - CSIC) (Apr. 2021 - Dec. 2022)
+  - Tasks undertaken:
+    - Database management and administration
+    - Experimental design
+    - Statistical analysis with R
+    - Advanced graphics representation
+
+- **Marine Conservation & Marine Litter Teacher** for IMBRSea Summer School, Sven Lovén Centre for Marine Infrastructure, Tjärnö, Sweden (Aug. 2019)
+
+- **Honorary Collaborator** in the Department of Functional Biology, University of Oviedo (2018 - 2019)
+
+- **Predoctoral researcher** at University of Oviedo (Mar. 2017 - Feb. 2018)
+  - Litter associated biota genetic barcoding identification
+  - De Visu identification of biota
+  - Beach litter sampling
+
+- **Laboratory Analyst** for the project "Preliminary Evaluation of the Possible Presence of the Brown Pygmy Mussel (Xenostrobus securis) in the Facilities of the Aboño Power Plant through the Use of Genetic Tools" at University of Oviedo (Sep. 2016 - May 2017)
+
+## Publications
+
+You will find a complete list in my [publications](../about/publications.html) section.
+
+## Skills
+
+### Computational
+- **Computing**: Python, Julia, R, MATLAB, Stata
+- **Design**: LaTeX, Markdown, Tableau, CSS
+- **Cloud**: AWS, Redshift
+- **Other**: Git, SQL, Unix, Docker
+
+### Languages
+- **Spanish**: native
+- **English**: advanced (C1)
+- **Portuguese**: basic (B1)
+
+## Courses
+
+- **Specialization programme PostgreSQL or Everybody**, Coursera (Nov. 2022)
+  - Database Design and Basic SQL in PostgreSQL
+  - Intermediate PostgreSQL
+  - JSON and Natural Language Processing in PostgreSQL
+  - Database Architecture, Scale, and NoSQL with Elasticsearch
+
+- **Introduction to systems Linux and bash programming**, IIM-CSIC (60h, Nov. 2022)
+- **Data analysis with the tidyverse**, Physalia Courses (20h, Jul. 2022)
+- **Environmental Management course**, Cantabrian Technological Institute (500h, Apr. – Oct. 2020)
+- **Linux Course**, Dicampus (40h, May. 2020)
+- **Introduction to Git**, DataCamp (6h, May. 2020)
+- **Building Web Applications with Shiny in R**, DataCamp (4h, May. 2020)
+- **Data Science: R Basics**, HarvardX (20h, Feb. 2020)
+- **Introduction to Data Science: Statistical Programming with R**, UNAM – Coursera (47h, Dec. 2019)
+- **Introduction to R**, DataCamp (4h, Jun. 2018)
+- **Coastal Ecology, Monitoring & Assessment**, Klaipeda University (60h, May. 2018)
+- **Writing of Scientific Articles**, University of Oviedo (20h, May. 2017)
+- **Management and processing of data for research: Statistical Analysis with R Software**, University of Oviedo (20h, Feb. 2017)
+- **Management and processing of data for research: Introduction to qualitative analysis**, University of Oviedo (20h, Feb. 2017)
+- **System Approach Framework (SAF) for coastal research and management: From theory to practice**, University of Klaipeda (170h, Aug. 2016)
+- **R programming language initiation: A professional approach**, University of Oviedo (45h, Jun. 2016)
