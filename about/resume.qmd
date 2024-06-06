@@ -1,5 +1,5 @@
 ---
-title: "Curriculum Vitae"
+title: "Resume"
 format: 
   html: 
     page-layout: full
@@ -12,8 +12,16 @@ header-includes: |
 resources:
   - ../assets/about.css
 ---
+<br>
 
-_Last updated on May 29, 2024_
+Find a full pdf version [here](CV.pdf).
+
+```{r}
+#| echo: false
+current_date <- Sys.Date()
+```
+
+Last version `{r} current_date`
 
 ## Education
 
@@ -53,11 +61,11 @@ _Last updated on May 29, 2024_
 
 ## Work Experience
 
-- **Research Assistant** for HAB and Planktonic Ecology Group, Spanish Oceanography Institute (IEO - CSIC) (Apr. 2021 - Dec. 2022)
+- **Research Assistant and data analyst** for Harmful microalgae and plankton ecology group (VGOHAB), Spanish Oceanography Institute (IEO - CSIC) (From Apr. 2021)
   - Tasks undertaken:
     - Database management and administration
     - Experimental design
-    - Statistical analysis with R
+    - Data analysis with R
     - Advanced graphics representation
 
 - **Marine Conservation & Marine Litter Teacher** for IMBRSea Summer School, Sven Lovén Centre for Marine Infrastructure, Tjärnö, Sweden (Aug. 2019)
@@ -78,10 +86,20 @@ You will find a complete list in my [publications](../about/publications.html) s
 ## Skills
 
 ### Computational
-- **Computing**: Python, Julia, R, MATLAB, Stata
-- **Design**: LaTeX, Markdown, Tableau, CSS
-- **Cloud**: AWS, Redshift
-- **Other**: Git, SQL, Unix, Docker
+- **Languages**: R, Python
+- **Frameworks & Libraries**: Tidyverse
+- **Database Management**: postgreSQL
+- **Version Control**: Git (Github)
+
+### Design
+- **Document Formatting**: LaTeX, Markdown
+- **Web Development**: HTML, CSS
+- **Scripting**: Bash, Powershell
+
+### Other
+- **Operating Systems**: Unix
+- **Geographical Information Systems (GIS)**
+
 
 ### Languages
 - **Spanish**: native
