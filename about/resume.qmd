@@ -108,7 +108,7 @@ You will find a complete list in my [publications](../about/publications.html) s
 
 ## Courses
 
-- **Specialization programme PostgreSQL or Everybody**, Coursera (Nov. 2022)
+- [**Specialization programme PostgreSQL or Everybody**](https://coursera.org/verify/specialization/8K49JLXK424D), Coursera (Nov. 2022)
   - Database Design and Basic SQL in PostgreSQL
   - Intermediate PostgreSQL
   - JSON and Natural Language Processing in PostgreSQL
