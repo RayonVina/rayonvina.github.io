@@ -43,6 +43,7 @@ website:
     left: >-
       &#169; 2024 Fernando Rayón Viña &#8729; Made with [Quarto](https://quarto.org)
     center:
+      <a class="link-dark me-1" href="https://github.com/RayonVina" title="Github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
       <a class="link-dark me-1" href="https://git.csic.es/53676339C" title="Git-CSIC" target="_blank" rel="noopener">{{< fa brands git-alt >}}</a>
       <a class="link-dark me-1" href="https://vgohab.com/" title="Group Webpage" target="_blank" rel="noopener">{{< fa globe >}}</a>
       <a class="link-dark me-1" href="https://orcid.org/0000-0002-1622-2180" title="Orcid" target="_blank" rel="noopener">{{< ai orcid >}}</a>
