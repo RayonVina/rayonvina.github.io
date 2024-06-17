@@ -10,6 +10,9 @@ about:
   image-shape: rounded
   id: hero-heading
   links:
+    - text: "{{< fa brands github >}}"
+      aria-label: My github profile 
+      href: https://github.com/RayonVina
     - text: "{{< fa brands git-alt >}}"
       aria-label: Professional repository 
       href: https://git.csic.es/53676339C/
@@ -41,32 +44,32 @@ resources:
 ---
 
 ::: {#hero-heading}
-# Hey, I'm happy you're here
+# ¡Hola!
 
-Thanks for stopping by!
+I am a data scientist and research assistant at the Harmful Algae and Plankton Ecology Group ([VGOHAB](https://vgohab.com/)) of the Spanish Institute of Oceanography (IEO-CSIC).
 
-I'm a data scientist and research assistant at the [Spanish Institute of Oceanography (IEO-CSIC)](https://www.ieo.csic.es/). My research interests include applications of data science in oceanography and environmental science.
+My research interests include the application of data science and statistical analyses in the fields of oceanography and marine environmental science.
 
-I work on projects that utilize various data sources to explore and solve environmental problems. Learn more about my research interests in [publications](/about/publications.qmd).
+As a data analyst and research assistant, I am responsible for gathering, storing, and exploring all data obtained by my group in our PostgreSQL database. This involves designing and maintaining efficient data collection methods, ensuring data integrity, and performing detailed analyses. Our main goal is to unravel population dynamics, identifying patterns and trends within the data, and attempting to relate these dynamics to changes in the environment. This comprehensive approach allows us to gain a deeper understanding of how various environmental factors influence population behaviors and shifts.
 
-Get in touch by [sending me a note](/contact.qmd)! {{< fa feather-pointed >}}
+Feel free to [contact me](/contact.qmd) if you have any questions or suggestions.
 :::
 
 ## About me
 
 ::: grid
 ::: {#about-me-1 .g-col-6}
-Environmental scientist with a passion for data science and its applications to oceanography and environmental research.
 
-I enjoy using [R](https://www.r-project.org/about.html) and other data science tools to optimize workflows and uncover insights from complex data. Keep up with my work in my [publications](/about/publications.qmd).
+I am a biologist with a PhD in Environmental Engineering with a passion for data science and its applications to oceanography and environmental research.
+
+Since 2015, after completing my Master's in Marine Conservation, I've been fully immersed in the field of oceanography. During this period of study, my fascination with data and its analysis has substantially increased, prompting me to delve further into this realm of expertise. I enjoy using [R](https://www.r-project.org/about.html) and the [tidyverse tools](https://www.tidyverse.org/) to optimize workflows and uncover insights from complex environmental data with my colleagues of the VGOHAB group.
 :::
 
 ::: {#about-me-2 .g-col-6}
-Prior to joining the IEO-CSIC, I developed methods to analyze environmental data and study ecological trends. My work aims to support sustainable practices and policies through data-driven research.
+Prior to joining the VGOHAB, during my master's and doctoral studies, I conducted research on marine litter in coastal ecosystems. My work focused on the impacts of marine litter on coastal areas and how knowledge and awareness shape people's response to and perception of the problem. I aimed to elucidate the dynamics between human activities and the marine environment, uncover ecological trends and foster a deeper understanding of the intricate interplay between human actions and environmental health.
+My research analyzed the environmental impacts of marine debris and society's involvement in its reduction and elimination. I uncovered the multifaceted impacts of marine debris and advocated for the implementation of sustainable practices and policies to mitigate its harmful effects. The goal was to inform more effective strategies for environmental conservation and management approaches.
 :::
 :::
-
-<!-- INICIO de la sección de dos columnas -->
 
 ::: grid
 ::: g-col-6
@@ -81,5 +84,3 @@ Prior to joining the IEO-CSIC, I developed methods to analyze environmental data
 [View Publications](publications.qmd){.btn .btn-primary}
 :::
 :::
-
-<!-- FIN de la sección de dos columnas -->
