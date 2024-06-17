@@ -18,6 +18,10 @@ about:
   image-width: 28em
   id: hero-heading
   links:
+    - text: "{{< fa brands github >}}"
+      aria-label: My github profile 
+      href: https://github.com/RayonVina
+      
     - text: "{{< fa brands git-alt >}}"
       aria-label: Professional repository 
       href: https://git.csic.es/53676339C/
@@ -58,7 +62,10 @@ resources:
 <br><br>
 
 ::: {#hero-heading}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+I am a biologist and data scientist with a passion for the ocean.  
+My work revolves around data management and analysis for my research group using R tools, focusing on the continuous historical collection of plankton and other essential oceanographic variables for ecosystem studies. I also develop tools to facilitate data collection, archiving, and compilation using PostgreSQL databases for research.  
+My work focuses on the integration of biology and data science to better understand our world's marine ecosystems.
 
 [More about me →](/about/index.qmd)
 :::
