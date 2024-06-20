@@ -4,7 +4,7 @@ project:
 website:
   favicon: /assets/images/icon_FRV_white.png
   title: "Fernando Rayón Viña"
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis."
+  description: "My personal webpage"
   page-navigation: true
   back-to-top-navigation: true
   twitter-card: true
@@ -61,7 +61,7 @@ website:
 format:
   html:
     theme: flatly
-    css: styles.css
+    css: assets/styles.css
     toc: true
     code-link: true
     pagetitle: "{{< meta title >}} | Fernando Rayón Viña"
