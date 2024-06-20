@@ -1,0 +1,26 @@
+---
+# Blog entry 1 ES
+title: "¡Hola mundo!"
+author: Fernando Rayón Viña
+date: "2024/06/19"
+slug: hola-mundo
+image: hola-mundo.png
+categories:
+  - off topic
+subtitle: "No mucho que decir salvo una breve introducción"
+summary: "No mucho que decir salvo una breve introducción"
+---
+You'll find this post in English [here](/blog/2024-06-19-Hola_mundo/index.qmd)
+
+```{r}
+#| echo: true
+#| label: "Hola mundo!"
+#| include: TRUE
+#| results: markup
+#| attr.source: ".terminal-style"
+
+
+print("¡Hola mundo")
+```
+
+
