@@ -5,10 +5,6 @@ format:
   html: 
     page-layout: full
     toc: false
-header-includes: 
-  - <link rel="stylesheet" href="../assets/404.css">
-resources:
-  - ../assets/404.css
 ---
 
 ![](assets/images/404.jpg){fig-align="center" width="400"}
