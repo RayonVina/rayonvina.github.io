@@ -4,15 +4,15 @@ title: "Hello world!"
 author: Fernando Rayón Viña
 date: "2024/06/19"
 slug: hola-mundo
-image: hola-mundo.gif
+image: hola-mundo.png  
+banner: hola-mundo.gif
 categories:
   - off topic
 subtitle: "Not much to say but a brief introduction"
 summary: "Not much to say but a brief introduction"
-page-layout: custom
-include-before-body: /_partials/title-block/title-block.html
+page-layout: full
+include-before-body: ../../_partials/title-block/title-block.html
 ---
-
 Encuentra este contenido en español [aquí](/blog/2024-06-19-Hola_mundo/index_es.qmd)
 
 ```{r}
