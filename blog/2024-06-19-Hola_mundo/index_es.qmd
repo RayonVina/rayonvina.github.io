@@ -4,7 +4,7 @@ title: "¡Hola mundo!"
 author: Fernando Rayón Viña
 date: "2024/06/19"
 slug: hola-mundo
-image: hola-mundo.png
+image: hola-mundo.gif
 categories:
   - off topic
 subtitle: "No mucho que decir salvo una breve introducción"
