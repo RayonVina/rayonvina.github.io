@@ -62,7 +62,6 @@ format:
   html:
     # theme: flatly
     theme: assets/frv-theme.scss
-    css: assets/styles.css
     toc: true
     code-link: true
     pagetitle: "{{< meta title >}} | Fernando Rayón Viña"
