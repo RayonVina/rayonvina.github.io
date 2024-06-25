@@ -11,7 +11,8 @@ license: "CC BY-SA"
 # Default for table of contents
 toc: true
 toc-title: Table of contents
-toc-location: right
+toc-depth: 2
+toc-location: left
 
 # Default fields for citation
 citation: true
