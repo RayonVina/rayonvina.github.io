@@ -3,7 +3,7 @@
 title: "¡Hola mundo!"
 author: Fernando Rayón Viña
 date: "2024/06/19"
-image: hola-mundo.png  
+image: hola-mundo.png
 categories:
   - off topic
 subtitle: "Nada más que una breve introducción"
@@ -19,12 +19,11 @@ Find this content in English [here](/blog/2024-06-19-Hola_mundo/index_es.qmd)
 #| results: markup
 #| attr.source: ".terminal-style"
 
-
 print("¡Hola mundo!")
 ```
 
 Pues como he puesto un poco más arriba esto es simplemente una primera entrada de bienvenida. He construido esta web utilizando [Posit (RStudio) Quarto](https://quarto.org/) (en R obviamente) casi a modo de experimento, utilizando únicamente Rstudio Desktop, tiempo y paciencia.  
-Tengo que agradecer a [Silvia Canelón](https://silviacanelon.com/about/) que haya dejado su repositorio de github con el código fuente de su magnífica web abierto para que el resto podamos ~~copiarle~~ inspirarnospara hacer las nuestras.
+Tengo que agradecer a [Silvia Canelón](https://silviacanelon.com/about/) que haya dejado su repositorio de github con el código fuente de su magnífica web abierto para que el resto podamos ~~copiarle~~ inspirarnos para hacer las nuestras.
 
 Dudo que postee con asiduidad, porque nunca lo he hecho, pero intentaré poner por aquí curiosidades con las que esté trabajando y que considere que merecen la pena. Lo que sí que tengo bastante claro es que seguiré haciendo cambios y mejoras a esta web.
 la web estará en constante cambio, espero.
