@@ -1,5 +1,4 @@
 ---
-# Blog entry 1 EN
 title: "Hello world!"
 author: Fernando Rayón Viña
 date: "2024/06/19"
@@ -8,14 +7,15 @@ categories:
   - off topic
 subtitle: >
          "Not much to say but a brief introduction"
-summary: >
-         "Not much to say but a brief introduction"
 include-before-body: ../../_partials/title-block-link-buttons/title-block.html
 
-header-includes: 
-  - <link rel="stylesheet" href="../assets/listing-blog.css">
+header-includes:
+ - <link rel="stylesheet" href="../../assets/listing-blog.css">
 resources:
-  - ../assets/listing-blog.css
+ - ../../assets/listing-blog.css
+ - ./featured.gif
+ - ./featured.jpg
+ - ./featured.png
 ---
 Encuentra este contenido en español [aquí](/blog/2024-06-19-Hola_mundo/index_es.qmd)
 
@@ -25,7 +25,6 @@ Encuentra este contenido en español [aquí](/blog/2024-06-19-Hola_mundo/index_e
 #| include: TRUE
 #| results: markup
 #| attr.source: ".terminal-style"
-
 
 print("Hello World!")
 ```
