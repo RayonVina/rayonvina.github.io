@@ -3,7 +3,7 @@
 title: "Hello world!"
 author: Fernando Rayón Viña
 date: "2024/06/19"
-image: hola-mundo.png  
+image: hola-mundo.jpg
 categories:
   - off topic
 subtitle: >
