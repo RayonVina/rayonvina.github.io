@@ -49,7 +49,7 @@ about:
 page-layout: full
 
 execute: 
-  freeze: auto
+  # freeze: auto
   echo: false
   warning: false
 
