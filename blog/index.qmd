@@ -31,5 +31,4 @@ header-includes:
   - <link rel="stylesheet" href="../assets/listing-default.css">
 resources:
   - ../assets/listing-default.css
-
 ---
