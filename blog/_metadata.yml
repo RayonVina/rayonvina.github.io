@@ -1,6 +1,6 @@
 # Freeze computed outputs
 execute: 
-  freeze: true
+  freeze: false
 
 # Enable banner style title blocks
 title-block-banner: true
@@ -17,17 +17,3 @@ toc-location: right
 citation: true
 appendix-cite-as: display
 
-# Wrap overflow code
-format: 
-  html: 
-    code-overflow: wrap
-    template-partials: 
-      - ../_partials/title-block-link-buttons/title-block.html
-
-# Enable comments
-comments: 
-  utterances:
-    repo: spcanelon/silvia
-    issue-term: title
-    theme: boxy-light
-    label: "comments :crystal_ball:"
