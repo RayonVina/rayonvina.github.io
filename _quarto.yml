@@ -8,12 +8,6 @@ website:
   page-navigation: true
   back-to-top-navigation: true
   twitter-card: true
-  comments: 
-    utterances: 
-      repo: rayonvina/rayonvina 
-      label: utterances
-      theme: body-light
-      issue-term: title
   navbar:
     logo: /assets/images/icon_FRV_white.png
     background: primary
