@@ -1,0 +1,19 @@
+---
+title: "Projects"
+author: ""
+comments: false
+citation: false
+description: "Here I will show you all the different projects I have participated in related to my work."
+listing: 
+  contents:
+    - "/*/index.qmd"
+  type: grid
+  fields: [title, categories, date, image]
+  sort: "date desc"
+  filter-ui: false
+  image-align: left
+  image-height: 100%
+format: 
+  html: 
+    page-layout: full
+---
