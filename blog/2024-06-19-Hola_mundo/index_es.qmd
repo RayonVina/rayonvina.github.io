@@ -1,16 +1,14 @@
 ---
-# Blog entry 1 EN
-title: "¡Hola mundo!"
-author: Fernando Rayón Viña
+title: "<span style='color: #f7f7f7;'>¡Hola mundo!</span>"
+description: "<span style='color: #f7f7f7;'>No mucho que decir salvo una breve introducción</span>"
+author: "Fernando Rayón Viña"
 date: "2024/06/19"
 image: hola-mundo.png
+title-block-banner: featured.gif
 categories:
   - off topic
-subtitle: "Nada más que una breve introducción"
-summary: "Nada más que una breve introducción"
-include-before-body: ../../_partials/title-block-link-buttons/title-block.html
 ---
-Find this content in English [here](/blog/2024-06-19-Hola_mundo/index_es.qmd)
+Find this content in English [here](/blog/2024-06-19-Hola_mundo/index.qmd)
 
 ```{r}
 #| echo: true
@@ -26,3 +24,5 @@ Pues como he puesto un poco más arriba esto es simplemente una primera entrada 
 Tengo que agradecer a [Silvia Canelón](https://silviacanelon.com/about/) que haya dejado su repositorio de github con el código fuente de su magnífica web abierto para que el resto podamos ~~copiarle~~ inspirarnos para hacer las nuestras.
 
 Dudo que postee con asiduidad, porque nunca lo he hecho, pero intentaré poner por aquí curiosidades con las que esté trabajando y que considere que merecen la pena. Lo que sí que tengo bastante claro es que seguiré haciendo cambios y mejoras a esta web.
+
+[&#8592; Volver al blog](../index.qmd)
