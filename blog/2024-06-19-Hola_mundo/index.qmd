@@ -1,6 +1,6 @@
 ---
-title: "<span style='color: #f7f7f7;'>Hello world!</span>"
-description: "<span style='color: #f7f7f7;'>Not much to say but a brief introduction</span>"
+title: "Hello world!"
+description: "Not much to say but a brief introduction"
 author: "Fernando Rayón Viña"
 date: "2024/06/19"
 image: hola-mundo.png
