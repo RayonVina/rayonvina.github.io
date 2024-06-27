@@ -25,12 +25,14 @@ website:
             href: about/resume.qmd
           - text: "Publications"
             href: about/publications.qmd
-      - text: "Blog"
-        href: blog/index.qmd
-      - text: "Talks"
-        href: talks/index.qmd
+            
       - text: "Projects"
         href: projects/index.qmd
+      - text: "Blog"
+        href: blog/index.qmd
+      # - text: "Talks"
+      #   href: talks/index.qmd
+
 
         
   page-footer:  
