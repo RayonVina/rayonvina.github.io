@@ -8,8 +8,7 @@ title-block-banner: featured.jpg
 categories:
   - prueba
   - lorem ipsum
-  
-draft: TRUE
+draft: true
 ---
 
 # Lorem ipsum dolor sit amet
