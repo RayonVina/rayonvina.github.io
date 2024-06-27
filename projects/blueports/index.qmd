@@ -1,0 +1,43 @@
+---
+title: "Blueports"
+subtitle: "Atlantic Blue Port Services - Discharge polluted water in port, not at sea"
+image: logo.jpg
+title-block-banner: featured.png
+categories:
+  - AIS
+  - Ports
+  - Ballast water
+  - Thesis
+  - Environmental impact
+links:
+  - icon: link
+    name: Project Page
+    url: https://maritime-spatial-planning.ec.europa.eu/projects/atlantic-blue-port-services-discharge-polluted-water-port-not-sea
+  - icon: link
+    name: Gijon Port Authority
+    url: https://www.puertogijon.es/autoridad-portuaria/proyectos-europeos/
+---
+
+
+# About the Project:
+
+![](logo.jpg){fig-align="center"}
+
+@BLUEPORTS aims to provide a practical support to the European Sustainable Shipping Forum/European Maritime Safety Agency, using the Atlantic Area as a physical platform and its maritime community as a resource to design, prototype, test and demonstrate the “ideal” Port Reception Facility and services for oiled and ballast water (as first concern). The overall goal is to raise awareness and motivation within the maritime community to stop discharge at sea by designing in consensus the "Blue Port Services" for 2020 and beyond.
+
+# Role in Project
+
+I was involved in this BluePorts project as part of my PhD thesis work. As part of the [ARENA group](https://arena.grupos.uniovi.es/), we conducted a genetic study of the coastal flora and fauna in the port of Gijón and its surrounding coastal areas. Our objective was to determine the composition of these ecosystems and identify the presence of invasive alien species (AIS).  
+Some of the findings from our study were published in the following articles:
+
+  - [Alert calling in port areas: Marine litter as possible secondary dispersal vector for hitchhiking invasive species](https://doi.org/10.1016/j.jnc.2018.01.005)
+  
+  - [Marine litter and public involvement in beach cleaning: Disentangling perception and awareness among adults and children, Bay of Biscay, Spain](https://doi.org/10.1016/j.marpolbul.2019.02.034)
+  
+  - [Maritime ports and beach management as sources of coastal macro-, meso-, and microplastic pollution](https://doi.org/10.1007/s11356-021-12821-0)
+
+  - [Public awareness of beach litter and alien invasions: Implications for early detection and management](https://doi.org/10.1016/j.ocecoaman.2022.106040)
+
+  - [Environmental DNAfromplastic and textile marine litter detects exotic and nuisance species nearby ports](https://doi.org/10.1371/journal.pone.0228811)
+  - [Flotsam, an overlooked vector of alien dispersal from ports](https://doi.org/10.1016/j.ecss.2022.107879)
+  
