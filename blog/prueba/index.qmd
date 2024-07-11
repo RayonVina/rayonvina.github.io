@@ -8,6 +8,7 @@ title-block-banner: featured.jpg
 categories:
   - prueba
   - lorem ipsum
+  
 draft: true
 ---
 
