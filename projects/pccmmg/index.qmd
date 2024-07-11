@@ -1,0 +1,37 @@
+---
+title: "Programa de Ciencias Mariñas de Galicia"
+subtitle: "The most ambitious marine research project to meet the challenges of the marine environment and the blue economy in Galicia"
+image: logo.png
+title-block-banner: featured.jpg
+categories:
+  - Essential Oceanographic Variables
+  - Vigo
+  - PCCMMG
+  - Database
+  - CESGA
+links:
+  - icon: link
+    name: Main project page
+    url: https://thinkinazul.es/en/
+  - icon: link
+    name: Project page
+    url: https://xn--cienciasmarias-1nb.gal/
+---
+
+### Project Tenure
+
+April 2023 - Present
+
+# About the Project:
+
+![](logo.png){fig-align="center"}
+The *Programa de Ciencias Mariñas de Galicia*, which is the Spanish research project funded with the [European NextGenerationEU funding](https://next-generation-eu.europa.eu/index_en). (Marine Sciences Program of Galicia) is part of the [ThinkInAzul project](https://thinkinazul.es/en/) [![](thinkinazul.png){fig-alt="Thininazul logo"}<br>Thininazul logo]{.aside}
+
+Recognized for its complexity, sustainability science requires interdisciplinary and ambitious research approaches. This complexity underlines the need for research that balances breadth with the pursuit of concrete and demonstrable impacts beyond the generation of new scientific knowledge. Galicia, with its extensive 1400 km coastline, unique estuaries and diverse ecosystems, coupled with a high population density and a marine-dependent economic and social structure, provides an ideal context for such marine research initiatives.
+
+In the face of global change, it is crucial for the scientific community to intensify efforts to understand the state of the environment and marine resources, identify vulnerable areas, predict future scenarios - especially those involving global change - and develop measures to ensure sustainable exploitation of commercially important species, marine ecosystems, biodiversity conservation, protection of vulnerable ecosystems and the overall health of the marine environment. The resilience of the marine environment and society, as well as societal well-being and health, depend to a large extent on progress in these areas. This defines the strategic focus of the Marine Sciences Program in Galicia.
+
+# Role in Project
+
+
+
