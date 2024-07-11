@@ -1,0 +1,37 @@
+---
+title: "RADIALES"
+subtitle: "Series temporales de oceanografía en el norte de España <br> Oceanographic Time Series in Northern Spain"
+image: logo.png
+title-block-banner: featured.jpg
+categories:
+  - Essential Oceanographic Variables
+  - Vigo
+  - RADIALES
+  - Database
+  - VGOHAB
+links:
+  - icon: link
+    name: Project Page
+    url: https://www.seriestemporales-ieo.net/
+  - icon: link
+    name: Gijón Port Authority
+    url: https://www.puertogijon.es/autoridad-portuaria/proyectos-europeos/
+---
+
+### Project Tenure
+
+April 2020 - Present
+
+# About the Project:
+
+![](radiales_blue.png){fig-align="center"}
+
+The [Spanish Institute of Oceanography (IEO)](https://www.ieo.es/es_ES/web/ieo) has been conducting systematic ocean observation programs to interpret the changing marine ecosystems. These ecosystems are influenced by natural temporal and spatial variability as well as human activities such as fishing, pollution, and global warming. As part of [![](alvariño.jpg){fig-alt="B/O Ángeles Alvariño, one of the oceanographic vessels that carry out the RADIALES campaigns."}<br>B/O Ángeles Alvariño, one of the oceanographic vessels that carry out the RADIALES campaigns.]{.aside} international scientific initiatives, the IEO has collected and analyzed time series of oceanographic data since the 1980s. The observations were initially initiated on the coast of Galicia and later expanded to the Cantabrian and Mediterranean coasts. In 2007, the observation program was divided into two projects:[![](mytilus.png){fig-alt="B/O Mytilus, the vessel most commonly used for RADIAL Vigo."}<br>B/O Mytilus, the vessel most commonly used for RADIAL Vigo.]{.aside} [RADIALES](https://www.seriestemporales-ieo.net/), which maintains monthly observations on the northern coast of Spain, and RADMED, which focuses on the Mediterranean coasts with a seasonal frequency. Deep water observations were also started in 2004 in Galicia and the Cantabrian Sea (RADPROF) and in 2006 in the Canary Islands (RAPROCAN). These projects, along with tide gauge networks and satellite data stations, are the foundation of the IEO's ongoing ocean observation program.
+
+# Role in Project
+
+Due to the nature of the project, each oceanographic center generates an enormous amount of oceanographic data annually for multiple Essential Oceanographic Variables (EOVs). As part of the plan to improve the information gathered in the project, I designed and deployed the VGOHAdB database, to store all data produced by our research group.
+
+![Structure of the VGOHAdB database](diagram.png){fig-align="center" width="400"}
+
+My primary responsibilities within this project are to design, create, and maintain the database, primarily integrating data from the RADIALES Vigo program. To this end, a workflow has been developed to facilitate optimal data collection for subsequent analysis, homogenization, and population of the database. The database is a relational database in PostgreSQL, with a data structure separated by origins and data types, related by unique identifiers for the operations performed.
