@@ -1,6 +1,6 @@
 ---
 title: "¡Hola mundo!"
-description: "No mucho que decir salvo una breve introducción"
+subtitle: "No mucho que decir salvo una breve introducción"
 author: "Fernando Rayón Viña"
 date: "2024/06/19"
 image: hola-mundo.png
