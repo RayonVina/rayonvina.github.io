@@ -1,6 +1,6 @@
 ---
 title: "Prueba"
-description: "Morbi imperdiet eleifend rhoncus. Proin sem felis, condimentum et lorem id, viverra pretium augue. Praesent nec purus velit. Praesent dolor arcu, accumsan porttitor erat eu, imperdiet condimentum nulla. Sed lobortis neque eget lectus suscipit maximus. Pellentesque ut aliquam nisi. Nullam sagittis hendrerit leo, vel rutrum ex cursus in."
+subtitle: "Morbi imperdiet eleifend rhoncus. Proin sem felis, condimentum et lorem id, viverra pretium augue. Praesent nec purus velit. Praesent dolor arcu, accumsan porttitor erat eu, imperdiet condimentum nulla. Sed lobortis neque eget lectus suscipit maximus. Pellentesque ut aliquam nisi. Nullam sagittis hendrerit leo, vel rutrum ex cursus in."
 author: "Fernando Rayón Viña"
 date: "2024/06/25"
 image: lorem-ipsum.jpg
