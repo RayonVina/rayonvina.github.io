@@ -1,5 +1,7 @@
 project:
   type: website
+  output-dir: docs
+
 
 website:
   favicon: /assets/images/icon_FRV_white.png
