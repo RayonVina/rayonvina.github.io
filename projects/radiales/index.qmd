@@ -30,7 +30,7 @@ The [Spanish Institute of Oceanography (IEO)](https://www.ieo.es/es_ES/web/ieo) 
 
 # Role in Project
 
-Due to the nature of the project, each oceanographic center generates an enormous amount of oceanographic data annually for multiple Essential Oceanographic Variables (EOVs). As part of the plan to improve the information gathered in the project, I designed and deployed the VGOHAdB database, to store all data produced by our research group.
+Due to the nature of the project, each oceanographic center generates an enormous amount of oceanographic data annually for multiple Essential Oceanographic Variables (EOVs). As part of the plan to improve the information gathered in the project, my main duty is to design and deploy the VGOHAdB database, to store all data produced by our research group.
 
 ![Structure of the VGOHAdB database](diagram.png){fig-align="center" width="400"}
 

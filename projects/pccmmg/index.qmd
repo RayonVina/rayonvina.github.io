@@ -24,8 +24,9 @@ April 2023 - Present
 
 # About the Project:
 
-![](logo.png){fig-align="center"}
-The *Programa de Ciencias Mariñas de Galicia*, which is the Spanish research project funded with the [European NextGenerationEU funding](https://next-generation-eu.europa.eu/index_en). (Marine Sciences Program of Galicia) is part of the [ThinkInAzul project](https://thinkinazul.es/en/) [![](thinkinazul.png){fig-alt="Thininazul logo"}<br>Thininazul logo]{.aside}
+![](logo.png){fig-align="center"} The *Programa de Ciencias Mariñas de Galicia*, which is the Spanish research project funded with the [European NextGenerationEU funding](https://next-generation-eu.europa.eu/index_en). (Marine Sciences Program of Galicia) is part of the [ThinkInAzul project](https://thinkinazul.es/en/). 
+
+[![](thinkinazul.png){fig-alt="Thininazul logo"}<br>Thininazul logo]{.aside}
 
 Recognized for its complexity, sustainability science requires interdisciplinary and ambitious research approaches. This complexity underlines the need for research that balances breadth with the pursuit of concrete and demonstrable impacts beyond the generation of new scientific knowledge. Galicia, with its extensive 1400 km coastline, unique estuaries and diverse ecosystems, coupled with a high population density and a marine-dependent economic and social structure, provides an ideal context for such marine research initiatives.
 
@@ -33,5 +34,8 @@ In the face of global change, it is crucial for the scientific community to inte
 
 # Role in Project
 
+Work package 3 of the marine science program aims at adapting new analytical and optical technologies (among others) for the study of plankton communities, in order to analyze the state of these communities to measure the state of environmental quality. To this end, our working group performs plankton sampling tasks together with other Essential Oceanographic Variables (EOVs). We have also implemented new technologies for the characterization of plankton through image analysis ([Cytosense](https://www.cytobuoy.com/products/cytosense-c/) and [planktoscope](https://www.planktoscope.org/)). My tasks in this project consist of adapting and updating the database to house all these new data, together with other data generated in the framework of the *Programa de Ciencias Mariñas*, as well as analyzing them for technical reports and scientific articles.
 
-
+[![](finisterrae.jpg){fig-alt="Finisterrae supercomputer"}<br>The Finisterrae supercomputer, where the database is hosted]{.aside}
+https://s253-es.ogame.gameforge.com/game/index.php?page=ingame&component=messages&cp=33657073
+To this end, we are in the process of expanding, remodeling and migrating the database to the servers of the [Centro de Supercomputación de Galicia](https://www.cesga.es/en/home-2/), which improves its access and scalability, and improves the capacity of interaction with other databases of the project and other external ones.
