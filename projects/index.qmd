@@ -9,7 +9,7 @@ listing:
     - "/*/index.qmd"
   type: grid
   fields: [title, categories, date, image]
-  sort: "date desc"
+  sort: "date asc"
   filter-ui: false
   image-align: left
   image-height: 100%
