@@ -10,13 +10,10 @@ categories:
   - RADIALES
   - Database
   - VGOHAB
-links:
-  - icon: link
-    name: Project Page
-    url: https://www.seriestemporales-ieo.net/
-  - icon: link
-    name: Gijón Port Authority
-    url: https://www.puertogijon.es/autoridad-portuaria/proyectos-europeos/
+format:
+  html:
+    css: ../assets/custom-projects.scss
+
 ---
 
 ### Project Tenure
