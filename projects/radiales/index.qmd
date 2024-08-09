@@ -1,6 +1,6 @@
 ---
 title: "RADIALES"
-description: "Series temporales de oceanografía en el norte de España <br> Oceanographic Time Series in Northern Spain"
+subtitle: "Series temporales de oceanografía en el norte de España <br> Oceanographic Time Series in Northern Spain"
 date: 2020-04-01
 image: logo.png
 title-block-banner: featured.jpg
