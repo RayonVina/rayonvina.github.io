@@ -10,13 +10,10 @@ categories:
   - Ballast water
   - Thesis
   - Environmental impact
-links:
-  - icon: link
-    name: Project Page
-    url: https://maritime-spatial-planning.ec.europa.eu/projects/atlantic-blue-port-services-discharge-polluted-water-port-not-sea
-  - icon: link
-    name: Gijon Port Authority
-    url: https://www.puertogijon.es/autoridad-portuaria/proyectos-europeos/
+header-includes: |
+  <link rel="stylesheet" href="../assets/blog.css">
+resources:
+  - ../assets/blog.css
 ---
 
 ### Project Tenure

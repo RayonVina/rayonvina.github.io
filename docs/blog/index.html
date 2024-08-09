@@ -133,8 +133,7 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="../assets/custom-projects.scss">
-<meta name="twitter:title" content="My digressions | Fernando Rayón Viña">
+<link rel="alternate" type="application/rss+xml" title="Fernando Rayón Viña" href="index.xml" data-external="1"><meta name="twitter:title" content="My digressions | Fernando Rayón Viña">
 <meta name="twitter:description" content="I will try to post here on topics that interest me, especially those related to what I’m doing.  They will be in both English and Spanish.">
 <meta name="twitter:card" content="summary">
 </head>
@@ -235,7 +234,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="off topic" data-listing-date-sort="1718748000000" data-listing-file-modified-sort="1723195588281" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="145">
+<div class="quarto-post image-right" data-index="0" data-categories="off topic" data-listing-date-sort="1718748000000" data-listing-file-modified-sort="1723199106017" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="145">
 <div class="thumbnail">
 <p><a href="../blog/2024-06-19-Hola_mundo/index.html" class="no-external"></a></p><a href="../blog/2024-06-19-Hola_mundo/index.html" class="no-external">
 <p><img loading="lazy" src="../blog/2024-06-19-Hola_mundo/hola-mundo.png" class="thumbnail-image" style="height: 125px;"></p>
@@ -365,7 +364,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/rayonvina\.rbind\.io");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

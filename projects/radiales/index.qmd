@@ -10,9 +10,10 @@ categories:
   - RADIALES
   - Database
   - VGOHAB
-format:
-  html:
-    css: ../assets/custom-projects.scss
+header-includes: |
+  <link rel="stylesheet" href="../assets/blog.css">
+resources:
+  - ../assets/blog.css
 
 ---
 

@@ -10,13 +10,10 @@ categories:
   - PCCMMG
   - Database
   - CESGA
-links:
-  - icon: link
-    name: Main project page
-    url: https://thinkinazul.es/en/
-  - icon: link
-    name: Project page
-    url: https://xn--cienciasmarias-1nb.gal/
+header-includes: |
+  <link rel="stylesheet" href="../assets/blog.css">
+resources:
+  - ../assets/blog.css
 ---
 
 ### Project Tenure

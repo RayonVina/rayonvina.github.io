@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Fernando Rayón Viña</title>
+<link>https://rayonvina.rbind.io/blog/#category=R</link>
+<atom:link href="https://rayonvina.rbind.io/blog/index-r.xml" rel="self" type="application/rss+xml"/>
+<description>I will try to post here on topics that interest me, especially those related to what I&#39;m doing.
+&lt;br&gt;
+They will be in both English and Spanish.
+</description>
+<generator>quarto-1.5.56</generator>
+<lastBuildDate>Fri, 09 Aug 2024 10:26:37 GMT</lastBuildDate>
+</channel>
+</rss>

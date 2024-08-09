@@ -107,10 +107,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 background-size: cover;
       }
 </style>
-<link rel="stylesheet" href="../../assets/custom-projects.scss">
+<link rel="stylesheet" href="../assets/blog.css">
 <meta name="twitter:title" content="¡Hola mundo! | Fernando Rayón Viña">
 <meta name="twitter:description" content="No mucho que decir salvo una breve introducción">
-<meta name="twitter:image" content="hola-mundo.png">
+<meta name="twitter:image" content="https://rayonvina.rbind.io/blog/2024-06-19-Hola_mundo/hola-mundo.png">
+<meta name="twitter:image-height" content="307">
+<meta name="twitter:image-width" content="307">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 <body class="floating nav-fixed">
@@ -212,12 +214,17 @@ background-size: cover;
 <p>Pues como he puesto un poco más arriba esto es simplemente una primera entrada de bienvenida. He construido esta web utilizando <a href="https://quarto.org/">Posit (RStudio) Quarto</a> (en R obviamente) casi a modo de experimento, utilizando únicamente Rstudio Desktop, tiempo y paciencia.<br>
 Tengo que agradecer a <a href="https://silviacanelon.com/about/">Silvia Canelón</a> que haya dejado su repositorio de github con el código fuente de su magnífica web abierto para que el resto podamos <del>copiarle</del> inspirarnos para hacer las nuestras.</p>
 <p>Dudo que postee con asiduidad, porque nunca lo he hecho, pero intentaré poner por aquí curiosidades con las que esté trabajando y que considere que merecen la pena. Lo que sí que tengo bastante claro es que seguiré haciendo cambios y mejoras a esta web.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="featured_full.gif" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
 <p><a href="../../blog/index.html">← Volver al blog</a></p>
 
 
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-rayón_viña2024" class="csl-entry quarto-appendix-citeas" role="listitem">
 Rayón Viña, Fernando. 2024. <span>“¡Hola Mundo!”</span> June 19, 2024.
+<a href="https://rayonvina.rbind.io/blog/2024-06-19-Hola_mundo/index_es.html">https://rayonvina.rbind.io/blog/2024-06-19-Hola_mundo/index_es.html</a>.
 </div></div></section></div></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -310,7 +317,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/rayonvina\.rbind\.io");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

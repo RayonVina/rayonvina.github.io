@@ -1,14 +1,15 @@
-.title {
+
+.project-title {
   font-size: 2.5em;
   font-weight: 500;
-  text-shadow: 2px 2px 4px #000000; 
+  text-shadow: 2px 2px 4px #000000;
   line-height: 1.1em;
 }
 
-.subtitle {
+.project-subtitle {
   font-size: 1.2em;
   font-weight: bold;
-  text-shadow: 2px 2px 4px #000000; 
+  text-shadow: 2px 2px 4px #000000;
   a {
     color: white;
     text-decoration: underline !important;
@@ -18,10 +19,11 @@
   }
 }
 
-.subtitle lead {
+
+.project-description {
   font-size: 1.2em;
   font-weight: bold;
-  text-shadow: 2px 2px 4px #000000; 
+  text-shadow: 2px 2px 4px #000000;
   a {
     color: white;
     text-decoration: underline !important;
@@ -30,17 +32,3 @@
     }
   }
 }
-
-.description {
-  font-size: 1.2em;
-  font-weight: bold;
-  text-shadow: 2px 2px 4px #000000; 
-  a {
-    color: white;
-    text-decoration: underline !important;
-    &:hover {
-      text-decoration: none !important;
-    }
-  }
-}
-

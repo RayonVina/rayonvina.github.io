@@ -15,6 +15,6 @@ toc: false
 citation: false
 # appendix-cite-as: display
 
-format:
-  html:
-    css: ../assets/custom-projects.scss
+# format:
+#   html:
+#     css: ../assets/custom-projects.scss

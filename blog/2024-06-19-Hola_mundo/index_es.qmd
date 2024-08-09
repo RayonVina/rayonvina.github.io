@@ -7,6 +7,10 @@ image: hola-mundo.png
 title-block-banner: featured.gif
 categories:
   - off topic
+header-includes: |
+  <link rel="stylesheet" href="../assets/blog.css">
+resources:
+  - ../assets/blog.css
 ---
 Find this content in English [here](/blog/2024-06-19-Hola_mundo/index.qmd)
 
@@ -24,5 +28,8 @@ Pues como he puesto un poco más arriba esto es simplemente una primera entrada 
 Tengo que agradecer a [Silvia Canelón](https://silviacanelon.com/about/) que haya dejado su repositorio de github con el código fuente de su magnífica web abierto para que el resto podamos ~~copiarle~~ inspirarnos para hacer las nuestras.
 
 Dudo que postee con asiduidad, porque nunca lo he hecho, pero intentaré poner por aquí curiosidades con las que esté trabajando y que considere que merecen la pena. Lo que sí que tengo bastante claro es que seguiré haciendo cambios y mejoras a esta web.
+
+![](featured_full.gif){fig-align="center"}
+
 
 [&#8592; Volver al blog](../index.qmd)

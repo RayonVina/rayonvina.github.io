@@ -284,6 +284,91 @@ p {
 }
 
 
+// Títulos y subtítulos en general
+.title {
+  font-size: 2.5em;
+  font-weight: 500;
+  line-height: 1.1em;
+}
+
+// Estilos para subtítulos específicos en la sección general
+.subtitle {
+  font-size: 1.2em;
+  a {
+    color: white;
+    text-decoration: underline !important;
+    &:hover {
+      text-decoration: none !important;
+    }
+  }
+}
+
+// Agrega estilos específicos para las secciones de /blog y /projects
+
+/* Estilos solo para las páginas dentro de /blog */
+.blog .title,
+.blog .subtitle,
+.blog .description {
+  font-size: 2.5em;
+  font-weight: 500;
+  text-shadow: 2px 2px 4px #000000; 
+  line-height: 1.1em;
+}
+
+/* Estilos solo para las páginas dentro de /projects */
+.projects .title,
+.projects .subtitle,
+.projects .description {
+  font-size: 2.5em;
+  font-weight: 500;
+  text-shadow: 2px 2px 4px #000000; 
+  line-height: 1.1em;
+}
+
+/* Puedes personalizar aún más los subtítulos dentro de estas secciones */
+.blog .subtitle, 
+.projects .subtitle {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000; 
+  a {
+    color: white;
+    text-decoration: underline !important;
+    &:hover {
+      text-decoration: none !important;
+    }
+  }
+}
+
+.blog .subtitle lead, 
+.projects .subtitle lead {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000; 
+  a {
+    color: white;
+    text-decoration: underline !important;
+    &:hover {
+      text-decoration: none !important;
+    }
+  }
+}
+
+.blog .description, 
+.projects .description {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000; 
+  a {
+    color: white;
+    text-decoration: underline !important;
+    &:hover {
+      text-decoration: none !important;
+    }
+  }
+}
+
+
 // Mobile
 
 @media screen and (max-width: 991.98px) {

@@ -7,6 +7,10 @@ image: hola-mundo.png
 title-block-banner: featured.gif
 categories:
   - off topic
+header-includes: |
+  <link rel="stylesheet" href="../assets/blog.css">
+resources:
+  - ../assets/blog.css
 ---
 
 Puedes encontrar este post en español [aquí](/blog/2024-06-19-Hola_mundo/index_es.qmd)

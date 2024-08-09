@@ -5,6 +5,7 @@ project:
 
 
 website:
+  site-url: https://rayonvina.rbind.io
   favicon: /assets/images/icon_FRV_white.png
   title: "Fernando Rayón Viña"
   description: "My personal webpage"
@@ -59,7 +60,6 @@ website:
 
 format:
   html:
-    # theme: flatly
     theme: assets/frv-theme.scss
     toc: true
     code-link: true
