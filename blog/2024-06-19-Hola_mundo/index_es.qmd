@@ -8,9 +8,9 @@ title-block-banner: featured.gif
 categories:
   - off topic
 header-includes: |
-  <link rel="stylesheet" href="../assets/blog.css">
+  <link rel="stylesheet" href="../../assets/blog.css">
 resources:
-  - ../assets/blog.css
+  - ../../assets/blog.css
 ---
 Find this content in English [here](/blog/2024-06-19-Hola_mundo/index.qmd)
 

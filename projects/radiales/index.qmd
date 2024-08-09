@@ -11,9 +11,9 @@ categories:
   - Database
   - VGOHAB
 header-includes: |
-  <link rel="stylesheet" href="../assets/blog.css">
+  <link rel="stylesheet" href="../../assets/blog.css">
 resources:
-  - ../assets/blog.css
+  - ../../assets/blog.css
 
 ---
 
