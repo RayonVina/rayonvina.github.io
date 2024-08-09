@@ -1,6 +1,6 @@
 ---
 title: "Programa de Ciencias Mariñas de Galicia"
-subtitle: "The most ambitious marine research project to meet the challenges of the marine environment and the blue economy in Galicia"
+description: "The most ambitious marine research project to meet the challenges of the marine environment and the blue economy in Galicia"
 date: 2023-04-01
 image: logo.png
 title-block-banner: featured.jpg

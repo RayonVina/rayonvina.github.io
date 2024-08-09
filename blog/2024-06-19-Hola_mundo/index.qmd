@@ -1,6 +1,6 @@
 ---
 title: "Hello world!"
-subtitle: "Not much to say but a brief introduction"
+description: "Not much to say but a brief introduction"
 author: "Fernando Rayón Viña"
 date: "2024/06/19"
 image: hola-mundo.png
