@@ -8,10 +8,6 @@ title-block-banner: featured.jpg
 categories:
   - prueba
   - lorem ipsum
-header-includes: |
-  <link rel="stylesheet" href="../../assets/blog.css">
-resources:
-  - ../../assets/blog.css
   
 draft: true
 ---
