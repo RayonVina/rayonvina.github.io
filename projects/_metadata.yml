@@ -14,7 +14,3 @@ toc: false
 # Default fields for citation
 citation: false
 # appendix-cite-as: display
-
-# format:
-#   html:
-#     css: ../assets/custom-projects.scss
