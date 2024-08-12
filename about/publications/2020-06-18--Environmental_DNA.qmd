@@ -22,16 +22,13 @@ description: "Plos One"
 publication_short: "PONE"
 subtitle: "The research found that textile debris in the ocean is more likely to carry invasive species than plastic, with DNA analysis of litter from Asturias beaches showing species distribution influenced by proximity to ports."
 abstract: ""
-links:
-  - icon: file-richtext-fill
-    name: Publication
-    url: https://doi.org/10.1371/journal.pone.0228811
-    
+
 format: 
   html: 
     page-layout: full
     toc: false
 ---
+<a href="https://doi.org/10.1371/journal.pone.0228811"><i class="fa-regular fa-newspaper"></i> Find the paper here</a>
 
 ## Abstract
 

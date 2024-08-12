@@ -39,16 +39,13 @@ description: "Estuarine, Coastal and Shelf Science"
 # publication_short: ""
 subtitle: "The study suggests that marine litter, surprisingly hosting a diverse range of species, may facilitate the spread of invasive species across different marine environments in the Bay of Gijon."
 abstract: ""
-links:
-  - icon: file-richtext-fill
-    name: Publication
-    url: https://doi.org/10.1016/j.ecss.2022.107879
-    
+
 format: 
   html: 
     page-layout: full
     toc: false
 ---
+<a href="https://doi.org/10.1016/j.ecss.2022.107879"><i class="fa-regular fa-newspaper"></i> Find the paper here</a>
 
 ## Abstract
 

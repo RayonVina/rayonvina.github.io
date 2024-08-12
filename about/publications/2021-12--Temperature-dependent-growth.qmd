@@ -25,16 +25,14 @@ description: "Harmful Algae"
 # publication_short: ""
 subtitle: "The study indicates that Gambierdiscus species growth varies with temperature, with G. australes showing the broadest temperature tolerance, suggesting temperature influences their distribution and sexual reproduction may be a response to temperature extremes."
 abstract: ""
-links:
-  - icon: file-richtext-fill
-    name: Publication
-    url: https://doi.org/10.1016/j.hal.2021.102130
-    
+
 format: 
   html: 
     page-layout: full
     toc: false
 ---
+<a href="https://doi.org/10.1016/j.hal.2021.102130"><i class="fa-regular fa-newspaper"></i> Find the paper here</a>
+
 
 ## Abstract
 

@@ -25,16 +25,14 @@ description: "Plos One"
 publication_short: "PONE"
 subtitle: "The study suggests that beach cleanups by locals can enhance awareness and correct misconceptions about litter sources, despite existing perception gaps between volunteers and non-volunteers, and among different age groups."
 abstract: ""
-links:
-  - icon: file-richtext-fill
-    name: Publication
-    url: https://doi.org/10.1016/j.marpolbul.2019.02.034
-    
+   
 format: 
   html: 
     page-layout: full
     toc: false
 ---
+<a href="https://doi.org/10.1016/j.marpolbul.2019.02.034"><i class="fa-regular fa-newspaper"></i> Find the paper here</a>
+
 
 ## Abstract
 

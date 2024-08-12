@@ -27,16 +27,13 @@ description: "Environmental Science and Pollution Research"
 publication_short: "ESPR"
 subtitle: "The study reveals that managing beach services and controlling maritime activities are key to reducing plastic pollution on the Asturian coast."
 abstract: ""
-links:
-  - icon: file-richtext-fill
-    name: Publication
-    url: https://doi.org/10.1007/s11356-021-12821-0
-    
+
 format: 
   html: 
     page-layout: full
     toc: false
 ---
+<a href="https://doi.org/10.1007/s11356-021-12821-0"><i class="fa-regular fa-newspaper"></i> Find the paper here</a>
 
 ## Abstract
 

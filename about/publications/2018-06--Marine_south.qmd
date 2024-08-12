@@ -24,16 +24,12 @@ description: "Marine Pollution Bulletin"
 publication_short: "JNC"
 subtitle: "The study analyzes litter on nine Bay of Biscay beaches, revealing plastic as the predominant waste, and finds that public awareness and cleanup actions vary by gender and beach visitation frequency, aiding targeted anti-litter campaigns."
 abstract: ""
-links:
-  - icon: file-richtext-fill
-    name: Publication
-    url: https://doi.org/10.1016/j.marpolbul.2018.04.066
-    
 format: 
   html: 
     page-layout: full
     toc: false
 ---
+<a href="https://doi.org/10.1016/j.marpolbul.2018.04.066"><i class="fa-regular fa-newspaper"></i> Find the paper here</a>
 
 ## Abstract
 

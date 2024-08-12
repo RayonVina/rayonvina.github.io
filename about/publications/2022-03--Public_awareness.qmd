@@ -24,16 +24,13 @@ description: "Ocean & Coastal Management"
 publication_short: "OCM"
 subtitle: "The research indicates that improving environmental awareness, especially among students, is crucial to address the interconnected issues of littering, invasive species, and coastal degradation in the Bay of Biscay."
 abstract: ""
-links:
-  - icon: file-richtext-fill
-    name: Publication
-    url: https://doi.org/10.1016/j.ocecoaman.2022.106040
-    
+
 format: 
   html: 
     page-layout: full
     toc: false
 ---
+<a href="https://doi.org/10.1016/j.ocecoaman.2022.106040"><i class="fa-regular fa-newspaper"></i> Find the paper here</a>
 
 ## Abstract
 

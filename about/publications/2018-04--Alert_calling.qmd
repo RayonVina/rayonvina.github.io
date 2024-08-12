@@ -23,16 +23,13 @@ description: "Journal for Nature Conservation"
 publication_short: "JNC"
 subtitle: "Publication found that plastic debris, including ropes, can transport non-indigenous species (NIS), and monitoring biota on marine litter could aid in NIS detection."
 abstract: ""
-links:
-  - icon: file-richtext-fill
-    name: Publication
-    url: https://doi.org/10.1016/j.jnc.2018.01.005
-    
 format: 
   html: 
     page-layout: full
     toc: false
 ---
+<a href="https://doi.org/10.1016/j.jnc.2018.01.005"><i class="fa-regular fa-newspaper"></i> Find the paper here</a>
+
 
 ## Abstract
 
