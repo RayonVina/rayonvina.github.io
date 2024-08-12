@@ -37,10 +37,6 @@ format:
     page-layout: full
     toc: false
 
-header-includes: |
-  <link rel="stylesheet" href="../assets/about.css">
-resources:
-  - ../assets/about.css
 ---
 
 ::: {#hero-heading}
