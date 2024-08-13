@@ -21,6 +21,6 @@ appendix-cite-as: display
 # Enable comments
 comments: 
   utterances:
-    repo: RayonVina/rayonvina.github.io/utterances
+    repo: RayonVina/rayonvina.github.io
     issue-term: title
     theme: boxy-light

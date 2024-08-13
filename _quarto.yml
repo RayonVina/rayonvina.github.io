@@ -14,7 +14,7 @@ website:
   twitter-card: true
   comments:
     utterances: 
-      repo: RayonVina/rayonvina.github.io/utterances
+      repo: RayonVina/rayonvina.github.io
       theme: boxy-light
       issue-term: title
   navbar:
