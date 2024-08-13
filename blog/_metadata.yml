@@ -21,7 +21,7 @@ appendix-cite-as: display
 # Enable comments
 comments: 
   utterances:
-    repo: RayonVina/rayonvina.github.io
+    repo: RayonVina/rayonvina
     issue-term: title
     theme: boxy-light
     label: "Comments:"
