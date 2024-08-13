@@ -12,6 +12,9 @@ website:
   page-navigation: true
   back-to-top-navigation: true
   twitter-card: true
+  comments:
+    utterances: 
+      repo: RayonVina/rayonvina.github.io/utterances
   navbar:
     logo: /assets/images/icon_FRV_white.png
     background: primary
@@ -36,9 +39,7 @@ website:
         href: blog/index.qmd
       # - text: "Talks"
       #   href: talks/index.qmd
-
-
-        
+  
   page-footer:  
     left: >-
       &#169; 2024 Fernando Rayón Viña &#8729; Made with [Quarto](https://quarto.org)
