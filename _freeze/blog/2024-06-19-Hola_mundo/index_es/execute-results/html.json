@@ -1,0 +1,15 @@
+{
+  "hash": "96c6c255e1bc2502429ab6ca45f9767c",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"¡Hola mundo!\"\nsubtitle: \"No mucho que decir salvo una breve introducción\"\nauthor: \"Fernando Rayón Viña\"\ndate: \"2024/06/19\"\nimage: hola-mundo.png\ntitle-block-banner: featured.png\ncategories:\n  - off topic\n---\n\n\n\nFind this content in English [here](/blog/2024-06-19-Hola_mundo/index.qmd)\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code .terminal-style}\nprint(\"¡Hola mundo!\")\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] \"¡Hola mundo!\"\n```\n\n\n:::\n:::\n\n\n\n\nPues como he puesto un poco más arriba esto es simplemente una primera entrada de bienvenida. He construido esta web utilizando [Posit (RStudio) Quarto](https://quarto.org/) (en R obviamente) casi a modo de experimento, utilizando únicamente Rstudio Desktop, tiempo y paciencia.  \nTengo que agradecer a [Silvia Canelón](https://silviacanelon.com/about/) que haya dejado su repositorio de github con el código fuente de su magnífica web abierto para que el resto podamos ~~copiarle~~ inspirarnos para hacer las nuestras.\n\nDudo que postee con asiduidad, porque nunca lo he hecho, pero intentaré poner por aquí curiosidades con las que esté trabajando y que considere que merecen la pena. Lo que sí que tengo bastante claro es que seguiré haciendo cambios y mejoras a esta web.\n\n![](featured_full.gif){fig-align=\"center\"}\n\n\n[&#8592; Volver al blog](../index.qmd)\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
