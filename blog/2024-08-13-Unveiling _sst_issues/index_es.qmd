@@ -1,0 +1,15 @@
+---
+title: "Desvelando problemas con la SST"
+subtitle: "Un nombre algo pretencioso para una curiosidad a tener en cuenta cuando tratamos con datos."
+author: "Fernando Rayón Viña"
+date: "2024/08/13"
+image: sst.png
+title-block-banner: featured.png
+categories:
+  - sst
+  - satellite
+  - data analysis
+  
+draft: true
+---
+
