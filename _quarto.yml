@@ -12,12 +12,12 @@ website:
   page-navigation: true
   back-to-top-navigation: true
   twitter-card: true
-  comments:
-    utterances: 
-      repo: RayonVina/rayonvina
-      label: utterances
-      theme: boxy-light
-      issue-term: title
+  google-analytics: 
+    tracking-id: "G-F1EM001LSQ"
+    storage: none
+    anonymize-ip: true
+    version: 4
+
   navbar:
     logo: /assets/images/icon_FRV_white.png
     background: primary
