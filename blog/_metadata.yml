@@ -1,6 +1,6 @@
 # Freeze computed outputs
 execute: 
-  freeze: false
+  freeze: true
 
 # Enable banner style title blocks
 title-block-banner: true
@@ -24,3 +24,4 @@ comments:
     repo: RayonVina/rayonvina.github.io
     issue-term: title
     theme: boxy-light
+    label: "Comments:"
