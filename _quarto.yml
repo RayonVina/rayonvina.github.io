@@ -17,7 +17,6 @@ website:
     storage: none
     anonymize-ip: true
     version: 4
-
   navbar:
     logo: /assets/images/icon_FRV_white.png
     background: primary
@@ -35,13 +34,10 @@ website:
             href: about/resume.qmd
           - text: "Publications"
             href: about/publications.qmd
-            
       - text: "Projects"
         href: projects/index.qmd
       - text: "Blog"
         href: blog/index.qmd
-      # - text: "Talks"
-      #   href: talks/index.qmd
   
   page-footer:  
     left: >-
