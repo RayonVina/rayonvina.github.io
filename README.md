@@ -1,3 +1,3 @@
 Personal webpage repo:
 
-https://rayonvina.github.io
+https://rayonvina.rbind.io
