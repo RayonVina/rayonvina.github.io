@@ -6,7 +6,7 @@ project:
 
 website:
   site-url: https://rayonvina.rbind.io
-  favicon: /assets/images/icon_FRV_white.png
+  favicon: assets/images/icon_FRV_white.png
   title: "Fernando Rayón Viña"
   description: "My personal webpage"
   page-navigation: true
@@ -18,7 +18,7 @@ website:
     anonymize-ip: true
     version: 4
   navbar:
-    logo: /assets/images/icon_FRV_white.png
+    logo: assets/images/icon_FRV_white.png
     background: primary
     pinned: true
     search: true
