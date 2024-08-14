@@ -11,7 +11,10 @@ twitter-card:
     title: Fernando Rayón Viña
     description: |
       Data scientist and research assistant at the Spanish Institute of Oceanography (IEO-CSIC).
-    image: assets/images/photos/IMG_2517.png
+    card-style: summary
+    image: assets/images/profile.png
+    creator: "@RayonVina"
+    site: "@RayonVina"
 
 about:
   template: solana

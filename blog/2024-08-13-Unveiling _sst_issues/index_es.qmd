@@ -5,6 +5,7 @@ author: "Fernando Rayón Viña"
 date: "2024/08/13"
 image: sst.png
 title-block-banner: featured.png
+lang: es
 categories:
   - sst
   - satellite
