@@ -20,6 +20,26 @@ current_date <- Sys.Date()
 
 Last version `{r} current_date`
 
+## Work Experience
+
+- **Research Associate and data analyst** for Harmful microalgae and plankton ecology group (VGOHAB), Spanish Oceanography Institute (IEO - CSIC) (From Apr. 2021)
+  - Tasks undertaken:
+    - Database development, population and management
+    - Experimental design
+    - Data analysis with R
+    - Advanced graphics and maps representation
+
+- **Marine Conservation & Marine Litter Teacher** for IMBRSea Summer School, Sven Lovén Centre for Marine Infrastructure, Tjärnö, Sweden (Aug. 2019)
+
+- **Honorary Collaborator** in the Department of Functional Biology, University of Oviedo (2018 - 2019)
+
+- **Predoctoral researcher** at University of Oviedo (Mar. 2017 - Feb. 2018)
+  - Litter associated biota genetic barcoding identification
+  - De Visu identification of biota
+  - Beach litter sampling
+
+- **Laboratory Analyst** for the project "Preliminary Evaluation of the Possible Presence of the Brown Pygmy Mussel (Xenostrobus securis) in the Facilities of the Aboño Power Plant through the Use of Genetic Tools" at University of Oviedo (Sep. 2016 - May 2017)
+
 ## Education
 
 - **PhD Cum Laude in Chemical, Environmental and Bio-alimentary Engineering**, University of Oviedo (Sept. 2016 – July 2019)
@@ -56,26 +76,6 @@ Last version `{r} current_date`
     - Learning coastal litter sampling protocols
     - Monitoring of IAS on maritime and fluvial areas
 
-## Work Experience
-
-- **Research Assistant and data analyst** for Harmful microalgae and plankton ecology group (VGOHAB), Spanish Oceanography Institute (IEO - CSIC) (From Apr. 2021)
-  - Tasks undertaken:
-    - Database management and administration
-    - Experimental design
-    - Data analysis with R
-    - Advanced graphics representation
-
-- **Marine Conservation & Marine Litter Teacher** for IMBRSea Summer School, Sven Lovén Centre for Marine Infrastructure, Tjärnö, Sweden (Aug. 2019)
-
-- **Honorary Collaborator** in the Department of Functional Biology, University of Oviedo (2018 - 2019)
-
-- **Predoctoral researcher** at University of Oviedo (Mar. 2017 - Feb. 2018)
-  - Litter associated biota genetic barcoding identification
-  - De Visu identification of biota
-  - Beach litter sampling
-
-- **Laboratory Analyst** for the project "Preliminary Evaluation of the Possible Presence of the Brown Pygmy Mussel (Xenostrobus securis) in the Facilities of the Aboño Power Plant through the Use of Genetic Tools" at University of Oviedo (Sep. 2016 - May 2017)
-
 ## Publications
 
 You will find a complete list in my [publications](../about/publications.html) section.
@@ -105,12 +105,13 @@ You will find a complete list in my [publications](../about/publications.html) s
 
 ## Courses
 
+- **Introduction to Python for scientifics.** IDAEA - CSIC. (30h, Nov. 2023)
+- **Control de versiones con git y Github.** CSIC Online. (25h, Oct. 2023)
 - [**Specialization programme PostgreSQL or Everybody**](https://coursera.org/verify/specialization/8K49JLXK424D), Coursera (Nov. 2022)
   - Database Design and Basic SQL in PostgreSQL
   - Intermediate PostgreSQL
   - JSON and Natural Language Processing in PostgreSQL
   - Database Architecture, Scale, and NoSQL with Elasticsearch
-
 - **Introduction to systems Linux and bash programming**, IIM-CSIC (60h, Nov. 2022)
 - **Data analysis with the tidyverse**, Physalia Courses (20h, Jul. 2022)
 - **Environmental Management course**, Cantabrian Technological Institute (500h, Apr. – Oct. 2020)
