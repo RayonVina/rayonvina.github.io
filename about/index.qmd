@@ -2,7 +2,7 @@
 # About index
 
 title: "About me"
-subtitle: Data scientist and research assistant <br> at the Spanish Institute of Oceanography <br>(IEO-CSIC)
+# subtitle: Post-doc and data scientist at the <br> Marine Microbial Macroecology Lab <br>(Dalhousie University)
 image: ../assets/images/profile.png
 about:
   template: trestles
@@ -15,10 +15,10 @@ about:
       href: https://github.com/RayonVina
     - text: "{{< fa brands git-alt >}}"
       aria-label: Professional repository 
-      href: https://git.csic.es/53676339C/
+      href: https://github.com/Marine-microbial-macroecology
     - icon: globe
       aria-label: Group webpage
-      href: https://vgohab.com/
+      href: https://mmab.ca/
     - text: "{{< ai orcid >}}"
       aria-label: Orcid
       href: https://orcid.org/0000-0002-1622-2180/
@@ -42,11 +42,11 @@ format:
 ::: {#hero-heading}
 # ¡Hola!
 
-I am a data scientist and research assistant at the Harmful Algae and Plankton Ecology Group ([VGOHAB](https://vgohab.com/)) of the Spanish Institute of Oceanography (IEO-CSIC).
+I am a postdoctoral data scientist at the Marine Microbial Macroecology Lab ([MMAB](https://mmab.ca/)) at the Dalhouse University.
 
-My research interests include the application of data science and statistical analyses in the fields of oceanography and marine environmental science.
+I am currently focused on gathering historical plankton datasets from open global sources to build a unified database that supports improved ecological modeling. By using advanced R tools and SQLite, I efficiently integrate large, diverse datasets, ensuring consistent structure and quality for further analysis.
 
-As a data analyst and research assistant, I am responsible for gathering, storing, and exploring all data obtained by my group in our PostgreSQL database. This involves designing and maintaining efficient data collection methods, ensuring data integrity, and performing detailed analyses. Our main goal is to unravel population dynamics, identifying patterns and trends within the data, and attempting to relate these dynamics to changes in the environment. This comprehensive approach allows us to gain a deeper understanding of how various environmental factors influence population behaviors and shifts.
+As part of an interdisciplinary team, I contribute to the synthesis and analysis of large-scale ecological data to study the impacts of climate change on marine organisms, particularly phytoplankton. My work supports the development of predictive models by merging information from satellite observations, field studies, laboratory experiments, and the fossil record.
 
 Feel free to [contact me](/contact.qmd) if you have any questions or suggestions.
 :::
@@ -55,15 +55,15 @@ Feel free to [contact me](/contact.qmd) if you have any questions or suggestions
 
 ::: grid
 ::: {#about-me-1 .g-col-6}
+I am a biologist with a PhD in Environmental Engineering. My journey in marine science began after completing a Master's in Marine Conservation in 2015, when I became deeply interested in the intersection of data science and oceanography.
 
-I am a biologist with a PhD in Environmental Engineering with a passion for data science and its applications to oceanography and environmental research.
-
-Since 2015, after completing my Master's in Marine Conservation, I've been fully immersed in the field of oceanography. During this period of study, my fascination with data and its analysis has substantially increased, prompting me to delve further into this realm of expertise. I enjoy using [R](https://www.r-project.org/about.html) and the [tidyverse tools](https://www.tidyverse.org/) to optimize workflows and uncover insights from complex environmental data with my colleagues of the VGOHAB group.
+During my time at the VGOHAB group, I specialized in the integration and analysis of complex ecological datasets. I worked closely with my colleagues to design streamlined data workflows —primarily using R, tidyverse, and PostgreSQL— to investigate population dynamics and their environmental drivers in marine ecosystems.
 :::
 
 ::: {#about-me-2 .g-col-6}
-Prior to joining the VGOHAB, during my master's and doctoral studies, I conducted research on marine litter in coastal ecosystems. My work focused on the impacts of marine litter on coastal areas and how knowledge and awareness shape people's response to and perception of the problem. I aimed to elucidate the dynamics between human activities and the marine environment, uncover ecological trends and foster a deeper understanding of the intricate interplay between human actions and environmental health.
-My research analyzed the environmental impacts of marine debris and society's involvement in its reduction and elimination. I uncovered the multifaceted impacts of marine debris and advocated for the implementation of sustainable practices and policies to mitigate its harmful effects. The goal was to inform more effective strategies for environmental conservation and management approaches.
+Earlier in my career, throughout my master's and doctoral studies, I focused on the issue of marine litter in coastal environments. My research explored the impacts of marine debris and examined how societal knowledge and attitudes influence approaches to environmental stewardship.
+
+I aimed to unravel the links between human activities and coastal health, highlighting the need for sustainable policies and practices. This work fostered my interdisciplinary perspective and solidified my interest in using data-driven approaches to address complex environmental challenges.
 :::
 :::
 

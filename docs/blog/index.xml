@@ -12,23 +12,25 @@
 &lt;br&gt;
 They will be in both English and Spanish.
 </description>
-<generator>quarto-1.5.56</generator>
-<lastBuildDate>Tue, 18 Jun 2024 22:00:00 GMT</lastBuildDate>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Wed, 19 Jun 2024 03:00:00 GMT</lastBuildDate>
 <item>
   <title>Hello world!</title>
   <dc:creator>Fernando Rayón Viña</dc:creator>
   <link>https://rayonvina.rbind.io/blog/2024-06-19-Hola_mundo/</link>
-  <description><![CDATA[ <p>Puedes encontrar este post en español <a href="../../blog/2024-06-19-Hola_mundo/index_es.html">aquí</a></p>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Puedes encontrar este post en español <a href="../../blog/2024-06-19-Hola_mundo/index_es.html">aquí</a></p>
 <div class="cell">
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r terminal-style code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/print.html">print</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Hello World!"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span></code></pre></div>
+font-style: inherit;">"Hello World!"</span>)</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "Hello World!"</code></pre>
 </div>
@@ -37,7 +39,8 @@ font-style: inherit;">)</span></span></code></pre></div>
 I have to thank <a href="https://silviacanelon.com/about/">Silvia Canelón</a> for leaving her github repository with the source code of her magnificent web open so that the rest of us can <del>copy</del> inspire from her to make our own.</p>
 <p>I doubt that I will post regularly, because I have never done it, but I will try to post here curiosities that I am working with and that I consider worthwhile. What I do have quite clear is that I will continue making changes and improvements to this web.</p>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://rayonvina.rbind.io/blog/2024-06-19-Hola_mundo/featured_full.gif" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+<figure class="figure">
+<p><img src="https://rayonvina.rbind.io/blog/2024-06-19-Hola_mundo/featured_full.gif" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 <p><a href="../../blog/index.html">← Back to the blog</a></p>
@@ -50,7 +53,7 @@ Rayón Viña, Fernando. 2024. <span>“Hello World!”</span> June 19, 2024.
 </div></div></section></div> ]]></description>
   <category>off topic</category>
   <guid>https://rayonvina.rbind.io/blog/2024-06-19-Hola_mundo/</guid>
-  <pubDate>Tue, 18 Jun 2024 22:00:00 GMT</pubDate>
+  <pubDate>Wed, 19 Jun 2024 03:00:00 GMT</pubDate>
   <media:content url="https://rayonvina.rbind.io/blog/2024-06-19-Hola_mundo/hola-mundo.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 </channel>

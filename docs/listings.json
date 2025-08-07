@@ -1,19 +1,5 @@
 [
   {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/blueports/index.html",
-      "/projects/radiales/index.html",
-      "/projects/pccmmg/index.html"
-    ]
-  },
-  {
-    "listing": "/blog/index.html",
-    "items": [
-      "/blog/2024-06-19-Hola_mundo/index.html"
-    ]
-  },
-  {
     "listing": "/about/publications.html",
     "items": [
       "/about/publications/2024-12--Zooplankton_dynamics.html",
@@ -26,6 +12,21 @@
       "/about/publications/2019-04--Marine_litter_public.html",
       "/about/publications/2018-06--Marine_south.html",
       "/about/publications/2018-04--Alert_calling.html"
+    ]
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/2024-06-19-Hola_mundo/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/blueports/index.html",
+      "/projects/radiales/index.html",
+      "/projects/pccmmg/index.html",
+      "/projects/phytomap/index.html"
     ]
   }
 ]

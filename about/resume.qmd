@@ -22,7 +22,13 @@ Last version `{r} current_date`
 
 ## Work Experience
 
-- **Research Associate and data analyst** for Harmful microalgae and plankton ecology group (VGOHAB), Spanish Oceanography Institute (IEO - CSIC) (From Apr. 2021)
+- **Research assistant** at the Marine Microbial Macroecology Lab (MMAB) at Dalhousie University (from Jun. 2025)
+  - Tasks undertaken:
+    - Data gathering and curation
+    - Database development, population and management
+    - Data analysis with R
+
+- **Research Associate and data analyst** for Harmful microalgae and plankton ecology group (VGOHAB), Spanish Oceanography Institute (IEO - CSIC) (Apr. 2021 - May 2025)
   - Tasks undertaken:
     - Database development, population and management
     - Experimental design
@@ -85,8 +91,8 @@ You will find a complete list in my [publications](../about/publications.html) s
 ### Computational
 - **Languages**: R, Python
 - **Frameworks & Libraries**: Tidyverse
-- **Database Management**: postgreSQL
-- **Version Control**: Git (Github)
+- **Database Management**: postgreSQL, mariaDB, SQLite
+- **Version Control**: Git (Github, Gitlab)
 
 ### Design
 - **Document Formatting**: LaTeX, Markdown

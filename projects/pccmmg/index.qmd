@@ -18,7 +18,7 @@ resources:
 
 ### Project Tenure
 
-April 2023 - Present
+April 2023 - April 2025
 
 # About the Project:
 

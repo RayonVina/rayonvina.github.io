@@ -3,7 +3,7 @@
 
 title: "Fernando Rayón Viña"
 pagetitle: "Fernando Rayón Viña"
-subtitle: "Data scientist and research assistant at the Spanish Institute of Oceanography (IEO-CSIC)"
+subtitle: "Data scientist and research assistant"
 image: assets/images/pc_boat.png
 image-alt: "A photo of me"
 
@@ -55,7 +55,6 @@ execute:
   # freeze: auto
   echo: false
   warning: false
-
 header-includes: >
   <link rel="stylesheet" href="assets/index.css">
 resources:
@@ -67,7 +66,7 @@ resources:
 ::: {#hero-heading}
 
 I am a biologist and data scientist with a passion for the ocean.  
-My work revolves around data management and analysis for my research group using R tools, focusing on the continuous historical collection of plankton and other essential oceanographic variables for ecosystem studies. I also develop tools to facilitate data collection, archiving, and compilation using PostgreSQL databases for research.  
+My work revolves around data management and analysis for my research group using R tools, focusing on the continuous historical collection of plankton and other essential oceanographic variables for ecosystem studies. I also develop tools to facilitate data collection, archiving, and compilation using PostgreSQL/SQLite databases for research.  
 My work focuses on the integration of biology and data science to better understand our world's marine ecosystems.
 
 [More about me →](/about/index.qmd)
