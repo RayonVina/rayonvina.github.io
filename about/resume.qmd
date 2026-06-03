@@ -22,7 +22,7 @@ Last version `{r} current_date`
 
 ## Work Experience
 
-- **Research assistant** at the Marine Microbial Macroecology Lab (MMAB) at Dalhousie University (from Jun. 2025)
+- **research associate** at the Marine Microbial Macroecology Lab (MMAB) at Dalhousie University (from Jun. 2025)
   - Tasks undertaken:
     - Data gathering and curation
     - Database development, population and management

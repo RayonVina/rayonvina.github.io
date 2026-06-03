@@ -3,14 +3,14 @@
 
 title: "Fernando Rayón Viña"
 pagetitle: "Fernando Rayón Viña"
-subtitle: "Data scientist and research assistant"
+subtitle: "Data scientist and research associate"
 image: assets/images/pc_boat.png
 image-alt: "A photo of me"
 
 twitter-card:
     title: Fernando Rayón Viña
     description: |
-      Data scientist and research assistant at the Spanish Institute of Oceanography (IEO-CSIC).
+      Data scientist and research associate at the Spanish Institute of Oceanography (IEO-CSIC).
     card-style: summary
     image: assets/images/profile.png
     creator: "@RayonVina"

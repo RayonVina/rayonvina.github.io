@@ -6,3 +6,4 @@
 publish.qmd
 /_site/
 *.TMP
+**/*.quarto_ipynb
