@@ -1,0 +1,52 @@
+name: Validación de integridad web
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  html-validation:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar tidy
+        run: sudo apt-get install -y tidy
+
+      # Solo valida la carpeta docs/ que es donde Quarto genera el HTML
+      # --warn-show-errors: solo muestra errores reales, ignora advertencias menores
+      - name: Validar archivos HTML en docs/
+        run: |
+          FAILED=0
+          for file in $(find ./docs -name "*.html"); do
+            tidy -errors -quiet -utf8 "$file" 2>/tmp/tidy_out || true
+            # Solo cuenta errores graves (Error), ignora Warning
+            if grep -q "^line.*Error" /tmp/tidy_out; then
+              echo "❌ Errores en $file:"
+              grep "^line.*Error" /tmp/tidy_out
+              FAILED=1
+            fi
+          done
+          if [ $FAILED -ne 0 ]; then
+            echo "🚫 Validación fallida."
+            exit 1
+          fi
+          echo "✅ Todos los archivos HTML son válidos."
+
+      # Verifica enlaces rotos — solo informa, no cancela el build
+      - name: Verificar enlaces rotos
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >
+            --verbose
+            --no-progress
+            --exclude "linkedin.com"
+            --exclude "twitter.com"
+            --exclude "researchgate.net"
+            --timeout 20
+            './docs/**/*.html'
+        continue-on-error: true
