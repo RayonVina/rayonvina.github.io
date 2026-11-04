@@ -1,0 +1,12 @@
+---
+# 404
+title: "Sorry, this was not supposed to happen"
+format: 
+  html: 
+    page-layout: full
+    toc: false
+---
+
+![](assets/images/404.jpg){fig-align="center" width="400"}
+
+The page you are looking for doesn't exist. Please return to the [homepage](/index.qmd) or [contact me](contact.qmd) to solve the problem.

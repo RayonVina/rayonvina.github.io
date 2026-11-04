@@ -10,7 +10,7 @@ license: "CC BY-SA"
 
 # Default for table of contents
 toc: true
-toc-title: Table of contents
+# toc-title: se omite para que Quarto use el título traducido de cada idioma
 toc-depth: 2
 toc-location: left
 

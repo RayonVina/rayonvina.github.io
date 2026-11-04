@@ -1,5 +1,5 @@
 ---
-title: "Maritime ports and beach management as sources of coastal macro-, meso-, and microplastic pollution"
+title: "Los puertos marítimos y la gestión de las playas como fuentes de contaminación costera por macro-, meso- y microplásticos"
 author:
   - name: Paula Masiá Lillo
     orcid: 0000-0002-7471-2962
@@ -15,17 +15,17 @@ author:
 date: "2021-06"
 slug: marine-ports
 categories:
-  - Publication
-  - Environmental Monitoring
-  - Microplastics
-  - Plastics
-  - Spain
-  - Waste Products
-  - Water Pollutants
-  - Chemical
+  - Publicación
+  - Seguimiento ambiental
+  - Microplásticos
+  - Plásticos
+  - España
+  - Residuos
+  - Contaminantes del agua
+  - Químicos
 description: "Environmental Science and Pollution Research"
 publication_short: "ESPR"
-subtitle: "The study reveals that managing beach services and controlling maritime activities are key to reducing plastic pollution on the Asturian coast."
+subtitle: "El estudio revela que la gestión de los servicios de playa y el control de las actividades marítimas son claves para reducir la contaminación por plásticos en la costa asturiana."
 abstract: ""
 
 format: 
@@ -33,10 +33,10 @@ format:
     page-layout: full
     toc: false
 ---
-<a href="https://doi.org/10.1007/s11356-021-12821-0"><i class="fa-regular fa-newspaper"></i> Find the paper here</a>
+<a href="https://doi.org/10.1007/s11356-021-12821-0"><i class="fa-regular fa-newspaper"></i> Consulta el artículo aquí</a>
 
-## Abstract
+## Resumen
 
-Plastic pollution is a major environmental issue that affects coasts all around the world. Many studies point out the importance of a better management of this type of pollution. In this pioneering study, we have analyzed the distribution of macro-, meso-, and microplastics along the coast of Asturias (southwest Bay of Biscay, Spain). Significant correlation analysis suggests that mesoplastics are produced in situ by fragmentation of macroplastics. Differences between groups of beaches revealed the importance of maritime ports and fishing activities as sources of macroplastics and likely of microplastics as well. Another source of microplastics could be atmospheric deposition, especially for fibers. Multiple regression model allowed to confirm the utility of beach services like cleaning and trash bins to control macroplastics. These results emphasize the need of an integral treatment of marine plastic pollution involving fishers and maritime ports, as well as the importance of providing beach services.
+La contaminación por plásticos es un problema ambiental de primer orden que afecta a las costas de todo el mundo. Muchos estudios señalan la importancia de mejorar la gestión de este tipo de contaminación. En este estudio pionero hemos analizado la distribución de macro-, meso- y microplásticos a lo largo de la costa de Asturias (suroeste del golfo de Bizkaia, España). El análisis de correlaciones significativas sugiere que los mesoplásticos se producen in situ por la fragmentación de los macroplásticos. Las diferencias entre grupos de playas revelaron la importancia de los puertos marítimos y de las actividades pesqueras como fuentes de macroplásticos y, probablemente, también de microplásticos. Otra fuente de microplásticos podría ser la deposición atmosférica, especialmente en el caso de las fibras. Un modelo de regresión múltiple permitió confirmar la utilidad de servicios de playa como la limpieza y las papeleras para controlar los macroplásticos. Estos resultados subrayan la necesidad de un tratamiento integral de la contaminación marina por plásticos que implique a los pescadores y a los puertos marítimos, así como la importancia de prestar servicios en las playas.
 
-<a href="../publications.html"><i class="fas fa-arrow-left"></i> Back to Publications</a>
+<a href="../publications.html"><i class="fas fa-arrow-left"></i> Volver a publicaciones</a>

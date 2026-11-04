@@ -1,9 +1,9 @@
 ---
-title: "My digressions"
+title: "Mis divagaciones"
 description: |
-  I will try to post here on topics that interest me, especially those related to what I'm doing.
+  Intentaré publicar aquí sobre temas que me interesan, especialmente los relacionados con lo que estoy haciendo.
   <br>
-  They will be in both English and Spanish.
+  Todas las entradas están disponibles en español y en inglés.
 listing: 
   contents: 
     - "**/index.qmd"

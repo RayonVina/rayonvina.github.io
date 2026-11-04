@@ -1,5 +1,5 @@
 ---
-title: "Alert calling in port areas: Marine litter as possible secondary dispersal vector for hitchhiking invasive species"
+title: "Llamada de alerta en zonas portuarias: las basuras marinas como posible vector secundario de dispersión de especies invasoras «autoestopistas»"
 author:
   - name: Laura Miralles
     orcid: 0000-0002-7146-9776
@@ -13,26 +13,26 @@ author:
 date: "2018-04"
 slug: alert-calling
 categories:
-  - Research
-  - Plastic bottles
-  - Fishing gear
-  - Non-indigenous species
-  - Cantabrian coast
-  - Barcoding
+  - Investigación
+  - Botellas de plástico
+  - Artes de pesca
+  - Especies no autóctonas
+  - Costa cantábrica
+  - Código de barras genético
 description: "Journal for Nature Conservation"
 publication_short: "JNC"
-subtitle: "Publication found that plastic debris, including ropes, can transport non-indigenous species (NIS), and monitoring biota on marine litter could aid in NIS detection."
+subtitle: "La publicación muestra que los residuos plásticos, incluidos los cabos, pueden transportar especies no autóctonas (ENA), y que el seguimiento de la biota adherida a las basuras marinas podría ayudar a detectarlas."
 abstract: ""
 format: 
   html: 
     page-layout: full
     toc: false
 ---
-<a href="https://doi.org/10.1016/j.jnc.2018.01.005"><i class="fa-regular fa-newspaper"></i> Find the paper here</a>
+<a href="https://doi.org/10.1016/j.jnc.2018.01.005"><i class="fa-regular fa-newspaper"></i> Consulta el artículo aquí</a>
 
 
-## Abstract
+## Resumen
 
-Floating plastic debris, such as bottles and fishing gear, is a shelter for different species in the oceans. Litter may therefore help the spread of non-indigenous species (NIS). Here we have challenged the idea of using the abundance of marine litter present in a zone to estimate the risk of NIS introduction. To test this, a targeted sampling of plastic bottles and fishing gear (ropes and nets) was performed along 22 beaches from the Cantabrian coast where ports have been reported as a source of biological invasions. All items with attached organisms were collected and recorded. Genetic barcoding was used to ascertain the species and identify NIS. In total 17 species attached to plastic bottles and fishing gears were identified. Three of them, found on the two types of items, are catalogued as invasive species: Austrominius modestus; Magallana gigas; and, Amphibalanus amphitrite. Prevalence and mean intensity of non-indigenous biota on plastic bottles and fishing gear were not significantly different. The abundance of barnacles in litter was significantly correlated with that found from ports in the same region. The results suggest that ropes are able to transport different marine organisms and NIS as plastic bottles do. Monitoring biota on marine litter could serve as an additional tool for NIS detection.
+Los residuos plásticos flotantes, como las botellas y los artes de pesca, sirven de refugio a distintas especies en los océanos. Por ello, las basuras pueden favorecer la propagación de especies no autóctonas (ENA). En este trabajo hemos puesto a prueba la idea de utilizar la abundancia de basuras marinas presentes en una zona para estimar el riesgo de introducción de ENA. Para ello, se realizó un muestreo dirigido de botellas de plástico y artes de pesca (cabos y redes) en 22 playas de la costa cantábrica, donde se ha descrito que los puertos son una fuente de invasiones biológicas. Se recogieron y registraron todos los objetos con organismos adheridos. Se utilizó el código de barras genético para determinar las especies e identificar las ENA. En total se identificaron 17 especies adheridas a botellas de plástico y artes de pesca. Tres de ellas, encontradas en ambos tipos de objetos, están catalogadas como especies invasoras: Austrominius modestus, Magallana gigas y Amphibalanus amphitrite. La prevalencia y la intensidad media de la biota no autóctona en botellas de plástico y artes de pesca no fueron significativamente diferentes. La abundancia de cirrípedos en las basuras se correlacionó significativamente con la observada en los puertos de la misma región. Los resultados sugieren que los cabos son capaces de transportar distintos organismos marinos y ENA, igual que las botellas de plástico. El seguimiento de la biota de las basuras marinas podría servir como herramienta adicional para la detección de ENA.
 
-<a href="../publications.html"><i class="fas fa-arrow-left"></i> Back to Publications</a>
+<a href="../publications.html"><i class="fas fa-arrow-left"></i> Volver a publicaciones</a>

@@ -3,12 +3,32 @@ project:
   output-dir: docs
   resources: /CNAME
 
+# Perfil por defecto (español) para que `quarto preview` muestre menús y pie
+profile:
+  default: es
+
+# Idioma principal del sitio (babelquarto genera la versión inglesa en /en/)
+lang: es
+
+babelquarto:
+  mainlanguage: es
+  languages: [en]
+  languagelinks: navbar
+  languagecodes:
+    - name: es
+      text: "ES"
+    - name: en
+      text: "EN"
+
+# Traducciones de los metadatos del sitio para la versión inglesa
+title-en: "Fernando Rayón Viña"
+description-en: "My personal webpage"
 
 website:
   site-url: https://rayonvina.rbind.io
   favicon: assets/images/icon_FRV_white.png
   title: "Fernando Rayón Viña"
-  description: "My personal webpage"
+  description: "Mi página web personal"
   page-navigation: true
   back-to-top-navigation: true
   twitter-card: true
@@ -25,37 +45,8 @@ website:
     tools:
       - icon: github
         href: https://github.com/RayonVina
-    right:
-      - text: "About"
-        menu:
-          - text: "About me"
-            href: about/index.qmd
-          - text: "Curriculum vitæ"
-            href: about/resume.qmd
-          - text: "Publications"
-            href: about/publications.qmd
-      - text: "Projects"
-        href: projects/index.qmd
-      - text: "Blog"
-        href: blog/index.qmd
-  
-  page-footer:  
-    left: >-
-      &#169; 2025 Fernando Rayón Viña &#8729; Made with [Quarto](https://quarto.org)
-    center:
-      <a class="link-dark me-1" href="https://github.com/RayonVina" title="Github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
-      <a class="link-dark me-1" href="https://vgohab.com/" title="Group Webpage" target="_blank" rel="noopener">{{< fa globe >}}</a>
-      <a class="link-dark me-1" href="https://orcid.org/0000-0002-1622-2180" title="Orcid" target="_blank" rel="noopener">{{< ai orcid >}}</a>
-      <a class="link-dark me-1" href="https://scholar.google.com/citations?user=CTlje38AAAAJ&hl=es" title="Google Scholar" target="_blank"rel="noopener">{{< ai google-scholar >}}</a>
-      <a class="link-dark me-1" href="https://x.com/RayonVina" title="Twitter" target="_blank" rel="noopener">{{< fa brands square-twitter >}}</a>
-      <a class="link-dark me-1" href="https://www.researchgate.net/profile/Fernando-Rayon-Vina" title="ResearchGate" target="_blank" rel="noopener">{{< ai researchgate >}}</a>
-    right: 
-      - text: "Contact"
-        aria-label: "Contact Form"
-        href: "contact.qmd"
-      - text: "License"
-        aria-label: "License Details"
-        href: license.qmd
+    # Los menús (navbar: right) y el pie de página (page-footer) se definen
+    # en los perfiles de idioma: _quarto-es.yml y _quarto-en.yml
 
 format:
   html:
@@ -63,3 +54,5 @@ format:
     toc: true
     code-link: true
     pagetitle: "{{< meta title >}} | Fernando Rayón Viña"
+    # Selector de idioma ES/EN entre el icono de GitHub y la lupa
+    include-after-body: assets/language-switcher.html

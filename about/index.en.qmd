@@ -1,0 +1,82 @@
+---
+# About index
+
+title: "About me"
+# subtitle: Post-doc and data scientist at the <br> Marine Microbial Macroecology Lab <br>(Dalhousie University)
+image: ../assets/images/profile.png
+about:
+  template: trestles
+  image-width: 14em
+  image-shape: rounded
+  id: hero-heading
+  links:
+    - text: "{{< fa brands github >}}"
+      aria-label: My github profile 
+      href: https://github.com/RayonVina
+    - text: "{{< fa brands git-alt >}}"
+      aria-label: Professional repository 
+      href: https://github.com/Marine-microbial-macroecology
+    - icon: globe
+      aria-label: Group webpage
+      href: https://mmab.ca/
+    - text: "{{< ai orcid >}}"
+      aria-label: Orcid
+      href: https://orcid.org/0000-0002-1622-2180/
+    - text: "{{< ai google-scholar >}}"
+      aria-label: Google scholar
+      href: https://scholar.google.com/citations?user=CTlje38AAAAJ&hl=es/
+    - text: "{{< fa brands square-twitter >}}"
+      aria-label: Twitter
+      href: https://x.com/RayonVina/
+    - text: "{{< ai researchgate >}}"
+      aria-label: ResearchGate
+      href: https://www.researchgate.net/profile/Fernando-Rayon-Vina/
+
+format: 
+  html: 
+    page-layout: full
+    toc: false
+
+---
+
+::: {#hero-heading}
+# ¡Hola!
+
+I am a postdoctoral data scientist at the Marine Microbial Macroecology Lab ([MMAB](https://mmab.ca/)) at the Dalhouse University.
+
+I am currently focused on gathering historical plankton datasets from open global sources to build a unified database that supports improved ecological modeling. By using advanced R tools and SQLite, I efficiently integrate large, diverse datasets, ensuring consistent structure and quality for further analysis.
+
+As part of an interdisciplinary team, I contribute to the synthesis and analysis of large-scale ecological data to study the impacts of climate change on marine organisms, particularly phytoplankton. My work supports the development of predictive models by merging information from satellite observations, field studies, laboratory experiments, and the fossil record.
+
+Feel free to [contact me](/contact.qmd) if you have any questions or suggestions.
+:::
+
+## About me
+
+::: grid
+::: {#about-me-1 .g-col-6}
+I am a biologist with a PhD in Environmental Engineering. My journey in marine science began after completing a Master's in Marine Conservation in 2015, when I became deeply interested in the intersection of data science and oceanography.
+
+During my time at the VGOHAB group, I specialized in the integration and analysis of complex ecological datasets. I worked closely with my colleagues to design streamlined data workflows —primarily using R, tidyverse, and PostgreSQL— to investigate population dynamics and their environmental drivers in marine ecosystems.
+:::
+
+::: {#about-me-2 .g-col-6}
+Earlier in my career, throughout my master's and doctoral studies, I focused on the issue of marine litter in coastal environments. My research explored the impacts of marine debris and examined how societal knowledge and attitudes influence approaches to environmental stewardship.
+
+I aimed to unravel the links between human activities and coastal health, highlighting the need for sustainable policies and practices. This work fostered my interdisciplinary perspective and solidified my interest in using data-driven approaches to address complex environmental challenges.
+:::
+:::
+
+::: grid
+::: g-col-6
+## Curriculum Vitae
+
+[View CV](resume.qmd){.btn .btn-primary}
+:::
+
+::: g-col-6
+## Publications
+
+[View Publications](publications.qmd){.btn .btn-primary}
+:::
+:::

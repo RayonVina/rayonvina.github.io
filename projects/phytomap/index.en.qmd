@@ -1,0 +1,32 @@
+---
+title: "Phytoplankton Marine Atlas Project"
+subtitle: "A compilation of observations of phytoplankton occurrences (presence/absence and abundance) worldwide"
+date: 2023-04-01
+image: logo.png
+title-block-banner: featured.jpg
+categories:
+  - HAlifax
+  - MMAB
+  - Essential Oceanographic Variables
+  - Database
+  - Phytoplankton
+header-includes: |
+  <link rel="stylesheet" href="../../assets/blog.css">
+resources:
+  - ../../assets/blog.css
+---
+
+### Project Tenure
+
+June 2025 - Present
+
+# About the project:
+
+The phytoplankton marine atlas project (Phyto-MAP) is a compilation of observations of phytoplankton occurrences (presence/absence and abundance) in the ocean, emphasizing observations with microscopic observations resolved to species or genus.
+
+The goals of the project are to:
+
+  - facilitate analysis of phytoplankton observations throughout the ocean by collecting data from many sources and combining the data into a common format
+  - enable the development and testing of species distribution models
+  - refine our knowledge of niches of groups and species of phytoplankton,
+  - make a global scale map of marine phytoplankton.

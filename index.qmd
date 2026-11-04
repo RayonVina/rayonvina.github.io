@@ -1,16 +1,16 @@
 ---
-#Homepage index
+# Portada
 
 title: "Fernando Rayón Viña"
 pagetitle: "Fernando Rayón Viña"
-subtitle: "Data scientist and research associate"
+subtitle: "Científico de datos e investigador asociado"
 image: assets/images/pc_boat.png
-image-alt: "A photo of me"
+image-alt: "Una foto mía"
 
 twitter-card:
     title: Fernando Rayón Viña
     description: |
-      Data scientist and research associate at the Spanish Institute of Oceanography (IEO-CSIC).
+      Científico de datos e investigador asociado en el Instituto Español de Oceanografía (IEO-CSIC).
     card-style: summary
     image: assets/images/profile.png
     creator: "@RayonVina"
@@ -22,15 +22,15 @@ about:
   id: hero-heading
   links:
     - text: "{{< fa brands github >}}"
-      aria-label: My github profile 
+      aria-label: Mi perfil de GitHub 
       href: https://github.com/RayonVina
       
     - text: "{{< fa brands git-alt >}}"
-      aria-label: Professional repository 
+      aria-label: Repositorio profesional 
       href: https://git.csic.es/53676339C/
       
     - icon: globe
-      aria-label: Group webpage
+      aria-label: Web del grupo
       href: https://vgohab.com/
       
     - text: "{{< ai orcid >}}"
@@ -55,21 +55,17 @@ execute:
   # freeze: auto
   echo: false
   warning: false
-header-includes: >
-  <link rel="stylesheet" href="assets/index.css">
-resources:
-  - assets/index.css
 ---
 
 <br><br>
 
 ::: {#hero-heading}
 
-I am a biologist and data scientist with a passion for the ocean.  
-My work revolves around data management and analysis for my research group using R tools, focusing on the continuous historical collection of plankton and other essential oceanographic variables for ecosystem studies. I also develop tools to facilitate data collection, archiving, and compilation using PostgreSQL/SQLite databases for research.  
-My work focuses on the integration of biology and data science to better understand our world's marine ecosystems.
+Soy biólogo y científico de datos apasionado por el océano.  
+Mi trabajo gira en torno a la gestión y el análisis de datos para mi grupo de investigación mediante herramientas de R, centrándome en la recopilación histórica continua de plancton y otras variables oceanográficas esenciales para el estudio de los ecosistemas. También desarrollo herramientas que facilitan la recogida, el archivo y la compilación de datos en bases de datos PostgreSQL/SQLite para la investigación.  
+Mi trabajo se centra en la integración de la biología y la ciencia de datos para comprender mejor los ecosistemas marinos de nuestro planeta.
 
-[More about me →](/about/index.qmd)
+[Más sobre mí →](/about/index.qmd)
 :::
 
 <!-- hero-heading -->

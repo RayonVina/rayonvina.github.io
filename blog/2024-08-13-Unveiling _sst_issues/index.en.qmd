@@ -1,0 +1,14 @@
+---
+title: "Unveiling SST issues"
+subtitle: "A somewhat pretentious name for a curiosity to keep in mind when dealing with data."
+author: "Fernando Rayón Viña"
+date: "2024/06/25"
+image: sst.png
+title-block-banner: featured.png
+categories:
+  - sst
+  - satellite
+  - data analysis
+  
+draft: true
+---

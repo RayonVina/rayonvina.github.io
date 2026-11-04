@@ -1,135 +1,135 @@
 ---
-title: "Resume"
+title: "Currículum"
 format: 
   html: 
     page-layout: full
     toc: true
     toc-depth: 2
-    toc-title: "Contents"
+    toc-title: "Contenido"
     toc-location: left
 
 ---
 <br>
 
-Find a full pdf version [here](CV.pdf).
+Encontrarás una versión completa en pdf [aquí](CV.pdf) (en inglés).
 
 ```{r}
 #| echo: false
 current_date <- Sys.Date()
 ```
 
-Last version `{r} current_date`
+Última versión: `{r} current_date`
 
-## Work Experience
+## Experiencia laboral
 
-- **research associate** at the Marine Microbial Macroecology Lab (MMAB) at Dalhousie University (from Jun. 2025)
-  - Tasks undertaken:
-    - Data gathering and curation
-    - Database development, population and management
-    - Data analysis with R
+- **Investigador asociado** en el Marine Microbial Macroecology Lab (MMAB) de la Universidad de Dalhousie (desde jun. 2025)
+  - Tareas desempeñadas:
+    - Recopilación y curación de datos
+    - Desarrollo, carga y gestión de bases de datos
+    - Análisis de datos con R
 
-- **Research Associate and data analyst** for Harmful microalgae and plankton ecology group (VGOHAB), Spanish Oceanography Institute (IEO - CSIC) (Apr. 2021 - May 2025)
-  - Tasks undertaken:
-    - Database development, population and management
-    - Experimental design
-    - Data analysis with R
-    - Advanced graphics and maps representation
+- **Investigador asociado y analista de datos** en el grupo de Microalgas Nocivas y Ecología del Plancton (VGOHAB), Instituto Español de Oceanografía (IEO - CSIC) (abr. 2021 - may. 2025)
+  - Tareas desempeñadas:
+    - Desarrollo, carga y gestión de bases de datos
+    - Diseño experimental
+    - Análisis de datos con R
+    - Representación avanzada de gráficos y mapas
 
-- **Marine Conservation & Marine Litter Teacher** for IMBRSea Summer School, Sven Lovén Centre for Marine Infrastructure, Tjärnö, Sweden (Aug. 2019)
+- **Profesor de Conservación Marina y Basuras Marinas** en la IMBRSea Summer School, Sven Lovén Centre for Marine Infrastructure, Tjärnö, Suecia (ago. 2019)
 
-- **Honorary Collaborator** in the Department of Functional Biology, University of Oviedo (2018 - 2019)
+- **Colaborador honorífico** en el Departamento de Biología Funcional, Universidad de Oviedo (2018 - 2019)
 
-- **Predoctoral researcher** at University of Oviedo (Mar. 2017 - Feb. 2018)
-  - Litter associated biota genetic barcoding identification
-  - De Visu identification of biota
-  - Beach litter sampling
+- **Investigador predoctoral** en la Universidad de Oviedo (mar. 2017 - feb. 2018)
+  - Identificación genética mediante código de barras (barcoding) de la biota asociada a las basuras
+  - Identificación de visu de la biota
+  - Muestreo de basuras en playas
 
-- **Laboratory Analyst** for the project "Preliminary Evaluation of the Possible Presence of the Brown Pygmy Mussel (Xenostrobus securis) in the Facilities of the Aboño Power Plant through the Use of Genetic Tools" at University of Oviedo (Sep. 2016 - May 2017)
+- **Analista de laboratorio** en el proyecto «Evaluación preliminar de la posible presencia del mejillón pigmeo (Xenostrobus securis) en las instalaciones de la central térmica de Aboño mediante el uso de herramientas genéticas», Universidad de Oviedo (sep. 2016 - may. 2017)
 
-## Education
+## Formación
 
-- **PhD Cum Laude in Chemical, Environmental and Bio-alimentary Engineering**, University of Oviedo (Sept. 2016 – July 2019)
-  - Supervisors: [Eva García Vázquez {{< ai orcid >}}](https://orcid.org/0000-0002-8429-838X) and [Eduardo Dopico Rodríguez {{< ai orcid >}}](https://orcid.org/0000-0001-6777-5407)
-  - Thesis: "Analysis and evaluation of the origin, sociocultural components and biological risks of marine litter in the Asturian coast."
-  - Focused on:
-    - Integrated Coastal Zone Management
-    - Marine litter threat assessment
-    - Invasive species monitoring and management
-    - Social implications of coastal biological impacts  
+- **Doctorado Cum Laude en Ingeniería Química, Ambiental y Bioalimentaria**, Universidad de Oviedo (sept. 2016 – julio 2019)
+  - Directores: [Eva García Vázquez {{< ai orcid >}}](https://orcid.org/0000-0002-8429-838X) y [Eduardo Dopico Rodríguez {{< ai orcid >}}](https://orcid.org/0000-0001-6777-5407)
+  - Tesis: «Análisis y evaluación del origen, los componentes socioculturales y los riesgos biológicos de las basuras marinas en la costa asturiana».
+  - Centrado en:
+    - Gestión integrada de zonas costeras
+    - Evaluación de la amenaza de las basuras marinas
+    - Seguimiento y gestión de especies invasoras
+    - Implicaciones sociales de los impactos biológicos costeros  
 
-- **Master‘s Degree in Marine Conservation**, University of Oviedo (2016)
-  - Focused on:
-    - Integrated Coastal Zone Management (ICZM)
-    - Marine protected areas (MPAs)
-    - Aquaculture
-    - Invasive species
-    - Global change
-    - Evaluation of Impacts
-    - Geographic Information Systems and Remote Sensing
-  - Thesis: "Social perception of biotic and abiotic marine pollution in the Cantabrian coast. A socioenvironmental approach"  
+- **Máster en Conservación Marina**, Universidad de Oviedo (2016)
+  - Centrado en:
+    - Gestión integrada de zonas costeras (GIZC)
+    - Áreas marinas protegidas (AMP)
+    - Acuicultura
+    - Especies invasoras
+    - Cambio global
+    - Evaluación de impactos
+    - Sistemas de información geográfica y teledetección
+  - Trabajo fin de máster: «Percepción social de la contaminación marina biótica y abiótica en la costa cantábrica. Un enfoque socioambiental»  
 
-- **Bachelor‘s Degree in Biology**, University of Oviedo (2015)
-  - Thesis: "Diversity and function of insectivorous birds in cider apple crop"
-  - Results presented at the 9th National Congress of Applied Entomology: "Control biológico de carpocapsa y riqueza de aves en pomaradas asturianas"
+- **Grado en Biología**, Universidad de Oviedo (2015)
+  - Trabajo fin de grado: «Diversidad y función de las aves insectívoras en el cultivo del manzano de sidra»
+  - Resultados presentados en el IX Congreso Nacional de Entomología Aplicada: «Control biológico de carpocapsa y riqueza de aves en pomaradas asturianas»
 
-## International Research and Studies
+## Estancias y estudios internacionales
 
-- **Doctoral international internship**, University of Klaipeda, Lithuania (April – June 2018)
-  - Supervisor: [Marija Katarzyte {{< ai orcid >}}](https://orcid.org/0000-0001-7751-3187)
-  - Focused on:
-    - Acquisition of new competences
-    - Baltic – Atlantic coastal litter comparison
-    - Learning coastal litter sampling protocols
-    - Monitoring of IAS on maritime and fluvial areas
+- **Estancia doctoral internacional**, Universidad de Klaipėda, Lituania (abril – junio 2018)
+  - Supervisora: [Marija Katarzyte {{< ai orcid >}}](https://orcid.org/0000-0001-7751-3187)
+  - Centrada en:
+    - Adquisición de nuevas competencias
+    - Comparación de las basuras costeras del Báltico y del Atlántico
+    - Aprendizaje de protocolos de muestreo de basuras costeras
+    - Seguimiento de especies exóticas invasoras en zonas marítimas y fluviales
 
-## Publications
+## Publicaciones
 
-You will find a complete list in my [publications](../about/publications.html) section.
+Encontrarás la lista completa en mi sección de [publicaciones](../about/publications.html).
 
-## Skills
+## Competencias
 
-### Computational
-- **Languages**: R, Python
-- **Frameworks & Libraries**: Tidyverse
-- **Database Management**: postgreSQL, mariaDB, SQLite
-- **Version Control**: Git (Github, Gitlab)
+### Informáticas
+- **Lenguajes**: R, Python
+- **Entornos y bibliotecas**: Tidyverse
+- **Gestión de bases de datos**: postgreSQL, mariaDB, SQLite
+- **Control de versiones**: Git (Github, Gitlab)
 
-### Design
-- **Document Formatting**: LaTeX, Markdown
-- **Web Development**: HTML, CSS
+### Diseño
+- **Formato de documentos**: LaTeX, Markdown
+- **Desarrollo web**: HTML, CSS
 - **Scripting**: Bash, Powershell
 
-### Other
-- **Operating Systems**: Unix
-- **Geographical Information Systems (GIS)**
+### Otras
+- **Sistemas operativos**: Unix
+- **Sistemas de información geográfica (SIG)**
 
 
-### Languages
-- **Spanish**: native
-- **English**: advanced (C1)
-- **Portuguese**: basic (B1)
+### Idiomas
+- **Español**: nativo
+- **Inglés**: avanzado (C1)
+- **Portugués**: básico (B1)
 
-## Courses
+## Cursos
 
-- **Introduction to Python for scientifics.** IDAEA - CSIC. (30h, Nov. 2023)
-- **Control de versiones con git y Github.** CSIC Online. (25h, Oct. 2023)
-- [**Specialization programme PostgreSQL or Everybody**](https://coursera.org/verify/specialization/8K49JLXK424D), Coursera (Nov. 2022)
-  - Database Design and Basic SQL in PostgreSQL
-  - Intermediate PostgreSQL
-  - JSON and Natural Language Processing in PostgreSQL
-  - Database Architecture, Scale, and NoSQL with Elasticsearch
-- **Introduction to systems Linux and bash programming**, IIM-CSIC (60h, Nov. 2022)
-- **Data analysis with the tidyverse**, Physalia Courses (20h, Jul. 2022)
-- **Environmental Management course**, Cantabrian Technological Institute (500h, Apr. – Oct. 2020)
-- **Linux Course**, Dicampus (40h, May. 2020)
-- **Introduction to Git**, DataCamp (6h, May. 2020)
-- **Building Web Applications with Shiny in R**, DataCamp (4h, May. 2020)
-- **Data Science: R Basics**, HarvardX (20h, Feb. 2020)
-- **Introduction to Data Science: Statistical Programming with R**, UNAM – Coursera (47h, Dec. 2019)
-- **Introduction to R**, DataCamp (4h, Jun. 2018)
-- **Coastal Ecology, Monitoring & Assessment**, Klaipeda University (60h, May. 2018)
-- **Writing of Scientific Articles**, University of Oviedo (20h, May. 2017)
-- **Management and processing of data for research: Statistical Analysis with R Software**, University of Oviedo (20h, Feb. 2017)
-- **Management and processing of data for research: Introduction to qualitative analysis**, University of Oviedo (20h, Feb. 2017)
-- **System Approach Framework (SAF) for coastal research and management: From theory to practice**, University of Klaipeda (170h, Aug. 2016)
-- **R programming language initiation: A professional approach**, University of Oviedo (45h, Jun. 2016)
+- **Introducción a Python para científicos.** IDAEA - CSIC. (30 h, nov. 2023)
+- **Control de versiones con git y Github.** CSIC Online. (25 h, oct. 2023)
+- [**Programa de especialización PostgreSQL for Everybody**](https://coursera.org/verify/specialization/8K49JLXK424D), Coursera (nov. 2022)
+  - Diseño de bases de datos y SQL básico en PostgreSQL
+  - PostgreSQL intermedio
+  - JSON y procesamiento del lenguaje natural en PostgreSQL
+  - Arquitectura de bases de datos, escalabilidad y NoSQL con Elasticsearch
+- **Introducción a los sistemas Linux y a la programación en bash**, IIM-CSIC (60 h, nov. 2022)
+- **Análisis de datos con tidyverse**, Physalia Courses (20 h, jul. 2022)
+- **Curso de Gestión Ambiental**, Instituto Tecnológico de Cantabria (500 h, abr. – oct. 2020)
+- **Curso de Linux**, Dicampus (40 h, may. 2020)
+- **Introducción a Git**, DataCamp (6 h, may. 2020)
+- **Creación de aplicaciones web con Shiny en R**, DataCamp (4 h, may. 2020)
+- **Ciencia de datos: fundamentos de R**, HarvardX (20 h, feb. 2020)
+- **Introducción a la ciencia de datos: programación estadística con R**, UNAM – Coursera (47 h, dic. 2019)
+- **Introducción a R**, DataCamp (4 h, jun. 2018)
+- **Ecología, seguimiento y evaluación costera**, Universidad de Klaipėda (60 h, may. 2018)
+- **Redacción de artículos científicos**, Universidad de Oviedo (20 h, may. 2017)
+- **Gestión y tratamiento de datos para la investigación: análisis estadístico con el software R**, Universidad de Oviedo (20 h, feb. 2017)
+- **Gestión y tratamiento de datos para la investigación: introducción al análisis cualitativo**, Universidad de Oviedo (20 h, feb. 2017)
+- **System Approach Framework (SAF) para la investigación y la gestión costera: de la teoría a la práctica**, Universidad de Klaipėda (170 h, ago. 2016)
+- **Iniciación al lenguaje de programación R: un enfoque profesional**, Universidad de Oviedo (45 h, jun. 2016)

@@ -1,6 +1,6 @@
 ---
 # 404
-title: "Sorry, this was not supposed to happen"
+title: "Lo siento, esto no debería haber pasado"
 format: 
   html: 
     page-layout: full
@@ -9,4 +9,4 @@ format:
 
 ![](assets/images/404.jpg){fig-align="center" width="400"}
 
-The page you are looking for doesn't exist. Please return to the [homepage](/index.qmd) or [contact me](contact.qmd) to solve the problem.
+La página que buscas no existe. Vuelve a la [página de inicio](/index.qmd) o [ponte en contacto conmigo](contact.qmd) para solucionar el problema.

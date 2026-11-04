@@ -1,9 +1,9 @@
 ---
-title: "Projects"
+title: "Proyectos"
 author: ""
 comments: false
 citation: false
-description: "Here I will show you all the different projects I have participated in related to my work."
+description: "Aquí te muestro los distintos proyectos relacionados con mi trabajo en los que he participado."
 listing: 
   contents:
     - "/*/index.qmd"

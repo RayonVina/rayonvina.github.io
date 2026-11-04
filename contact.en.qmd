@@ -1,0 +1,61 @@
+---
+pagetitle: Fernando Rayón Viña - Contact
+# title: Send me a note
+name: Contact Form
+page-layout: article
+format: 
+  html: 
+    grid:
+      margin-width: 0px
+      sidebar-width: 0px
+
+header-includes: >
+  <link rel="stylesheet" href="assets/contact.css">
+resources:
+  - assets/contact.css
+---
+
+::: {.grid}
+
+::: {.g-col-5 #note}
+
+# Feel free to contact me
+
+You can fill this form to send me a message directly. I'll do my best to respond as soon as possible.
+
+
+You can also reach me through any of my other channels:
+
+<a class="link-dark me-1" href="https://github.com/RayonVina" title="Github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
+      <a class="link-dark me-1" href="https://mmab.ca/" title="Group Webpage" target="_blank" rel="noopener">{{< fa globe >}}</a>
+      <a class="link-dark me-1" href="https://orcid.org/0000-0002-1622-2180" title="Orcid" target="_blank" rel="noopener">{{< ai orcid >}}</a>
+      <a class="link-dark me-1" href="https://scholar.google.com/citations?user=CTlje38AAAAJ&hl=es" title="Google Scholar" target="_blank"rel="noopener">{{< ai google-scholar >}}</a>
+      <a class="link-dark me-1" href="https://x.com/RayonVina" title="Twitter" target="_blank" rel="noopener">{{< fa brands square-twitter >}}</a>
+      <a class="link-dark me-1" href="https://www.researchgate.net/profile/Fernando-Rayon-Vina" title="ResearchGate" target="_blank" rel="noopener">{{< ai researchgate >}}</a>
+
+:::
+<!-- source: https://github.com/mccarthy-m-g/tidytales/blob/main/about/index.qmd#L24-L46 -->
+
+::: {.g-col-1}
+:::
+
+::: {.g-col-6 #form}
+
+<form action="https://formspree.io/f/mwkapgzw" method="POST" accept-charset="utf-8">
+
+
+<label for="full-name">Full Name</label>
+<input type="text" name="name" id="full-name" class="form-control" placeholder="First and Last" required>
+
+<label for="email-address">Email Address</label>
+<input type="email" name="_replyto" id="email-address" class="form-control" placeholder="your@email.here" required>
+
+<label for="message">Message</label>
+  <textarea rows="6" name="message" id="message" class="form-control" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." required></textarea>
+
+<button type="submit" class="btn btn-primary mt-4">Send message</button>
+</form>
+:::
+
+:::
+<!-- end grid -->

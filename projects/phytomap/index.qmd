@@ -1,32 +1,32 @@
 ---
-title: "Phytoplankton Marine Atlas Project"
-subtitle: "A compilation of observations of phytoplankton occurrences (presence/absence and abundance) worldwide"
+title: "Proyecto Atlas Marino del Fitoplancton"
+subtitle: "Una recopilación mundial de observaciones de presencia de fitoplancton (presencia/ausencia y abundancia)"
 date: 2023-04-01
 image: logo.png
 title-block-banner: featured.jpg
 categories:
-  - HAlifax
+  - Halifax
   - MMAB
-  - Essential Oceanographic Variables
-  - Database
-  - Phytoplankton
+  - Variables oceánicas esenciales
+  - Base de datos
+  - Fitoplancton
 header-includes: |
   <link rel="stylesheet" href="../../assets/blog.css">
 resources:
   - ../../assets/blog.css
 ---
 
-### Project Tenure
+### Duración del proyecto
 
-June 2025 - Present
+Junio de 2025 - actualidad
 
-# About the project:
+# Sobre el proyecto:
 
-The phytoplankton marine atlas project (Phyto-MAP) is a compilation of observations of phytoplankton occurrences (presence/absence and abundance) in the ocean, emphasizing observations with microscopic observations resolved to species or genus.
+El proyecto Atlas Marino del Fitoplancton (Phyto-MAP) es una recopilación de observaciones de presencia de fitoplancton (presencia/ausencia y abundancia) en el océano, con especial atención a las observaciones microscópicas identificadas a nivel de especie o género.
 
-The goals of the project are to:
+Los objetivos del proyecto son:
 
-  - facilitate analysis of phytoplankton observations throughout the ocean by collecting data from many sources and combining the data into a common format
-  - enable the development and testing of species distribution models
-  - refine our knowledge of niches of groups and species of phytoplankton,
-  - make a global scale map of marine phytoplankton.
+  - facilitar el análisis de las observaciones de fitoplancton en todo el océano, reuniendo datos de numerosas fuentes y combinándolos en un formato común;
+  - permitir el desarrollo y la validación de modelos de distribución de especies;
+  - afinar nuestro conocimiento de los nichos de los distintos grupos y especies de fitoplancton;
+  - elaborar un mapa a escala global del fitoplancton marino.

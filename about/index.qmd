@@ -1,8 +1,8 @@
 ---
-# About index
+# Índice de «Sobre mí»
 
-title: "About me"
-# subtitle: Post-doc and data scientist at the <br> Marine Microbial Macroecology Lab <br>(Dalhousie University)
+title: "Sobre mí"
+# subtitle: Posdoctoral y científico de datos en el <br> Marine Microbial Macroecology Lab <br>(Dalhousie University)
 image: ../assets/images/profile.png
 about:
   template: trestles
@@ -11,13 +11,13 @@ about:
   id: hero-heading
   links:
     - text: "{{< fa brands github >}}"
-      aria-label: My github profile 
+      aria-label: Mi perfil de GitHub 
       href: https://github.com/RayonVina
     - text: "{{< fa brands git-alt >}}"
-      aria-label: Professional repository 
+      aria-label: Repositorio profesional 
       href: https://github.com/Marine-microbial-macroecology
     - icon: globe
-      aria-label: Group webpage
+      aria-label: Web del grupo
       href: https://mmab.ca/
     - text: "{{< ai orcid >}}"
       aria-label: Orcid
@@ -42,41 +42,41 @@ format:
 ::: {#hero-heading}
 # ¡Hola!
 
-I am a postdoctoral data scientist at the Marine Microbial Macroecology Lab ([MMAB](https://mmab.ca/)) at the Dalhouse University.
+Soy científico de datos posdoctoral en el Marine Microbial Macroecology Lab ([MMAB](https://mmab.ca/)) de la Universidad de Dalhousie.
 
-I am currently focused on gathering historical plankton datasets from open global sources to build a unified database that supports improved ecological modeling. By using advanced R tools and SQLite, I efficiently integrate large, diverse datasets, ensuring consistent structure and quality for further analysis.
+Actualmente me dedico a reunir conjuntos de datos históricos de plancton procedentes de fuentes abiertas de todo el mundo para construir una base de datos unificada que permita mejorar la modelización ecológica. Gracias a herramientas avanzadas de R y a SQLite, integro de forma eficiente conjuntos de datos grandes y heterogéneos, garantizando una estructura y una calidad homogéneas para su posterior análisis.
 
-As part of an interdisciplinary team, I contribute to the synthesis and analysis of large-scale ecological data to study the impacts of climate change on marine organisms, particularly phytoplankton. My work supports the development of predictive models by merging information from satellite observations, field studies, laboratory experiments, and the fossil record.
+Como parte de un equipo interdisciplinar, contribuyo a la síntesis y el análisis de datos ecológicos a gran escala para estudiar los efectos del cambio climático sobre los organismos marinos, en particular sobre el fitoplancton. Mi trabajo apoya el desarrollo de modelos predictivos que combinan información procedente de observaciones por satélite, estudios de campo, experimentos de laboratorio y el registro fósil.
 
-Feel free to [contact me](/contact.qmd) if you have any questions or suggestions.
+No dudes en [ponerte en contacto conmigo](/contact.qmd) si tienes cualquier pregunta o sugerencia.
 :::
 
-## About me
+## Sobre mí
 
 ::: grid
 ::: {#about-me-1 .g-col-6}
-I am a biologist with a PhD in Environmental Engineering. My journey in marine science began after completing a Master's in Marine Conservation in 2015, when I became deeply interested in the intersection of data science and oceanography.
+Soy biólogo y doctor en Ingeniería Ambiental. Mi trayectoria en las ciencias marinas comenzó tras completar un máster en Conservación Marina en 2015, cuando me empezó a interesar profundamente la intersección entre la ciencia de datos y la oceanografía.
 
-During my time at the VGOHAB group, I specialized in the integration and analysis of complex ecological datasets. I worked closely with my colleagues to design streamlined data workflows —primarily using R, tidyverse, and PostgreSQL— to investigate population dynamics and their environmental drivers in marine ecosystems.
+Durante mi etapa en el grupo VGOHAB me especialicé en la integración y el análisis de conjuntos de datos ecológicos complejos. Trabajé estrechamente con mis compañeros en el diseño de flujos de trabajo de datos eficientes —principalmente con R, tidyverse y PostgreSQL— para investigar la dinámica de las poblaciones y sus factores ambientales en los ecosistemas marinos.
 :::
 
 ::: {#about-me-2 .g-col-6}
-Earlier in my career, throughout my master's and doctoral studies, I focused on the issue of marine litter in coastal environments. My research explored the impacts of marine debris and examined how societal knowledge and attitudes influence approaches to environmental stewardship.
+Al principio de mi carrera, durante el máster y el doctorado, me centré en el problema de las basuras marinas en los entornos costeros. Mi investigación exploró los impactos de los residuos marinos y analizó cómo los conocimientos y las actitudes de la sociedad influyen en la manera de abordar la protección del medio ambiente.
 
-I aimed to unravel the links between human activities and coastal health, highlighting the need for sustainable policies and practices. This work fostered my interdisciplinary perspective and solidified my interest in using data-driven approaches to address complex environmental challenges.
+Mi objetivo era desentrañar los vínculos entre las actividades humanas y la salud de las costas, poniendo de relieve la necesidad de políticas y prácticas sostenibles. Este trabajo impulsó mi perspectiva interdisciplinar y consolidó mi interés por utilizar enfoques basados en datos para abordar problemas ambientales complejos.
 :::
 :::
 
 ::: grid
 ::: g-col-6
-## Curriculum Vitae
+## Currículum vítae
 
-[View CV](resume.qmd){.btn .btn-primary}
+[Ver CV](resume.qmd){.btn .btn-primary}
 :::
 
 ::: g-col-6
-## Publications
+## Publicaciones
 
-[View Publications](publications.qmd){.btn .btn-primary}
+[Ver publicaciones](publications.qmd){.btn .btn-primary}
 :::
 :::

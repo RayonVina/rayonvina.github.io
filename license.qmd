@@ -1,5 +1,5 @@
 ---
-title: "License"
+title: "Licencia"
 ---
 
 ```{r}
@@ -7,14 +7,14 @@ title: "License"
 current_date <- Sys.Date()
 ```
 
-Last version `{r} current_date`
+Última versión: `{r} current_date`
 
 <br>
 
 <center>
 {{< fa brands creative-commons size=2xl >}} {{< fa brands creative-commons-by size=2xl >}} {{< fa brands creative-commons-sa size=2xl >}}
 </center>
-All contents of this website are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/), except for the publications, which are subject to their own licenses depending on the editorial (please check each publication for more details).
+Todos los contenidos de esta web están publicados bajo una [licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional](https://creativecommons.org/licenses/by-sa/4.0/deed.es), salvo las publicaciones, que están sujetas a sus propias licencias según la editorial (consulta cada publicación para más detalles).
 
 
 

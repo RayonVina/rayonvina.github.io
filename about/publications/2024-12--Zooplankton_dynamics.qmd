@@ -1,5 +1,5 @@
 ---
-title: "Zooplankton Dynamics at the Northern Boundary of the Canary Current Upwelling System (NW Iberian Peninsula). Prospects From Updated Time Series in the ‘Ría de Vigo’ and Adjacent Shelf"
+title: "Dinámica del zooplancton en el límite norte del sistema de afloramiento de la corriente de Canarias (NO de la península ibérica). Perspectivas a partir de series temporales actualizadas en la ría de Vigo y la plataforma adyacente"
 author: 
   - name: Enrique Nogueira García
     orcid: 0000-0002-4222-928X
@@ -12,15 +12,15 @@ author:
 date: "2024-12"
 slug: zooplankton
 categories:
-  - Publication
-  - Zooplancton dynamics
-  - Plankton ecology
-  - Time series analysis
-  - Community diversity
+  - Publicación
+  - Dinámica del zooplancton
+  - Ecología del plancton
+  - Análisis de series temporales
+  - Diversidad de comunidades
 
 description: "Zooplankton Challenges in a Changing World"
 # publication_short: ""
-subtitle: "This study reviews research on zooplankton dynamics in NW Iberian waters (1997–2017), focusing on their relationship with environmental variability and their potential as ecosystem status indicators. Seasonal and interannual zooplankton variations at different organizational levels were analyzed, linking them to meteorological and hydrographic drivers in the Ría de Vigo and the adjacent shelf."
+subtitle: "Este estudio revisa la investigación sobre la dinámica del zooplancton en aguas del NO de la península ibérica (1997–2017), centrándose en su relación con la variabilidad ambiental y en su potencial como indicador del estado de los ecosistemas. Se analizaron las variaciones estacionales e interanuales del zooplancton en distintos niveles de organización, relacionándolas con los forzamientos meteorológicos e hidrográficos de la ría de Vigo y la plataforma adyacente."
 abstract: ""
 
 format: 
@@ -28,10 +28,10 @@ format:
     page-layout: full
     toc: false
 ---
-<a href="https://www.taylorfrancis.com/books/edit/10.1201/9781032662275/zooplankton-challenges-changing-world-luis-vieira-fernando-manuel-raposo-morgado?refId=f842c153-f765-4d5f-b29e-f513a1359af7&context=ubx"><i class="fa-regular fa-newspaper"></i> Find the paper here</a>
+<a href="https://www.taylorfrancis.com/books/edit/10.1201/9781032662275/zooplankton-challenges-changing-world-luis-vieira-fernando-manuel-raposo-morgado?refId=f842c153-f765-4d5f-b29e-f513a1359af7&context=ubx"><i class="fa-regular fa-newspaper"></i> Consulta el artículo aquí</a>
 
-## Abstract
+## Resumen
 
-Zooplankton studies carried out in NW Iberian waters, at the northern boundary of the Canary Current Upwelling System (CanCUS), were reviewed. Attention was paid to studies on zooplankton dynamics and its relationship with the variability of the environmental conditions since these investigations are fundamental to assess the suitability of zooplankton-based metrics as indicators of ecosystem status. Plankton communities have been suggested as ‘surveillance indicators’ that may provide cues to disentangled the variability driven by natural processes from that due to anthropogenic pressures and impacts. Updated zooplankton time series (1997-2017) for the section ‘Ría de Vigo’, including in the ongoing coastal ocean observing system RADIALES, were presented. The convenience of combining database management and data analysis tools was illustrated showing preliminary results from the analysis of the long-term and interannual variation of zooplankton seasonality at different organization levels: bulk properties (total zooplankton abundance); taxonomic groups (abundance of copepods and cladocerans); and indicator species (abundance of the congeneric, but with different thermal preferences, Temora longicornis and T. stylifera). The observed patterns were related to the variability of the main meteorological / hydrographic drivers in the area, Ría de Vigo and adjacent shelf.
+Se revisaron los estudios sobre zooplancton realizados en aguas del NO de la península ibérica, en el límite norte del sistema de afloramiento de la corriente de Canarias (CanCUS). Se prestó especial atención a los estudios sobre la dinámica del zooplancton y su relación con la variabilidad de las condiciones ambientales, ya que estas investigaciones son fundamentales para evaluar la idoneidad de las métricas basadas en el zooplancton como indicadores del estado de los ecosistemas. Se ha propuesto que las comunidades planctónicas actúen como «indicadores de vigilancia» que pueden aportar pistas para distinguir la variabilidad debida a procesos naturales de la causada por las presiones e impactos antrópicos. Se presentaron series temporales actualizadas de zooplancton (1997-2017) de la sección «Ría de Vigo», incluida en el actual sistema de observación oceánica costera RADIALES. Se ilustró la conveniencia de combinar herramientas de gestión de bases de datos y de análisis de datos mediante resultados preliminares del análisis de la variación a largo plazo e interanual de la estacionalidad del zooplancton en distintos niveles de organización: propiedades agregadas (abundancia total de zooplancton), grupos taxonómicos (abundancia de copépodos y cladóceros) y especies indicadoras (abundancia de Temora longicornis y T. stylifera, congéneres pero con distintas preferencias térmicas). Los patrones observados se relacionaron con la variabilidad de los principales forzamientos meteorológicos e hidrográficos de la zona, la ría de Vigo y la plataforma adyacente.
 
-<a href="../publications.html"><i class="fas fa-arrow-left"></i> Back to Publications</a>
+<a href="../publications.html"><i class="fas fa-arrow-left"></i> Volver a publicaciones</a>

@@ -1,5 +1,5 @@
 ---
-title: "Marine litter in south Bay of Biscay: Local differences in beach littering are associated with citizen perception and awareness"
+title: "Basuras marinas en el sur del golfo de Bizkaia: las diferencias locales en la acumulación de basuras en las playas se asocian con la percepción y la concienciación ciudadanas"
 author:
   - name: Fernando Rayón Viña
     orcid: 0000-0002-1622-2180
@@ -14,25 +14,25 @@ author:
 date: "2018-06"
 slug: marine_south
 categories:
-  - Research
-  - Beached litter
-  - Plastics
-  - ALDFG
-  - Awareness
-  - Perception
+  - Investigación
+  - Basuras varadas
+  - Plásticos
+  - Artes de pesca abandonadas (ALDFG)
+  - Concienciación
+  - Percepción
 description: "Marine Pollution Bulletin"
 publication_short: "JNC"
-subtitle: "The study analyzes litter on nine Bay of Biscay beaches, revealing plastic as the predominant waste, and finds that public awareness and cleanup actions vary by gender and beach visitation frequency, aiding targeted anti-litter campaigns."
+subtitle: "El estudio analiza las basuras de nueve playas del golfo de Bizkaia, revela que el plástico es el residuo predominante y muestra que la concienciación y las acciones de limpieza de la población varían según el género y la frecuencia de visita a la playa, lo que ayuda a orientar las campañas contra las basuras."
 abstract: ""
 format: 
   html: 
     page-layout: full
     toc: false
 ---
-<a href="https://doi.org/10.1016/j.marpolbul.2018.04.066"><i class="fa-regular fa-newspaper"></i> Find the paper here</a>
+<a href="https://doi.org/10.1016/j.marpolbul.2018.04.066"><i class="fa-regular fa-newspaper"></i> Consulta el artículo aquí</a>
 
-## Abstract
+## Resumen
 
-Marine litter is often left by beachgoers. Thus, understanding beachgoers" perception and awareness is important. In this study, the amount and type of litter was measured from nine beaches of central south Bay of Biscay (Spain), and a survey about perception and awareness of the beach littering was conducted among beachgoers. The region could be considered moderately littered compared with other studies, with significant differences among beaches for litter amount and types. Plastic was the most abundant item, followed by fishing gear. Differences among beaches for awareness and litter perception correlated significantly with differences in litter amount. Perception was positively correlated with beach frequentation. Significant gender differences were found, males taking more actions against litter than females regardless how much litter they perceived. These results could be employed for designing campaigns of beach litter treatment and awareness raising, by taking into account local differences detected in this study.
+Las basuras marinas suelen ser abandonadas por los usuarios de las playas. Por ello, es importante comprender su percepción y su grado de concienciación. En este estudio se midió la cantidad y el tipo de basuras de nueve playas del centro del sur del golfo de Bizkaia (España) y se realizó una encuesta sobre la percepción y la concienciación acerca de las basuras en las playas entre sus usuarios. La región podría considerarse moderadamente afectada en comparación con otros estudios, con diferencias significativas entre playas en la cantidad y el tipo de basuras. El plástico fue el material más abundante, seguido de los artes de pesca. Las diferencias entre playas en concienciación y percepción de las basuras se correlacionaron significativamente con las diferencias en la cantidad de basuras. La percepción se correlacionó positivamente con la frecuencia de visita a la playa. Se encontraron diferencias significativas entre géneros: los hombres emprendían más acciones contra las basuras que las mujeres, independientemente de la cantidad de basuras que percibían. Estos resultados podrían emplearse para diseñar campañas de tratamiento de las basuras en las playas y de concienciación, teniendo en cuenta las diferencias locales detectadas en este estudio.
 
-<a href="../publications.html"><i class="fas fa-arrow-left"></i> Back to Publications</a>
+<a href="../publications.html"><i class="fas fa-arrow-left"></i> Volver a publicaciones</a>
