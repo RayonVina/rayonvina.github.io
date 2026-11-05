@@ -1,7 +1,7 @@
 ---
 title: "Publications" 
 description: |
-  Here you will find all my research papers and other publications
+  Journal articles, book chapters, preprints, software, datasets, and other scientific contributions.
 listing: 
   contents: 
     - "**/publications/*.qmd"
@@ -10,7 +10,7 @@ listing:
   categories: false
   sort-ui: false
   filter-ui: false
-  fields: [title, author, categories, date]
+  fields: [title, description, author, date]
   image-align: left
   # image-height: 10em
   page-size: 5

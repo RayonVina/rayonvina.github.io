@@ -1,5 +1,5 @@
 ---
-title: "El ADN ambiental de las basuras marinas plásticas y textiles detecta especies exóticas y molestas en las proximidades de los puertos"
+title: "Environmental DNA from plastic and textile marine litter detects exotic and nuisance species nearby ports"
 author:
   - name: Aitor Ibabe Arrieta
     orcid: 0000-0003-4146-1842
@@ -28,10 +28,20 @@ format:
     page-layout: full
     toc: false
 ---
-<a href="https://doi.org/10.1371/journal.pone.0228811"><i class="fa-regular fa-newspaper"></i> Consulta el artículo aquí</a>
 
-## Resumen
+{{< fa regular newspaper >}}  Consulta el artículo aquí: {{< ai doi >}}  [10.1371/journal.pone.0228811](https://doi.org/10.1371/journal.pone.0228811) {{< ai open-access >}}
 
+## Abstract
+Marine debris is currently a significant source of environmental and economic problems. Floating litter can be employed by marine organisms as a surface to attach to and use as spreading vector. Human activities are promoting the expansion of potentially harmful species into novel ecosystems, endangering autochthonous communities. In this project, more than 1,000 litter items were collected and classified from five beaches eastwards the port of Gijon, in Asturias, Spain. Next generation sequencing was employed to study biofouling communities attached to items of different materials. A dominance of DNA from Florideophyceae, Dinophyceae and Arthropoda was found, and four non-indigenous species (NIS) were identified. Results showed a clear preference of Florideophyceae and Bryozoa to attach on textile surfaces versus plastic ones. Considering that these taxa contain several highly invasive species described to date, these data emphasize the potential of textile marine debris as a vector for dispersal of NIS. Moreover, the closest beaches to the port contained a more similar biota profile than the farther ones, confirming that both plastic and textile marine litter can be vectors for species dispersal from ports.
+
+::: {.callout-note collapse="true"}
+## Traducción al español
+
+##### Título traducido: ADN ambiental de basuras marinas plásticas y textiles detecta especies exóticas y molestas cerca de los puertos
+
+### Resumen
 Las basuras marinas son actualmente una fuente importante de problemas ambientales y económicos. Los organismos marinos pueden utilizar las basuras flotantes como superficie a la que adherirse y como vector de dispersión. Las actividades humanas están favoreciendo la expansión de especies potencialmente dañinas hacia nuevos ecosistemas, poniendo en peligro las comunidades autóctonas. En este proyecto se recogieron y clasificaron más de 1.000 objetos de basura de cinco playas situadas al este del puerto de Gijón, en Asturias (España). Se empleó secuenciación de nueva generación para estudiar las comunidades incrustantes adheridas a objetos de distintos materiales. Se observó un predominio de ADN de Florideophyceae, Dinophyceae y Arthropoda, y se identificaron cuatro especies no autóctonas (ENA). Los resultados mostraron una clara preferencia de Florideophyceae y Bryozoa por adherirse a superficies textiles frente a las plásticas. Teniendo en cuenta que estos taxones incluyen varias de las especies más invasoras descritas hasta la fecha, estos datos ponen de relieve el potencial de los residuos marinos textiles como vector de dispersión de ENA. Además, las playas más cercanas al puerto presentaban un perfil de biota más parecido que las más alejadas, lo que confirma que tanto las basuras marinas plásticas como las textiles pueden ser vectores de dispersión de especies desde los puertos.
 
-<a href="../publications.html"><i class="fas fa-arrow-left"></i> Volver a publicaciones</a>
+:::
+
+[{{< fa solid arrow-left >}} Volver a publicaciones](../publications.qmd)

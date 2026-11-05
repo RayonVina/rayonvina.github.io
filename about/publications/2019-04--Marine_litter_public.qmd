@@ -1,5 +1,5 @@
 ---
-title: "Basuras marinas y participación ciudadana en la limpieza de playas: desentrañando la percepción y la concienciación de adultos y niños en el golfo de Bizkaia, España"
+title: "Marine litter and public involvement in beach cleaning: Disentangling perception and awareness among adults and children, Bay of Biscay, Spain"
 author:
   - name: Fernando Rayón Viña
     orcid: 0000-0002-1622-2180    
@@ -31,11 +31,19 @@ format:
     page-layout: full
     toc: false
 ---
-<a href="https://doi.org/10.1016/j.marpolbul.2019.02.034"><i class="fa-regular fa-newspaper"></i> Consulta el artículo aquí</a>
 
+{{< fa regular newspaper >}} Consulta el artículo aquí: {{< ai doi >}}  [10.1016/j.marpolbul.2019.02.034](https://doi.org/10.1016/j.marpolbul.2019.02.034) {{< ai closed-access >}}
 
-## Resumen
+## Abstract
+Coastal litter abundance and its effects have increased for years. Waste reduction is the most effective countermeasure to fight against this problem. Littering attitudes may have an effect on people's involvement in coastal cleanups. In this study, coastal litter perception, awareness about its impact and likely sources were investigated in local population from south Bay of Biscay, Spain. People of different age groups and commitment levels regarding litter were interviewed and their answers compared with data from the area. Results showed differences in perception between volunteers and non-volunteers, but not between children and adults. Interaction effect of age was found for awareness. Volunteers and children tended to erroneously attribute the main litter origin to beachgoers, more than non-volunteers or adults. Our results suggest that encouraging local population to clean beaches would contribute to improve their perception of the problem and their attitudes toward taking action.
 
+::: {.callout-note collapse="true"}
+## Traducción al español
+
+##### Título traducido: Basuras marinas y participación ciudadana en la limpieza de playas: Desentrañando la percepción y la concienciación entre adultos y niños, Golfo de Vizcaya, España
+
+### Resumen
 La abundancia de basuras costeras y sus efectos han aumentado durante años. La reducción de residuos es la medida más eficaz para combatir este problema. Las actitudes ante el abandono de basuras pueden influir en la implicación de la población en las limpiezas costeras. En este estudio se investigó la percepción de las basuras costeras, la concienciación sobre su impacto y sus posibles fuentes en la población local del sur del golfo de Bizkaia (España). Se entrevistó a personas de distintos grupos de edad y niveles de compromiso con el problema de las basuras, y sus respuestas se compararon con los datos de la zona. Los resultados mostraron diferencias de percepción entre voluntarios y no voluntarios, pero no entre niños y adultos. Se encontró un efecto de interacción de la edad en la concienciación. Los voluntarios y los niños tendían a atribuir erróneamente el origen principal de las basuras a los usuarios de las playas en mayor medida que los no voluntarios o los adultos. Nuestros resultados sugieren que animar a la población local a limpiar las playas contribuiría a mejorar su percepción del problema y su actitud a la hora de actuar.
+:::
 
-<a href="../publications.html"><i class="fas fa-arrow-left"></i> Volver a publicaciones</a>
+[{{< fa solid arrow-left >}} Volver a publicaciones](../publications.qmd)
