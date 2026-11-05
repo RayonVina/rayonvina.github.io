@@ -3,14 +3,14 @@
 
 title: "Fernando Rayón Viña"
 pagetitle: "Fernando Rayón Viña"
-subtitle: "Científico de datos e investigador asociado"
+subtitle: "Biólogo y científico de datos especializado en ecosistemas marinos"
 image: assets/images/pc_boat.png
 image-alt: "Una foto mía"
 
 twitter-card:
     title: Fernando Rayón Viña
     description: |
-      Científico de datos e investigador asociado en el Instituto Español de Oceanografía (IEO-CSIC).
+      Biólogo y científico de datos especializado en ecosistemas marinos.
     card-style: summary
     image: assets/images/profile.png
     creator: "@RayonVina"
@@ -25,14 +25,18 @@ about:
       aria-label: Mi perfil de GitHub 
       href: https://github.com/RayonVina
       
-    - text: "{{< fa brands git-alt >}}"
-      aria-label: Repositorio profesional 
-      href: https://git.csic.es/53676339C/
+    # - text: "{{< fa brands git-alt >}}"
+    #   aria-label: Repositorio profesional 
+    #   href: https://git.csic.es/53676339C/
       
+    # - icon: globe
+    #   aria-label: Web del grupo
+    #   href: https://vgohab.com/
+
     - icon: globe
       aria-label: Web del grupo
-      href: https://vgohab.com/
-      
+      href: https://mmab.ca/
+    
     - text: "{{< ai orcid >}}"
       aria-label: Orcid
       href: https://orcid.org/0000-0002-1622-2180/
@@ -61,9 +65,9 @@ execute:
 
 ::: {#hero-heading}
 
-Soy biólogo y científico de datos apasionado por el océano.  
-Mi trabajo gira en torno a la gestión y el análisis de datos para mi grupo de investigación mediante herramientas de R, centrándome en la recopilación histórica continua de plancton y otras variables oceanográficas esenciales para el estudio de los ecosistemas. También desarrollo herramientas que facilitan la recogida, el archivo y la compilación de datos en bases de datos PostgreSQL/SQLite para la investigación.  
-Mi trabajo se centra en la integración de la biología y la ciencia de datos para comprender mejor los ecosistemas marinos de nuestro planeta.
+Soy biólogo y científico de datos, e investigador asociado en el Marine Microbial Macroecology Lab de Dalhousie University. Mi trabajo combina ecología marina, programación y gestión de datos para estudiar el plancton y comprender los cambios en los ecosistemas oceánicos.
+
+Actualmente contribuyo a Phyto-MAP, un atlas global de observaciones de fitoplancton. Desarrollo herramientas en R y flujos de trabajo reproducibles para recopilar, depurar, integrar y analizar series históricas de datos de plancton y otras variables oceanográficas. También diseño herramientas que facilitan la recogida, el archivo y la compilación de datos en bases de datos PostgreSQL y SQLite, apoyando la investigación de mi grupo sobre los ecosistemas marinos.
 
 [Más sobre mí →](/about/index.qmd)
 :::

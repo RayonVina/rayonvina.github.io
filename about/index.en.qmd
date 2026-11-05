@@ -2,8 +2,10 @@
 # About index
 
 title: "About me"
-# subtitle: Post-doc and data scientist at the <br> Marine Microbial Macroecology Lab <br>(Dalhousie University)
+
 image: ../assets/images/profile.png
+image-alt: "Portrait of Fernando Rayón Viña"
+
 about:
   template: trestles
   image-width: 14em
@@ -11,19 +13,19 @@ about:
   id: hero-heading
   links:
     - text: "{{< fa brands github >}}"
-      aria-label: My github profile 
+      aria-label: Personal GitHub
       href: https://github.com/RayonVina
     - text: "{{< fa brands git-alt >}}"
-      aria-label: Professional repository 
+      aria-label: Group's GitHub 
       href: https://github.com/Marine-microbial-macroecology
     - icon: globe
       aria-label: Group webpage
       href: https://mmab.ca/
     - text: "{{< ai orcid >}}"
-      aria-label: Orcid
+      aria-label: ORCID
       href: https://orcid.org/0000-0002-1622-2180/
     - text: "{{< ai google-scholar >}}"
-      aria-label: Google scholar
+      aria-label: Google Scholar
       href: https://scholar.google.com/citations?user=CTlje38AAAAJ&hl=es/
     - text: "{{< fa brands square-twitter >}}"
       aria-label: Twitter
@@ -42,28 +44,36 @@ format:
 ::: {#hero-heading}
 # ¡Hola!
 
-I am a postdoctoral data scientist at the Marine Microbial Macroecology Lab ([MMAB](https://mmab.ca/)) at the Dalhouse University.
+I am a biologist and a research associate at the Marine Microbial Macroecology Lab ([MMAB](https://mmab.ca/)) at Dalhousie University in Canada. My work lies at the intersection of plankton ecology and data science.
 
-I am currently focused on gathering historical plankton datasets from open global sources to build a unified database that supports improved ecological modeling. By using advanced R tools and SQLite, I efficiently integrate large, diverse datasets, ensuring consistent structure and quality for further analysis.
+I am currently contributing to Phyto-MAP, a global atlas of phytoplankton observations. I work with historical datasets from various sources to make them comparable and facilitate their use in research: from reviewing species names and harmonizing variables to documenting how the data have been processed.
 
-As part of an interdisciplinary team, I contribute to the synthesis and analysis of large-scale ecological data to study the impacts of climate change on marine organisms, particularly phytoplankton. My work supports the development of predictive models by merging information from satellite observations, field studies, laboratory experiments, and the fossil record.
+As part of an interdisciplinary team, I contribute to the synthesis and analysis of large-scale ecological data to study the effects of climate change on marine organisms, particularly phytoplankton. I am interested in linking observations collected at different locations and times to understand plankton variability and changes in marine ecosystems. My work supports the development of predictive models that integrate information from satellite observations, field studies, laboratory experiments, and the fossil record.
 
 Feel free to [contact me](/contact.qmd) if you have any questions or suggestions.
 :::
 
-## About me
-
+## My background
 ::: grid
 ::: {#about-me-1 .g-col-6}
-I am a biologist with a PhD in Environmental Engineering. My journey in marine science began after completing a Master's in Marine Conservation in 2015, when I became deeply interested in the intersection of data science and oceanography.
+My training in Biology and Marine Conservation led me to investigate the links between human activities and coastal ecosystems. During my master's and doctoral studies at the University of Oviedo, I studied marine litter from a socioenvironmental perspective, combining research into its biological risks with the study of public perceptions and participation.
 
-During my time at the VGOHAB group, I specialized in the integration and analysis of complex ecological datasets. I worked closely with my colleagues to design streamlined data workflows —primarily using R, tidyverse, and PostgreSQL— to investigate population dynamics and their environmental drivers in marine ecosystems.
+This period, which included a research stay at Klaipėda University in Lithuania, strengthened my interest in approaching environmental problems across disciplines.
 :::
 
 ::: {#about-me-2 .g-col-6}
-Earlier in my career, throughout my master's and doctoral studies, I focused on the issue of marine litter in coastal environments. My research explored the impacts of marine debris and examined how societal knowledge and attitudes influence approaches to environmental stewardship.
+Later, in the Harmful Microalgae and Plankton Ecology group (VGOHAB) at the Vigo Oceanographic Centre (IEO-CSIC), I shifted my focus towards oceanographic data management and analysis. I designed and managed VGOHAdB, a database integrating plankton observations and environmental variables from the RADIALES-Vigo time series dating back to 1984.
 
-I aimed to unravel the links between human activities and coastal health, highlighting the need for sustainable policies and practices. This work fostered my interdisciplinary perspective and solidified my interest in using data-driven approaches to address complex environmental challenges.
+There, I developed my experience in time-series analysis and workflows using R and PostgreSQL. That experience connects with my current work: transforming heterogeneous data into information that can help answer ecological questions.
+:::
+:::
+
+## Beyond the data
+
+I have also been involved in teaching and science outreach, from the IMBRSea international master's summer school to activities with organisations such as ONCE and DOWN Vigo. These experiences complement my research and my interest in making marine science accessible to diverse audiences.
+
+To discuss research, marine data, or potential collaborations, please [get in touch](/contact.qmd).
+
 :::
 :::
 

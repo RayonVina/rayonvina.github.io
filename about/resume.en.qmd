@@ -1,135 +1,181 @@
 ---
-title: "Resume"
-format: 
-  html: 
+title: "Curriculum vitae"
+date-modified: 2026-11-05
+format:
+  html:
     page-layout: full
     toc: true
     toc-depth: 2
     toc-title: "Contents"
     toc-location: left
-
 ---
-<br>
 
-Find a full pdf version [here](CV.pdf).
+This page presents a selection of my experience, education, and
+scientific contributions.
 
-```{r}
-#| echo: false
-current_date <- Sys.Date()
-```
+[Download full CV in English · PDF](CV.en.pdf){.btn .btn-primary}
 
-Last version `{r} current_date`
+> Content last updated: 5 November 2026.
 
-## Work Experience
+## Professional and research experience
 
-- **research associate** at the Marine Microbial Macroecology Lab (MMAB) at Dalhousie University (from Jun. 2025)
-  - Tasks undertaken:
-    - Data gathering and curation
-    - Database development, population and management
-    - Data analysis with R
+### Research Associate (Postdoctoral)
 
-- **Research Associate and data analyst** for Harmful microalgae and plankton ecology group (VGOHAB), Spanish Oceanography Institute (IEO - CSIC) (Apr. 2021 - May 2025)
-  - Tasks undertaken:
-    - Database development, population and management
-    - Experimental design
-    - Data analysis with R
-    - Advanced graphics and maps representation
+Marine Microbial Macroecology Lab · Dalhousie University, Canada  
+June 2025–present
 
-- **Marine Conservation & Marine Litter Teacher** for IMBRSea Summer School, Sven Lovén Centre for Marine Infrastructure, Tjärnö, Sweden (Aug. 2019)
+Contribution to Phyto-MAP, a global atlas of phytoplankton observations,
+within the Simons Collaboration on Computational Biogeochemical
+Modeling of Marine Ecosystems (CBIOMES).
 
-- **Honorary Collaborator** in the Department of Functional Biology, University of Oviedo (2018 - 2019)
+- Collection, curation, and integration of phytoplankton data
+- Development of R tools and reproducible workflows
+- Database design and management for research
 
-- **Predoctoral researcher** at University of Oviedo (Mar. 2017 - Feb. 2018)
-  - Litter associated biota genetic barcoding identification
-  - De Visu identification of biota
-  - Beach litter sampling
+### Research technical staff
 
-- **Laboratory Analyst** for the project "Preliminary Evaluation of the Possible Presence of the Brown Pygmy Mussel (Xenostrobus securis) in the Facilities of the Aboño Power Plant through the Use of Genetic Tools" at University of Oviedo (Sep. 2016 - May 2017)
+Harmful Microalgae and Plankton Ecology group (VGOHAB) ·
+Vigo Oceanographic Centre, IEO-CSIC  
+April 2021–April 2025
+
+Research assistance across the group's projects:
+
+- Design and administration of VGOHAdB, a PostgreSQL database
+  integrating plankton observations and environmental variables
+  from the RADIALES-Vigo time series dating back to 1984
+- Development of data management and analysis protocols using R,
+  Shiny applications, and version-controlled workflows
+- Statistical analysis, time-series analysis, and graphical
+  and cartographic visualisation of oceanographic data
+
+### Research technical staff
+
+Department of Functional Biology · University of Oviedo  
+March–September 2017 · October 2017–January 2018
+
+Participation in projects on marine natural resources and
+biological invasions.
+
+- Identification of organisms associated with marine litter
+  using genetic techniques and direct observation
+- Beach litter sampling
+
+## Software and data
+
+### Phyto-MAP · Dataset
+
+*Phyto-MAP, a curated database of marine phytoplankton abundance records*
+
+Fernando Rayón-Viña, Zoe V. Finkel, and Andrew J. Irwin · 2026
+
+Relational database of marine phytoplankton abundance records,
+integrating observations from published literature, archives,
+and institutions into a common data model. Includes standardised
+abundances and sampling, geographic, and taxonomic metadata.
+Available in SQLite and CSV formats.
+
+[{{< ai zenodo >}} DOI](https://doi.org/10.5281/zenodo.23424052)
+
+### Phyto-MAP · Data-processing scripts
+
+*Phyto-MAP data-processing scripts*
+
+Fernando Rayón Viña · 2026
+
+Collection of scripts for source-specific data processing,
+taxonomic curation, and construction of the Phyto-MAP relational
+database, accompanied by workflow documentation. Documents
+the retained programmatic components rather than a complete
+pipeline for regenerating the database.
+
+[{{< fa brands github >}} Code](https://github.com/RayonVina/phytomap-scripts) · [{{< ai zenodo >}} DOI](https://doi.org/10.5281/zenodo.23351062)
+
+### phytaxr · R package
+
+*phytaxr: Phytoplankton Taxonomic Curation Tools*
+
+Fernando Rayón Viña · 2026
+
+Tools for cleaning, standardising, and resolving phytoplankton
+taxon names, with functionality for automated resolution
+and interactive review of approximate matches.
+
+[{{< fa brands github >}} Code](https://github.com/RayonVina/phytaxr) · [{{< ai zenodo >}} DOI](https://doi.org/10.5281/zenodo.21905974)
+
 
 ## Education
 
-- **PhD Cum Laude in Chemical, Environmental and Bio-alimentary Engineering**, University of Oviedo (Sept. 2016 – July 2019)
-  - Supervisors: [Eva García Vázquez {{< ai orcid >}}](https://orcid.org/0000-0002-8429-838X) and [Eduardo Dopico Rodríguez {{< ai orcid >}}](https://orcid.org/0000-0001-6777-5407)
-  - Thesis: "Analysis and evaluation of the origin, sociocultural components and biological risks of marine litter in the Asturian coast."
-  - Focused on:
-    - Integrated Coastal Zone Management
-    - Marine litter threat assessment
-    - Invasive species monitoring and management
-    - Social implications of coastal biological impacts  
+### PhD · University of Oviedo
 
-- **Master‘s Degree in Marine Conservation**, University of Oviedo (2016)
-  - Focused on:
-    - Integrated Coastal Zone Management (ICZM)
-    - Marine protected areas (MPAs)
-    - Aquaculture
-    - Invasive species
-    - Global change
-    - Evaluation of Impacts
-    - Geographic Information Systems and Remote Sensing
-  - Thesis: "Social perception of biotic and abiotic marine pollution in the Cantabrian coast. A socioenvironmental approach"  
+2016–2019 · Cum laude and International Doctorate distinction
 
-- **Bachelor‘s Degree in Biology**, University of Oviedo (2015)
-  - Thesis: "Diversity and function of insectivorous birds in cider apple crop"
-  - Results presented at the 9th National Congress of Applied Entomology: "Control biológico de carpocapsa y riqueza de aves en pomaradas asturianas"
+Doctoral Programme in Chemical, Environmental and
+Biofood Engineering.
 
-## International Research and Studies
+Thesis: “Analysis and evaluation of the origin, sociocultural
+components, and biological risks of marine litter on the
+Asturian coast”.
 
-- **Doctoral international internship**, University of Klaipeda, Lithuania (April – June 2018)
-  - Supervisor: [Marija Katarzyte {{< ai orcid >}}](https://orcid.org/0000-0001-7751-3187)
-  - Focused on:
-    - Acquisition of new competences
-    - Baltic – Atlantic coastal litter comparison
-    - Learning coastal litter sampling protocols
-    - Monitoring of IAS on maritime and fluvial areas
+### Master's Degree in Marine Conservation
 
-## Publications
+University of Oviedo · 2015–2016
 
-You will find a complete list in my [publications](../about/publications.html) section.
+### Bachelor's Degree in Biology
+
+University of Oviedo · 2009–2015
+
+### International doctoral research stay
+
+Marine Research Institute · Klaipėda University, Lithuania  
+March–June 2018
+
+Research on coastal litter and associated organisms,
+with a comparative perspective across the Baltic
+and Atlantic regions.
 
 ## Skills
 
-### Computational
-- **Languages**: R, Python
-- **Frameworks & Libraries**: Tidyverse
-- **Database Management**: postgreSQL, mariaDB, SQLite
-- **Version Control**: Git (Github, Gitlab)
-
-### Design
-- **Document Formatting**: LaTeX, Markdown
-- **Web Development**: HTML, CSS
-- **Scripting**: Bash, Powershell
-
-### Other
-- **Operating Systems**: Unix
-- **Geographical Information Systems (GIS)**
-
+- Analysis and programming: R, tidyverse, Python, and SQL.
+- Databases: PostgreSQL and SQLite; scientific data design,
+  integration, and management.
+- Methods: time-series analysis, wavelets, data visualisation,
+  and mapping with QGIS.
+- Reproducibility tools: Git, GitHub, GitLab,
+  Quarto/R Markdown, and Shiny.
+- Computing environments: Linux and Bash.
 
 ### Languages
-- **Spanish**: native
-- **English**: advanced (C1)
-- **Portuguese**: basic (B1)
 
-## Courses
+- Spanish: native.
+- English: C1; TOEFL iBT 110/120, May 2026.
+- Portuguese: B1.
 
-- **Introduction to Python for scientifics.** IDAEA - CSIC. (30h, Nov. 2023)
-- **Control de versiones con git y Github.** CSIC Online. (25h, Oct. 2023)
-- [**Specialization programme PostgreSQL or Everybody**](https://coursera.org/verify/specialization/8K49JLXK424D), Coursera (Nov. 2022)
-  - Database Design and Basic SQL in PostgreSQL
-  - Intermediate PostgreSQL
-  - JSON and Natural Language Processing in PostgreSQL
-  - Database Architecture, Scale, and NoSQL with Elasticsearch
-- **Introduction to systems Linux and bash programming**, IIM-CSIC (60h, Nov. 2022)
-- **Data analysis with the tidyverse**, Physalia Courses (20h, Jul. 2022)
-- **Environmental Management course**, Cantabrian Technological Institute (500h, Apr. – Oct. 2020)
-- **Linux Course**, Dicampus (40h, May. 2020)
-- **Introduction to Git**, DataCamp (6h, May. 2020)
-- **Building Web Applications with Shiny in R**, DataCamp (4h, May. 2020)
-- **Data Science: R Basics**, HarvardX (20h, Feb. 2020)
-- **Introduction to Data Science: Statistical Programming with R**, UNAM – Coursera (47h, Dec. 2019)
-- **Introduction to R**, DataCamp (4h, Jun. 2018)
-- **Coastal Ecology, Monitoring & Assessment**, Klaipeda University (60h, May. 2018)
-- **Writing of Scientific Articles**, University of Oviedo (20h, May. 2017)
-- **Management and processing of data for research: Statistical Analysis with R Software**, University of Oviedo (20h, Feb. 2017)
-- **Management and processing of data for research: Introduction to qualitative analysis**, University of Oviedo (20h, Feb. 2017)
-- **System Approach Framework (SAF) for coastal research and management: From theory to practice**, University of Klaipeda (170h, Aug. 2016)
-- **R programming language initiation: A professional approach**, University of Oviedo (45h, Jun. 2016)
+## Teaching and science outreach
+
+- Teaching at the IMBRSea Joint Summer School, Tjärnö, Sweden
+  (2019): supervision and mentoring of student research projects.
+- Contribution to the design and evaluation of the educational
+  board game Sustainable Sea / Mar Sostenible.
+- Science outreach through IEO-CSIC activities and collaborations
+  with organisations such as ONCE and DOWN Vigo.
+
+## Publications
+
+My scientific output includes journal articles, book chapters,
+and technical reports on plankton ecology, marine litter,
+and conservation.
+
+[View publications](publications.qmd){.btn .btn-primary}
+
+## Selected additional training
+
+- Beyond Beginner R: Advancing Your Coding Skills.
+  Physalia Courses · 24 h · 2026.
+- Handling Missing Data in R.
+  Physalia Courses · 15 h · 2026.
+- Introduction to Python for Scientists.
+  CSIC · 30 h · 2023.
+- Version Control with Git and GitHub.
+  CSIC · 25 h · 2023.
+- PostgreSQL for Everybody.
+  University of Michigan / Coursera · 60 h · 2022.

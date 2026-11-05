@@ -2,8 +2,10 @@
 # Índice de «Sobre mí»
 
 title: "Sobre mí"
-# subtitle: Posdoctoral y científico de datos en el <br> Marine Microbial Macroecology Lab <br>(Dalhousie University)
+
 image: ../assets/images/profile.png
+image-alt: "Retrato de Fernando Rayón Viña"
+
 about:
   template: trestles
   image-width: 14em
@@ -11,19 +13,19 @@ about:
   id: hero-heading
   links:
     - text: "{{< fa brands github >}}"
-      aria-label: Mi perfil de GitHub 
+      aria-label: GitHub Personal
       href: https://github.com/RayonVina
     - text: "{{< fa brands git-alt >}}"
-      aria-label: Repositorio profesional 
+      aria-label: GitHub del laboratorio 
       href: https://github.com/Marine-microbial-macroecology
     - icon: globe
       aria-label: Web del grupo
       href: https://mmab.ca/
     - text: "{{< ai orcid >}}"
-      aria-label: Orcid
+      aria-label: ORCID
       href: https://orcid.org/0000-0002-1622-2180/
     - text: "{{< ai google-scholar >}}"
-      aria-label: Google scholar
+      aria-label: Google Scholar
       href: https://scholar.google.com/citations?user=CTlje38AAAAJ&hl=es/
     - text: "{{< fa brands square-twitter >}}"
       aria-label: Twitter
@@ -42,28 +44,35 @@ format:
 ::: {#hero-heading}
 # ¡Hola!
 
-Soy científico de datos posdoctoral en el Marine Microbial Macroecology Lab ([MMAB](https://mmab.ca/)) de la Universidad de Dalhousie.
+Soy biólogo e investigador asociado en el Marine Microbial Macroecology Lab ([MMAB](https://mmab.ca/)) de Dalhousie University, en Canadá. Mi trabajo se sitúa en la intersección entre la ecología del plancton y la ciencia de datos.
 
-Actualmente me dedico a reunir conjuntos de datos históricos de plancton procedentes de fuentes abiertas de todo el mundo para construir una base de datos unificada que permita mejorar la modelización ecológica. Gracias a herramientas avanzadas de R y a SQLite, integro de forma eficiente conjuntos de datos grandes y heterogéneos, garantizando una estructura y una calidad homogéneas para su posterior análisis.
+Actualmente contribuyo a Phyto-MAP, un atlas global de observaciones de fitoplancton. Trabajo con conjuntos de datos históricos de distintas fuentes para hacerlos comparables y facilitar su uso en investigación: desde revisar los nombres de las especies y armonizar las variables hasta documentar cómo se han procesado los datos.
 
-Como parte de un equipo interdisciplinar, contribuyo a la síntesis y el análisis de datos ecológicos a gran escala para estudiar los efectos del cambio climático sobre los organismos marinos, en particular sobre el fitoplancton. Mi trabajo apoya el desarrollo de modelos predictivos que combinan información procedente de observaciones por satélite, estudios de campo, experimentos de laboratorio y el registro fósil.
+Como parte de un equipo interdisciplinar, contribuyo a la síntesis y el análisis de datos ecológicos a gran escala para estudiar los efectos del cambio climático sobre los organismos marinos, en particular el fitoplancton. Me interesa conectar observaciones recogidas en distintos lugares y momentos para comprender la variabilidad del plancton y los cambios en los ecosistemas marinos. Mi trabajo apoya el desarrollo de modelos predictivos que integran información procedente de observaciones por satélite, estudios de campo, experimentos de laboratorio y el registro fósil.
 
-No dudes en [ponerte en contacto conmigo](/contact.qmd) si tienes cualquier pregunta o sugerencia.
 :::
 
-## Sobre mí
-
+## Mi trayectoria
 ::: grid
 ::: {#about-me-1 .g-col-6}
-Soy biólogo y doctor en Ingeniería Ambiental. Mi trayectoria en las ciencias marinas comenzó tras completar un máster en Conservación Marina en 2015, cuando me empezó a interesar profundamente la intersección entre la ciencia de datos y la oceanografía.
+Mi formación en Biología y Conservación Marina me llevó a investigar los vínculos entre las actividades humanas y los ecosistemas costeros. Durante el máster y el doctorado en la Universidad de Oviedo estudié la basura marina desde una perspectiva socioambiental, combinando el análisis de sus riesgos biológicos con el estudio de la percepción y la participación ciudadanas.
 
-Durante mi etapa en el grupo VGOHAB me especialicé en la integración y el análisis de conjuntos de datos ecológicos complejos. Trabajé estrechamente con mis compañeros en el diseño de flujos de trabajo de datos eficientes —principalmente con R, tidyverse y PostgreSQL— para investigar la dinámica de las poblaciones y sus factores ambientales en los ecosistemas marinos.
+Esta etapa, que incluyó una estancia de investigación en la Universidad de Klaipėda, en Lituania, consolidó mi interés por abordar los problemas ambientales desde distintas disciplinas.
 :::
 
 ::: {#about-me-2 .g-col-6}
-Al principio de mi carrera, durante el máster y el doctorado, me centré en el problema de las basuras marinas en los entornos costeros. Mi investigación exploró los impactos de los residuos marinos y analizó cómo los conocimientos y las actitudes de la sociedad influyen en la manera de abordar la protección del medio ambiente.
+Más adelante, en el grupo de Microalgas Nocivas y Ecología del Plancton (VGOHAB) del Centro Oceanográfico de Vigo (IEO-CSIC), orienté mi trabajo hacia la gestión y el análisis de datos oceanográficos. Diseñé y administré VGOHAdB, una base de datos postgreSQL que integra observaciones de plancton y variables ambientales de la serie RADIALES-Vigo desde 1984.
 
-Mi objetivo era desentrañar los vínculos entre las actividades humanas y la salud de las costas, poniendo de relieve la necesidad de políticas y prácticas sostenibles. Este trabajo impulsó mi perspectiva interdisciplinar y consolidó mi interés por utilizar enfoques basados en datos para abordar problemas ambientales complejos.
+Allí profundicé en el análisis de series temporales y en el desarrollo de flujos de trabajo con R y PostgreSQL. Esa experiencia conecta con mi trabajo actual: transformar datos heterogéneos en información que pueda utilizarse para responder preguntas ecológicas.
+:::
+:::
+
+## Más allá de los datos
+
+También he participado en docencia y divulgación científica, desde la escuela de verano del máster internacional IMBRSea hasta actividades con asociaciones como ONCE y DOWN Vigo. Estas experiencias complementan mi trabajo investigador y mi interés por acercar la ciencia marina a públicos diversos.
+
+Si quieres hablar sobre investigación, datos marinos o posibles colaboraciones, puedes [ponerte en contacto conmigo](/contact.qmd).
+
 :::
 :::
 
