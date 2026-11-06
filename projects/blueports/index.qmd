@@ -1,6 +1,6 @@
 ---
 title: "Blueports"
-subtitle: "Atlantic Blue Port Services: descargar el agua contaminada en el puerto, no en el mar"
+subtitle: "Estrategias científicas y educativas para una actividad portuaria sostenible ante invasiones biológicas"
 date: 2017-01-01
 image: logo.jpg
 title-block-banner: featured.png
@@ -16,9 +16,9 @@ resources:
   - ../../assets/blog.css
 ---
 
-### Duración del proyecto
-Enero de 2017 - julio de 2019
+### Participación en el proyecto
 
+Enero de 2017 - julio de 2019
 
 # Sobre el proyecto:
 
@@ -28,20 +28,17 @@ Enero de 2017 - julio de 2019
 
 ![](puerto_gijon.png){fig-align="center"}
 
-
 # Mi papel en el proyecto
+Participé en el proyecto BluePorts como parte de mi tesis doctoral en el Departamento de Biología Funcional de la Universidad de Oviedo, dentro del [grupo ARENA](https://arena.grupos.uniovi.es/). Mi investigación se centró en la basura marina y sus riesgos biológicos, con especial atención a su papel como sustrato y posible vector de dispersión de especies no autóctonas.
 
-Participé en el proyecto BluePorts como parte del trabajo de mi tesis doctoral. Dentro del [grupo ARENA](https://arena.grupos.uniovi.es/), realizamos un estudio genético de la flora y la fauna costeras del puerto de Gijón y de las zonas costeras de su entorno. Nuestro objetivo era determinar la composición de estos ecosistemas e identificar la presencia de especies exóticas invasoras (EEI).  
-Algunos de los resultados de nuestro estudio se publicaron en los siguientes artículos:
+En este contexto, realizamos un estudio genético de la flora y la fauna costeras del puerto de Gijón y de las zonas de su entorno para caracterizar la composición de estos ecosistemas e identificar la presencia de especies exóticas invasoras (EEI).
 
-  - [Llamada de alerta en zonas portuarias: las basuras marinas como posible vector secundario de dispersión de especies invasoras «autoestopistas»](https://doi.org/10.1016/j.jnc.2018.01.005)
-  
-  - [Basuras marinas y participación ciudadana en la limpieza de playas: desentrañando la percepción y la concienciación de adultos y niños en el golfo de Bizkaia, España](https://doi.org/10.1016/j.marpolbul.2019.02.034)
-  
-  - [Los puertos marítimos y la gestión de las playas como fuentes de contaminación costera por macro-, meso- y microplásticos](https://doi.org/10.1007/s11356-021-12821-0)
+Mi contribución combinó la observación directa y las herramientas genéticas para identificar organismos asociados a residuos marinos y estudiar los vínculos entre el puerto y los ecosistemas costeros cercanos.
 
-  - [Concienciación ciudadana sobre las basuras en las playas y las invasiones de especies exóticas: implicaciones para la detección temprana y la gestión](https://doi.org/10.1016/j.ocecoaman.2022.106040)
+## Publicaciones relacionadas
+Los siguientes artículos recogen resultados relacionados con esta línea de investigación. Su inclusión aquí no implica que todos se financiaran exclusivamente con el proyecto BluePorts.
 
-  - [El ADN ambiental de las basuras marinas plásticas y textiles detecta especies exóticas y molestas en las proximidades de los puertos](https://doi.org/10.1371/journal.pone.0228811)
-  - [Los restos flotantes, un vector olvidado de dispersión de especies exóticas desde los puertos](https://doi.org/10.1016/j.ecss.2022.107879)
-  
+- [Alert calling in port areas: Marine litter as possible secondary dispersal vector for hitchhiking invasive species](https://doi.org/10.1016/j.jnc.2018.01.005)
+- [Environmental DNA from plastic and textile marine litter detects exotic and nuisance species nearby ports](https://doi.org/10.1371/journal.pone.0228811)
+- [Public awareness of beach litter and alien invasions: Implications for early detection and management](https://doi.org/10.1016/j.ocecoaman.2022.106040)
+- [Flotsam, an overlooked vector of alien dispersal from ports](https://doi.org/10.1016/j.ecss.2022.107879)

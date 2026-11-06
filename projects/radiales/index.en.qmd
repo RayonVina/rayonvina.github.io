@@ -17,7 +17,7 @@ resources:
 
 ---
 
-### Project Tenure
+### Project Participation
 
 April 2020 - April 2025
 
@@ -34,3 +34,25 @@ Due to the nature of the project, each oceanographic center generates an enormou
 ![Structure of the VGOHAdB database](diagram.png){fig-align="center" width="400"}
 
 My primary responsibilities within this project are to design, create, and maintain the database, primarily integrating data from the RADIALES Vigo program. To this end, a workflow has been developed to facilitate optimal data collection for subsequent analysis, homogenization, and population of the database. The database is a relational database in PostgreSQL, with a data structure separated by origins and data types, related by unique identifiers for the operations performed.
+
+
+## From Observations to Analysis
+The integration of time series allows us to study not only the differences between survey campaigns but also the seasonal and interannual changes in plankton communities and their relationship to environmental conditions.
+
+My work with VGOHAdB facilitated the organization and joint analysis of plankton observations and oceanographic variables. Building on this foundation, I participated in time-series analysis, data visualization, and the preparation of scientific and technical results.
+
+## Related Results
+### Zooplankton Dynamics
+
+Contribution to the chapter on zooplankton dynamics in the Vigo estuary and the adjacent shelf, which compiles time series and examines their relationship with environmental variability.
+
+[{{< ai doi >}} Zooplankton dynamics at the northern boundary of the Canary Current Upwelling System (NW Iberian Peninsula). Prospects from updated time series in the ‘Ría de Vigo’ and adjacent shelf](https://doi.org/10.1201/9781032662275-6)
+
+### Assessment of Pelagic Habitats
+
+Participation in the assessment of pelagic habitats in the North Atlantic Marine Demarcation, as part of the third cycle of Marine Strategies.
+
+Isla, A., Rayón Viña, F. y Velasco-Senovilla, E. (2025).
+*Evaluación del medio marino. Demarcación marina noratlántica.
+Tercer ciclo de estrategias marinas. Descriptor 1 – Hábitats pelágicos*.
+MITECO. NIPO: 665-25-050-2. [In Spanish]

@@ -16,7 +16,7 @@ resources:
   - ../../assets/blog.css
 ---
 
-### Project Tenure
+### Project Participation
 
 April 2023 - April 2025
 
@@ -36,3 +36,18 @@ Work package 3 of the marine science program aims at adapting new analytical and
 
 [![](finisterrae.jpg){fig-alt="Finisterrae supercomputer"}<br>The Finisterrae supercomputer, where the database is hosted]{.aside}
 To this end, we are in the process of expanding, remodeling and migrating the database to the servers of the [Centro de Supercomputación de Galicia](https://www.cesga.es/en/home-2/), which improves its access and scalability, and improves the capacity of interaction with other databases of the project and other external ones.
+
+## My Contribution
+I participated in Activity A3.3, “Operational Plankton Ecology,” as a member of the Harmful Microalgae and Plankton Ecology (VGOHAB) group at the Vigo Oceanographic Center.
+
+My work focused on adapting and maintaining VGOHAdB to integrate plankton observations and environmental variables, facilitating their joint consultation and analysis.
+
+- Design and administration of the PostgreSQL database running on Linux
+- Development of protocols for data management, editing, and analysis using R
+- Development of Shiny applications for data querying and visualization
+- Implementation of statistical and time-series analyses
+
+## Connection to Long-Term Observations
+This work supported and contributed to the research on the RADIALES-Vigo oceanographic and plankton time series. The integration of historical data and new observations allows for the study of the variability of plankton communities and their relationship to environmental conditions.
+
+[Learn about my work with RADIALES](../radiales/index.qmd)

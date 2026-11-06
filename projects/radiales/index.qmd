@@ -17,7 +17,7 @@ resources:
 
 ---
 
-### Duración del proyecto
+### Participación en el proyecto
 
 Abril de 2020 - abril de 2025
 
@@ -34,3 +34,24 @@ Por la naturaleza del proyecto, cada centro oceanográfico genera cada año una 
 ![Estructura de la base de datos VGOHAdB](diagram.png){fig-align="center" width="400"}
 
 Mis principales responsabilidades en este proyecto son diseñar, crear y mantener la base de datos, integrando principalmente los datos del programa RADIALES Vigo. Para ello se ha desarrollado un flujo de trabajo que facilita una recogida óptima de los datos para su posterior análisis, homogeneización y carga en la base de datos. Se trata de una base de datos relacional en PostgreSQL, con una estructura de datos separada por orígenes y tipos de datos, relacionados mediante identificadores únicos de las operaciones realizadas.
+
+## De las observaciones al análisis
+La integración de las series históricas permite estudiar no solo las diferencias entre campañas, sino también los cambios estacionales e interanuales de las comunidades planctónicas y su relación con las condiciones ambientales.
+
+Mi trabajo con VGOHAdB facilitó la organización y consulta conjunta de observaciones de plancton y variables oceanográficas. Sobre esta base, participé en análisis de series temporales, visualización de datos y elaboración de resultados científicos y técnicos.
+
+## Resultados relacionados
+### Dinámica del zooplancton
+
+Participación en el capítulo sobre dinámica del zooplancton en la ría de Vigo y la plataforma adyacente, que reúne series temporales y examina su relación con la variabilidad ambiental.
+
+[{{< ai doi >}} Zooplankton dynamics at the northern boundary of the Canary Current Upwelling System (NW Iberian Peninsula). Prospects from updated time series in the ‘Ría de Vigo’ and adjacent shelf](https://doi.org/10.1201/9781032662275-6)
+
+### Evaluación de hábitats pelágicos
+
+Participación en la evaluación de los hábitats pelágicos de la Demarcación Marina Noratlántica, dentro del tercer ciclo de Estrategias Marinas.
+
+Isla, A., Rayón Viña, F. y Velasco-Senovilla, E. (2025).
+*Evaluación del medio marino. Demarcación marina noratlántica.
+Tercer ciclo de estrategias marinas. Descriptor 1 – Hábitats pelágicos*.
+MITECO. NIPO: 665-25-050-2.

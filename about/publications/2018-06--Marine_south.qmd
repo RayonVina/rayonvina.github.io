@@ -5,7 +5,7 @@ author:
     orcid: 0000-0002-1622-2180
   - name: Laura Miralles
     orcid: 0000-0002-7146-9776
-  - name: Marta Gómez Agengo
+  - name: Marta Gómez Agenjo
   - name: Eduardo Dopico
     orcid: 0000-0001-6777-5407
   - name: Eva García Vázquez

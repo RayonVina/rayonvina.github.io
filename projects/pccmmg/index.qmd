@@ -16,12 +16,11 @@ resources:
   - ../../assets/blog.css
 ---
 
-### Duración del proyecto
+### Participación en el proyecto
 
 Abril de 2023 - abril de 2025
 
 # Sobre el proyecto:
-
 ![](logo.png){fig-align="center"} El *Programa de Ciencias Mariñas de Galicia*, proyecto de investigación español financiado con [fondos europeos NextGenerationEU](https://next-generation-eu.europa.eu/index_es), forma parte del [proyecto ThinkInAzul](https://thinkinazul.es/). 
 
 [![](thinkinazul.png){fig-alt="Logotipo de ThinkInAzul"}<br>Logotipo de ThinkInAzul]{.aside}
@@ -30,9 +29,17 @@ Reconocida por su complejidad, la ciencia de la sostenibilidad requiere enfoques
 
 Ante el cambio global, es fundamental que la comunidad científica intensifique sus esfuerzos para comprender el estado del medio y de los recursos marinos, identificar las zonas vulnerables, predecir escenarios futuros —especialmente los relacionados con el cambio global— y desarrollar medidas que garanticen la explotación sostenible de las especies de interés comercial y de los ecosistemas marinos, la conservación de la biodiversidad, la protección de los ecosistemas vulnerables y la salud general del medio marino. La resiliencia del medio marino y de la sociedad, así como el bienestar y la salud de la población, dependen en gran medida de los avances en estos ámbitos. Este es el enfoque estratégico del Programa de Ciencias Mariñas de Galicia.
 
-# Mi papel en el proyecto
+## Mi contribución
+Participé en la Actuación A3.3, «Ecología Operacional de Plancton», desde el grupo de Microalgas Nocivas y Ecología del Plancton (VGOHAB) del Centro Oceanográfico de Vigo.
 
-El paquete de trabajo 3 del programa de ciencias marinas tiene como objetivo adaptar nuevas tecnologías analíticas y ópticas (entre otras) al estudio de las comunidades planctónicas, con el fin de analizar su estado como medida de la calidad ambiental. Para ello, nuestro grupo de trabajo realiza muestreos de plancton junto con otras variables oceánicas esenciales (EOV). También hemos incorporado nuevas tecnologías para la caracterización del plancton mediante análisis de imagen ([Cytosense](https://www.cytobuoy.com/products/cytosense-c/) y [Planktoscope](https://www.planktoscope.org/)). Mis tareas en este proyecto consisten en adaptar y actualizar la base de datos para albergar todos estos nuevos datos, junto con otros generados en el marco del *Programa de Ciencias Mariñas*, así como en analizarlos para informes técnicos y artículos científicos.
+Mi trabajo se centró en adaptar y mantener VGOHAdB para integrar observaciones de plancton y variables ambientales, facilitando su consulta y análisis conjunto.
 
-[![](finisterrae.jpg){fig-alt="Supercomputador Finisterrae"}<br>El supercomputador Finisterrae, donde se aloja la base de datos]{.aside}
-Con este fin, estamos ampliando, remodelando y migrando la base de datos a los servidores del [Centro de Supercomputación de Galicia](https://www.cesga.es/), lo que mejora su acceso y escalabilidad, así como su capacidad de interacción con otras bases de datos del proyecto y externas.
+- Diseño y administración de la base de datos PostgreSQL bajo Linux
+- Desarrollo de protocolos de gestión, edición y análisis con R
+- Desarrollo de aplicaciones Shiny para consultar y visualizar datos
+- Implementación de análisis estadísticos y de series temporales
+
+## Conexión con la observación a largo plazo
+Este trabajo se apoyó y contribuyó al trabajo en las series oceanográficas y de plancton de RADIALES-Vigo. La integración de datos históricos y nuevas observaciones permite estudiar la variabilidad de las comunidades planctónicas y su relación con las condiciones ambientales.
+
+[Conocer mi trabajo con RADIALES](../radiales/index.qmd)

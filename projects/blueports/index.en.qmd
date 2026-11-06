@@ -1,6 +1,6 @@
 ---
 title: "Blueports"
-subtitle: "Atlantic Blue Port Services - Discharge polluted water in port, not at sea"
+subtitle: "Scientific and Educational Strategies for Sustainable Port Operations in the Face of Biological Invasions"
 date: 2017-01-01
 image: logo.jpg
 title-block-banner: featured.png
@@ -16,9 +16,9 @@ resources:
   - ../../assets/blog.css
 ---
 
-### Project Tenure
-January 2017 - July 2019
+### Project Participation
 
+January 2017 - July 2019
 
 # About the Project:
 
@@ -28,20 +28,17 @@ January 2017 - July 2019
 
 ![](puerto_gijon.png){fig-align="center"}
 
+# My Role in the Project
+I participated in the BluePorts project as part of my doctoral dissertation in the Department of Functional Biology at the University of Oviedo, within the [ARENA group](https://arena.grupos.uniovi.es/). My research focused on marine debris and its biological risks, with special attention to its role as a substrate and potential vector for the dispersal of non-native species.
 
-# Role in Project
+In this context, we conducted a genetic study of the coastal flora and fauna of the Port of Gijón and its surrounding areas to characterize the composition of these ecosystems and identify the presence of invasive alien species (IAS).
 
-I was involved in this BluePorts project as part of my PhD thesis work. As part of the [ARENA group](https://arena.grupos.uniovi.es/), we conducted a genetic study of the coastal flora and fauna in the port of Gijón and its surrounding coastal areas. Our objective was to determine the composition of these ecosystems and identify the presence of invasive alien species (AIS).  
-Some of the findings from our study were published in the following articles:
+My contribution combined direct observation and genetic tools to identify organisms associated with marine debris and to study the links between the port and nearby coastal ecosystems.
 
-  - [Alert calling in port areas: Marine litter as possible secondary dispersal vector for hitchhiking invasive species](https://doi.org/10.1016/j.jnc.2018.01.005)
-  
-  - [Marine litter and public involvement in beach cleaning: Disentangling perception and awareness among adults and children, Bay of Biscay, Spain](https://doi.org/10.1016/j.marpolbul.2019.02.034)
-  
-  - [Maritime ports and beach management as sources of coastal macro-, meso-, and microplastic pollution](https://doi.org/10.1007/s11356-021-12821-0)
+## Related Publications
+The following articles present results related to this line of research. Their inclusion here does not imply that all were funded exclusively by the BluePorts project.
 
-  - [Public awareness of beach litter and alien invasions: Implications for early detection and management](https://doi.org/10.1016/j.ocecoaman.2022.106040)
-
-  - [Environmental DNAfromplastic and textile marine litter detects exotic and nuisance species nearby ports](https://doi.org/10.1371/journal.pone.0228811)
-  - [Flotsam, an overlooked vector of alien dispersal from ports](https://doi.org/10.1016/j.ecss.2022.107879)
-  
+- [Alert calling in port areas: Marine litter as possible secondary dispersal vector for hitchhiking invasive species](https://doi.org/10.1016/j.jnc.2018.01.005)
+- [Environmental DNA from plastic and textile marine litter detects exotic and nuisance species nearby ports](https://doi.org/10.1371/journal.pone.0228811)
+- [Public awareness of beach litter and alien invasions: Implications for early detection and management](https://doi.org/10.1016/j.ocecoaman.2022.106040)
+- [Flotsam, an overlooked vector of alien dispersal from ports](https://doi.org/10.1016/j.ecss.2022.107879)
