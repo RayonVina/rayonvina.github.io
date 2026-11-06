@@ -1,72 +1,107 @@
 /*-- scss:defaults --*/
 
-// Variables de Flatly Bootswatch theme
-$primary:                 #2C3E50;
-$secondary:               #1A242F;
-$success:                 #5cb85c;
-$info:                    #5bc0de;
-$warning:                 #f0ad4e;
-$danger:                  #e74c3c;
-$light:                   #f7f7f7;
-$dark:                    $primary;
-$white:                   #ffffff;
-$body-bg:                 #e9ecf2;
-$body-color:              $dark;
+// ============================================================
+// Paleta base: petróleo y gris
+// ============================================================
 
-// Custom variables
-$primary-dark:            darken($primary, 10%);
-$secondary-light:         lighten($secondary, 10%);
-$accent:                  $secondary;
-$accent-light:            lighten($accent, 10%);
-$accent-dark:             darken($accent, 10%);
+$frv-background:          #F5F7F8;
+$frv-surface:             #FFFFFF;
+$frv-text:                #24313A;
+$frv-accent:              #285A66;
 
-// Fonts
+// Variantes derivadas, no colores base adicionales.
+$frv-border:              rgba($frv-text, 0.18);
+$frv-soft-background:     mix($frv-surface, $frv-accent, 94%);
 
-$font-family-sans-serif:  "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+// ============================================================
+// Colores generales
+// ============================================================
+
+$primary:                 $frv-accent;
+$secondary:               $frv-text;
+
+$light:                   $frv-background;
+$dark:                    $frv-text;
+$white:                   $frv-surface;
+
+$body-bg:                 $frv-background;
+$body-color:              $frv-text;
+
+// Mantener compatibilidad con las reglas existentes del tema.
+$primary-dark:            $frv-text;
+$secondary-light:         $frv-accent;
+$accent:                  $frv-accent;
+$accent-light:            $frv-soft-background;
+$accent-dark:             $frv-text;
+
+// Colores funcionales: reservados para mensajes de estado.
+// No forman parte de la paleta habitual de la página.
+$success:                 #5CB85C;
+$info:                    $frv-accent;
+$warning:                 #F0AD4E;
+$danger:                  #E74C3C;
+
+// ============================================================
+// Tipografía: sin cambios
+// ============================================================
+
+$font-family-sans-serif:  "Lato", -apple-system, BlinkMacSystemFont,
+                          "Segoe UI", Roboto, "Helvetica Neue",
+                          Arial, sans-serif, "Apple Color Emoji",
+                          "Segoe UI Emoji", "Segoe UI Symbol";
+
 $headings-font-family:    "Lato";
 $headings-font-weight:    700;
 
-$font-family-monospace:   SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-family-monospace:   SFMono-Regular, Menlo, Monaco, Consolas,
+                          "Liberation Mono", "Courier New", monospace;
 
-// Links
+// ============================================================
+// Enlaces
+// ============================================================
 
-$link-color:              $secondary;
+$link-color:              $frv-accent;
 $link-decoration:         underline;
-$link-hover-color:        $secondary-light;
-$link-hover-decoration:   none;
+$link-hover-color:        $frv-text;
+$link-hover-decoration:   underline;
 
-// Tables
+// ============================================================
+// Tablas
+// ============================================================
 
-$table-border-color:           $primary;
-$table-caption-color:          $primary;
+$table-border-color:                  $frv-border;
+$table-group-separator-color:         rgba($frv-text, 0.28);
+$table-group-separator-color-lighter: rgba($frv-text, 0.12);
+$table-caption-color:                 $frv-text;
 
-// Code blocks
-$code-block-bg:                $white;
-$code-block-border:            #ebebeb;
+// ============================================================
+// Código
+// ============================================================
 
-// Inline code
-$code-color:                   #243447;
-$code-bg:                      #f5f7fa;
+// Bloques de código.
+$code-block-bg:           $frv-surface;
+$code-block-border:       $frv-border;
 
-// Table of contents
-$toc-color:                    $link-color;
-$toc-active-border:            $toc-color;
-$toc-inactive-border:          lighten($toc-color, 50%);
+// Código en línea.
+$code-color:              $frv-text;
+$code-bg:                 $frv-soft-background;
 
-// Navbar icons
-$navbar-fg:                    $light;
+// ============================================================
+// Índice, navegación y pie
+// ============================================================
 
-// Footer text
-$footer-fg:                    $primary;
+$toc-color:               $frv-text;
+$toc-active-border:       $frv-accent;
+$toc-inactive-border:     $frv-border;
 
-// table variable overrides
-$table-group-separator-color:  lighten($primary, 25%);
-$table-group-separator-color-lighter: lighten($primary, 50%);
+$navbar-bg:               $frv-accent;
+$navbar-fg:               $frv-surface;
 
-// Miscellaneous (workarounds)
-$gray-200:                    lighten($primary, 60%);
+$footer-bg:               $frv-background;
+$footer-fg:               $frv-text;
 
-
+// Gris auxiliar para componentes de Bootstrap.
+$gray-200:                mix($frv-surface, $frv-text, 90%);
 /*-- scss:rules --*/
 
 // Code
@@ -83,14 +118,16 @@ li code:not(pre code),
 td code:not(pre code) {
   color: $code-color;
   background-color: $code-bg;
-  border: 1px solid #cbd5e1;
+  border: 1px solid $frv-border;
   border-radius: 0.25rem;
   padding: 0.1em 0.3em;
 }
 
 // Blockquotes
 .blockquote {
-  color: lighten($primary, 15%);
+  color: $frv-text;
+  border-left: 3px solid $frv-accent;
+  padding-left: 1rem;
   font-style: oblique;
 }
 
@@ -241,7 +278,7 @@ td code:not(pre code) {
   background-size: cover; 
   background-position: center;
   color: white; 
-  box-shadow: inset 0 0 0 1000px rgba(0,38,66,0.75);
+  box-shadow: inset 0 0 0 1000px rgba($frv-text, 0.75);
 }
 
 // make nav bar be centered in mobile
@@ -459,4 +496,54 @@ footer.footer .nav-footer-center i {
     justify-content: center;
     flex-wrap: wrap;
   }
+}
+
+// ============================================================
+// Ajustes finales: petróleo y gris
+// ============================================================
+
+// Títulos e iconos del pie en grafito.
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $frv-text;
+}
+
+footer.footer .nav-footer-center i {
+  color: $frv-text !important;
+}
+
+footer.footer .nav-footer-center a:hover i {
+  color: $frv-accent !important;
+}
+
+// Botón principal: petróleo y texto blanco.
+.btn-primary {
+  color: $frv-surface;
+  background-color: $frv-accent;
+  border-color: $frv-accent;
+}
+
+.btn-primary:hover,
+.btn-primary:focus-visible {
+  color: $frv-surface;
+  background-color: $frv-text;
+  border-color: $frv-text;
+}
+
+// Botones secundarios: discretos, sin un nuevo color.
+.btn-secondary {
+  color: $frv-text;
+  background-color: transparent;
+  border-color: $frv-border;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus-visible {
+  color: $frv-text;
+  background-color: $frv-soft-background;
+  border-color: $frv-text;
 }

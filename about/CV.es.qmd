@@ -1,0 +1,275 @@
+---
+lang: es
+format:
+  pdf:
+    pdf-engine: xelatex
+    documentclass: article
+    classoption: [10pt]
+    number-sections: false
+    toc: false
+    keep-tex: false
+    include-in-header:
+      text: |
+        \usepackage{fontspec}
+        \setmainfont{Carlito}
+        \usepackage[a4paper,top=2.3cm,bottom=2cm,left=1.9cm,right=1.9cm,headsep=0.6cm]{geometry}
+        \usepackage{xcolor}
+        \definecolor{berlin}{HTML}{2A6099}
+        \definecolor{berlindark}{HTML}{1F4E79}
+        \definecolor{datecol}{HTML}{333333}
+        \usepackage{tabularx,array}
+        \usepackage{enumitem}
+        \setlist[itemize]{nosep,leftmargin=1.2em,label=\textcolor{berlin}{\small$\bullet$},topsep=1pt}
+        \usepackage{fancyhdr}
+        \usepackage{lastpage}
+        \usepackage[hidelinks]{hyperref}
+        \hypersetup{colorlinks=true,urlcolor=berlindark,linkcolor=berlindark,pdftitle={Curriculum vitae - Fernando Rayón Viña},pdfauthor={Fernando Rayón Viña}}
+        \usepackage{titlesec}
+        \newcommand{\secbar}[1]{\colorbox{berlin}{\parbox{\dimexpr\linewidth-2\fboxsep}{\strut\hspace{2mm}#1}}}
+        \titleformat{\section}{\normalfont\large\bfseries\color{white}}{}{0pt}{\secbar}
+        \titlespacing*{\section}{0pt}{10pt}{6pt}
+        \setcounter{secnumdepth}{0}
+        \pagestyle{fancy}
+        \fancyhf{}
+        \renewcommand{\headrulewidth}{0pt}
+        \fancyhead[L]{\color{berlin}\Large\itshape Fernando Rayón Viña}
+        \fancyhead[R]{\color{berlin}\Large\itshape Curriculum vitae}
+        \fancyfoot[C]{\small\color{gray}\thepage\,/\,\pageref*{LastPage}}
+        \setlength{\parindent}{0pt}
+        \setlength{\parskip}{0pt}
+        \linespread{1.04}
+        \newcolumntype{D}{>{\raggedright\arraybackslash\small\leavevmode\color{datecol}}p{2.35cm}}
+        \newcommand{\cventry}[2]{\par\noindent\begin{tabularx}{\linewidth}{@{}D@{\hspace{3mm}}>{\raggedright\arraybackslash}X@{}}#1 & #2\end{tabularx}\par\vspace{4pt}}
+        \newcommand{\cvhours}[3]{\par\noindent\begin{tabularx}{\linewidth}{@{}D@{\hspace{3mm}}>{\raggedright\arraybackslash}X@{\hspace{3mm}}>{\raggedleft\arraybackslash\small}p{1.15cm}@{}}#1 & #2 & #3\end{tabularx}\par\vspace{2.5pt}}
+        \newcommand{\cvinfo}[4]{\par\noindent\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash\bfseries\leavevmode\color{berlindark}}p{2.35cm}@{\hspace{3mm}}>{\raggedright\arraybackslash}X@{\hspace{3mm}}>{\raggedright\arraybackslash\bfseries\leavevmode\color{berlindark}}p{2.3cm}@{\hspace{2mm}}>{\raggedright\arraybackslash}X@{}}#1 & #2 & #3 & #4\end{tabularx}\par\vspace{2pt}}
+---
+
+
+```{=latex}
+\thispagestyle{fancy}
+```
+
+# Datos personales
+
+```{=latex}
+\cvinfo{Nombre}{Fernando Rayón Viña}{ORCID}{\href{https://orcid.org/0000-0002-1622-2180}{0000-0002-1622-2180}}
+\cvinfo{Nacimiento}{13/07/1989}{Scopus ID}{\href{https://www.scopus.com/authid/detail.uri?authorId=57200555524}{57200555524}}
+\cvinfo{Nacionalidad}{Española}{Web}{\href{https://rayonvina.rbind.io}{rayonvina.rbind.io}}
+\cvinfo{Email}{rayonvina@proton.me\newline rayonvina@dal.ca}{Puesto actual}{Research Associate (postdoctoral), Dalhousie University (Halifax, Canadá)}
+```
+
+# Experiencia profesional e investigadora
+```{=latex}
+\cventry{jun. 2025 –\newline jun. 2027}{
+  \textbf{Research Associate (investigador postdoctoral)}\par
+  Marine Microbial Macroecology Lab, Dalhousie University (Halifax, Canadá).\par
+  \textbf{IP:} Dra. Zoe Finkel. \par
+  \textbf{Proyecto:} \textit{Phyto-MAP}, atlas global de observaciones de abundancia de fitoplancton.
+}
+
+\cventry{abr. 2021 –\newline abr. 2025}{
+  \textbf{Asistente de investigación}\par
+  Grupo de Microalgas Nocivas y Ecología del Plancton (VGOHAB),
+  Centro Oceanográfico de Vigo (IEO-CSIC)\par
+  \textbf{IP:} Dr. Enrique Nogueira García\par
+  \textbf{Proyectos:} VGOHAdB. Ecología Operacional de Plancton\par
+  \begin{itemize}
+    \item Diseño y administración de la base de datos postgreSQL VGOHAdB bajo Linux
+    \item Gestión y análisis de datos
+    \item Métodos y visualización
+  \end{itemize}
+}
+
+\cventry{2018 – 2019}{
+  \textbf{Colaborador de Honor}\par
+  Departamento de Biología Funcional,
+  \textbf{Universidad de Oviedo}\par
+  Nombramiento honorífico correspondiente al curso 2018–2019
+}
+
+\cventry{oct. 2017 –\newline ene. 2018}{
+  \textbf{Contratado de investigación. Personal técnico}\par
+  Departamento de Biología Funcional (Genética), Universidad de Oviedo\par
+  \textbf{IP:} Dra. Eva García Vázquez\par
+  \textbf{Proyecto:} BLUEPORTS,
+  \textit{Estrategias científicas y educativas para una actividad
+  portuaria sostenible ante invasiones biológicas}
+}
+
+\cventry{mar. 2017 –\newline sep. 2017}{
+  \textbf{Contratado de investigación}\par
+  Departamento de Biología Funcional (Genética), Universidad de Oviedo\par
+  \textbf{IP:} Dra. Eva García Vázquez\par
+  \textbf{Proyecto:} \textit{Recursos Naturales Marinos del Antropoceno}, Gobierno del Principado de Asturias
+}
+
+\cventry{sep. 2016 –\newline may. 2017}{
+  \textbf{Análisis de laboratorio. Contrato con empresa}.\par
+  Universidad de Oviedo para EDP España.\par
+  \textbf{Responsable:} Dr. Yaisel J. Borrell Pichs.\par
+  \textbf{Estudio:} \textit{Evaluación preliminar de la posible presencia del mejillón pigmeo marrón (Xenostrobus securis) en las instalaciones de la central de Aboño (EDP) mediante el uso de herramientas genéticas}.
+}
+```
+
+# Formación académica
+
+```{=latex}
+\cventry{2016 – 2019}{\textbf{Doctor por la Universidad de Oviedo -- Programa de Doctorado en Ingeniería Química, Ambiental y Bioalimentaria.} Mención \textbf{\textit{Cum Laude}} y \textbf{Doctorado Internacional}. Defensa: 5 de julio de 2019. Tesis: \textit{Análisis y evaluación del origen, componentes socioculturales y riesgos biológicos de la basura marina en el litoral asturiano}. Directores: Dra. Eva García Vázquez y Dr. Eduardo Dopico Rodríguez. \begin{itemize}\item Gestión integrada de zonas costeras; evaluación de la amenaza de la basura marina.\item Seguimiento y gestión de especies invasoras; implicaciones sociales de los impactos biológicos costeros.\end{itemize}}
+\cventry{2015 – 2016}{\textbf{Máster Universitario en Conservación Marina -- Universidad de Oviedo (impartido en inglés).} Trabajo Fin de Máster: \textit{Social perception of biotic and abiotic marine pollution in the Cantabrian coast. A socioenvironmental approach}. Prácticas externas (18 ECTS): Sobresaliente (9,3). Materias: gestión integrada de la zona costera, áreas marinas protegidas, acuicultura, invasiones biológicas, cambio global, evaluación de impactos, SIG y teledetección.}
+\cventry{2009 – 2015}{\textbf{Graduado en Biología — Universidad de Oviedo.} Trabajo Fin de Grado: \textit{Diversidad y función de aves insectívoras en cultivos de manzano de sidra} (dirs.: Dr. Daniel García García y Dr. Marcos Miñarro Prado, SERIDA).}
+```
+
+# Estancias de investigación
+
+```{=latex}
+\cventry{mar. 2018 –\newline jun. 2018}{\textbf{Estancia predoctoral internacional (Erasmus+ prácticas).} Marine Research Institute, Faculty of Marine Technologies and Natural Sciences, Klaipėda University (Lituania), 22/03/2018 – 30/06/2018. Supervisora: Dra. Marija Kataržytė. Comparación de basura costera Báltico–Atlántico, protocolos de muestreo y seguimiento de especies invasoras sobre basura marina. Financiación: programa Erasmus+ (Universidad de Oviedo, acuerdo bilateral nº 662).}
+```
+
+# Proyectos de investigación e innovación
+
+```{=latex}
+\cventry{2025 – 2027}{\textbf{Phyto-MAP / Simons Collaboration on Computational Biogeochemical Modeling of Marine Ecosystems (CBIOMES).} Simons Foundation. IP: Dra. Zoe Finkel (Dalhousie University). Participación: Research Associate.}
+\cventry{2023 – 2025}{\textbf{Actuación A3.3 «Ecología Operacional de Plancton» — Programa de Ciencias Mariñas de Galicia.} Plan Complementario de I+D+i (PRTR, NextGenerationEU) / Xunta de Galicia. IP: Dr. Enrique Nogueira García (IEO-CSIC). Participación: miembro del equipo de trabajo (Titulado Superior M3).}
+\cventry{2019 – 2022}{\textbf{GRC-VGOHAB — Grupo de Referencia Competitiva «Microalgas Nocivas y Ecología del Plancton».} Agencia Galega de Innovación (GAIN), Xunta de Galicia (280.000 €). IP: Dr. Enrique Nogueira García (IEO-CSIC). Participación: personal contratado (01/04/2021 – 30/11/2022).}
+\cventry{2017 – 2018}{\textbf{MINECO-17-CGL2016-79209-R — Estrategias científicas y educativas para una actividad portuaria sostenible ante invasiones biológicas (BLUEPORTS).} Ministerio de Economía y Competitividad. IP: Dra. Eva García Vázquez (Universidad de Oviedo). Participación: personal contratado.}
+\cventry{2017}{\textbf{FC-15-GRUPIN14-093 — Recursos Naturales Marinos del Antropoceno.} Gobierno del Principado de Asturias. IP: Dra. Eva García Vázquez (Universidad de Oviedo). Participación: personal contratado (proyecto que financió la tesis doctoral).}
+\cventry{2017 – 2018}{\textbf{PINN-17-A-054 — Juegos de estrategia como herramientas para la enseñanza universitaria del concepto de sostenibilidad en la explotación de recursos marinos.} Proyecto de Innovación Docente, Universidad de Oviedo. Coordinador: Dr. Yaisel J. Borrell Pichs. Participación: colaborador (6 participantes).}
+```
+# Preprints
+
+```{=latex}
+\cventry{2026}{\textbf{Rayón-Viña, F.}, Finkel, Z.V. \& Irwin, A.J. (2026). \textit{'PhyTaxR', a set of phytoplankton taxonomic curation tools in R}. bioRxiv. \href{https://doi.org/10.64898/2026.10.23.761320}{doi:10.64898/2026.10.23.761320}. Preprint no revisado por pares. Manuscrito enviado a PLOS ONE.}
+```
+# Software y datos
+
+```{=latex}
+\cventry{2026}{\textbf{Rayón-Viña, F.}, Finkel, Z.V. \& Irwin, A.J. (2026). \textit{Phyto-MAP, a curated database of marine phytoplankton abundance records} [Conjunto de datos]. Zenodo. Base de datos relacional de abundancia de fitoplancton marino, con observaciones armonizadas, metadatos y documentación de validación técnica. Disponible en SQLite y CSV. \href{https://doi.org/10.5281/zenodo.23424052}{doi:10.5281/zenodo.23424052}}
+
+\cventry{}{\textbf{Rayón Viña, F.} (2026). \textit{Phyto-MAP data-processing scripts} [Software]. Zenodo. Scripts para el procesamiento de datos de distintas fuentes, la curación taxonómica y la construcción de la base de datos relacional de Phyto-MAP, acompañados de documentación del flujo de trabajo. \href{https://doi.org/10.5281/zenodo.23351062}{doi:10.5281/zenodo.23351062}. \href{https://github.com/RayonVina/phytomap-scripts}{Código en GitHub}}
+
+\cventry{}{\textbf{Rayón Viña, F.} (2026). \textit{phytaxr: Phytoplankton Taxonomic Curation Tools} [Paquete de R]. Zenodo. Herramientas para la limpieza, estandarización y resolución de nombres taxonómicos de fitoplancton, con resolución automática y revisión interactiva de coincidencias aproximadas. \href{https://doi.org/10.5281/zenodo.21905974}{doi:10.5281/zenodo.21905974}. \href{https://github.com/RayonVina/phytaxr}{Código en GitHub}}
+```
+
+# Publicaciones
+
+```{=latex}
+\cventry{}{\textcolor{berlindark}{\textbf{Artículos académicos}}}
+\cventry{2022}{Fernandez, S., Ibabe, A., \textbf{Rayon-Viña, F.}, Ardura, A., Bartolomé, M., Borrell, Y.J., Dopico, E., Gonzalez, M., Miralles, L., Montes, H., Pérez, T., Rodriguez, N. \& Garcia-Vazquez, E. (2022). Flotsam, an overlooked vector of alien dispersal from ports. \textit{Estuarine, Coastal and Shelf Science}, 271, 107879. \href{https://doi.org/10.1016/j.ecss.2022.107879}{doi:10.1016/j.ecss.2022.107879}}
+\cventry{}{\textbf{Rayon-Viña, F.}, Fernandez-Rodriguez, S., Ibabe, A., Dopico, E. \& Garcia-Vazquez, E. (2022). Public awareness of beach litter and alien invasions: Implications for early detection and management. \textit{Ocean \& Coastal Management}, 219, 106040. \href{https://doi.org/10.1016/j.ocecoaman.2022.106040}{doi:10.1016/j.ocecoaman.2022.106040}}
+\cventry{2021}{Ramilo, I., Figueroa, R.I., \textbf{Rayón-Viña, F.}, Cuadrado, Á. \& Bravo, I. (2021). Temperature-dependent growth and sexuality of the ciguatoxin producer dinoflagellate \textit{Gambierdiscus} spp. in cultures established from the Canary Islands. \textit{Harmful Algae}, 110, 102130. \href{https://doi.org/10.1016/j.hal.2021.102130}{doi:10.1016/j.hal.2021.102130}}
+\cventry{}{Parrondo, M., \textbf{Rayon-Viña, F.}, Borrell, Y.J. \& Miralles, L. (2021). \textit{Sustainable Sea}: A board game for engaging students in sustainable fisheries management. \textit{Applied Environmental Education \& Communication}, 20(4), 406–421. \href{https://doi.org/10.1080/1533015X.2021.1930608}{doi:10.1080/1533015X.2021.1930608}}
+\cventry{}{Masiá, P., Ardura, A., Gaitán, M., Gerber, S., \textbf{Rayon-Viña, F.} \& Garcia-Vazquez, E. (2021). Maritime ports and beach management as sources of coastal macro-, meso-, and microplastic pollution. \textit{Environmental Science and Pollution Research}, 28(24), 30722–30731. \href{https://doi.org/10.1007/s11356-021-12821-0}{doi:10.1007/s11356-021-12821-0}}
+\cventry{2020}{Ibabe, A., \textbf{Rayón, F.}, Martinez, J.L. \& Garcia-Vazquez, E. (2020). Environmental DNA from plastic and textile marine litter detects exotic and nuisance species nearby ports. \textit{PLoS ONE}, 15(6), e0228811. \href{https://doi.org/10.1371/journal.pone.0228811}{doi:10.1371/journal.pone.0228811}}
+\cventry{2019}{\textbf{Rayon-Viña, F.}, Miralles, L., Fernandez-Rodríguez, S., Dopico, E. \& Garcia-Vazquez, E. (2019). Marine litter and public involvement in beach cleaning: Disentangling perception and awareness among adults and children, Bay of Biscay, Spain. \textit{Marine Pollution Bulletin}, 141, 112–118. \href{https://doi.org/10.1016/j.marpolbul.2019.02.034}{doi:10.1016/j.marpolbul.2019.02.034}}
+\cventry{2018}{\textbf{Rayon-Viña, F.}, Miralles, L., Gómez-Agenjo, M., Dopico, E. \& Garcia-Vazquez, E. (2018). Marine litter in south Bay of Biscay: Local differences in beach littering are associated with citizen perception and awareness. \textit{Marine Pollution Bulletin}, 131, 727–735. \href{https://doi.org/10.1016/j.marpolbul.2018.04.066}{doi:10.1016/j.marpolbul.2018.04.066}}
+\cventry{}{Miralles, L., Gomez-Agenjo, M., \textbf{Rayon-Viña, F.}, Gyraitė, G. \& Garcia-Vazquez, E. (2018). Alert calling in port areas: Marine litter as possible secondary dispersal vector for hitchhiking invasive species. \textit{Journal for Nature Conservation}, 42, 12–18. \href{https://doi.org/10.1016/j.jnc.2018.01.005}{doi:10.1016/j.jnc.2018.01.005}}
+\cventry{}{\textcolor{berlindark}{\textbf{Capítulos de libro}}}
+\cventry{2025}{Nogueira, E., Casas, G., \textbf{Rayón-Viña, F.}, Velasco-Senovilla, E. \& Miranda, A. (2025). Zooplankton dynamics at the northern boundary of the Canary Current Upwelling System (NW Iberian Peninsula). Prospects from updated time series in the ‘Ría de Vigo’ and adjacent shelf. En L.R. Vieira \& F. Morgado (eds.), \textit{Zooplankton Challenges in a Changing World. Vol. 1: A Worldwide Perspective and Research Approach} (pp. 79–106). CRC Press (Taylor \& Francis). ISBN 978-1-032-64976-4. \href{https://doi.org/10.1201/9781032662275-6}{doi:10.1201/9781032662275-6}}
+\cventry{}{\textcolor{berlindark}{\textbf{Informes técnicos y documentos científico-técnicos}}}
+\cventry{2025}{Isla, A., \textbf{Rayón Viña, F.} \& Velasco-Senovilla, E. (2025). \textit{Evaluación del medio marino. Demarcación marina noratlántica. Tercer ciclo de estrategias marinas. Descriptor 1 – Hábitats pelágicos}. Ministerio para la Transición Ecológica y el Reto Demográfico (MITECO), Madrid. NIPO: 665-25-050-2.}
+\cventry{2024}{MITECO (2024). \textit{Estrategias marinas. Demarcación marina noratlántica (tercer ciclo): Marco general} [documento sometido a información pública]. Coautor del apartado de hábitats pelágicos (equipo IEO-CSIC: E. Nogueira, R. González-Quirós, A. Isla, \textbf{F. Rayón Viña}, E. Velasco-Senovilla).}
+\cventry{2017}{Borrell Pichs, Y.J., \textbf{Rayón Viña, F.} \& García Vázquez, E. (2017). \textit{Evaluación preliminar de la posible presencia del mejillón pigmeo marrón (Xenostrobus securis) en las instalaciones de la central de Aboño (EDP) mediante el uso de herramientas genéticas}. Informe técnico para EDP España. Universidad de Oviedo, 10/05/2017.}
+\cventry{}{\textcolor{berlindark}{\textbf{Actas, libros de resúmenes y otras publicaciones}}}
+\cventry{2020}{Parrondo, M., \textbf{Rayón, F.}, Miralles, L., Rico, J.M., García-Vázquez, E. \& Borrell, Y.J. (2020). Gamificación en la enseñanza sobre sostenibilidad de los recursos pesqueros: el juego de estrategia «Mar sostenible». En M.A. Fueyo Gutiérrez (ed.), \textit{XI Jornadas de Innovación Docente 2018 – Libro de Actas} (pp. 420–424). Universidad de Oviedo. ISBN 978-84-17445-69-0.}
+\cventry{2018}{\textbf{Rayon-Viña, F.}, Miralles, L., Gómez-Agenjo, M., Dopico, E. \& García-Vázquez, E. (2018). The fight against beach litter: a matter of perception and awareness [O2-8]. En S. Jungblut \& V. Liebich (eds.), \textit{YOUMARES 9 – The Oceans: Our Research, Our Future. Book of Abstracts} (p. 85). Oldenburg.}
+\cventry{2016}{\textbf{Rayón Viña, F.} (2016). Marine debris, a socioenvironmental approach for new solutions. En E. Dopico \& Y.J. Borrell (eds.), \textit{ALERTOOLS Workshop: Science \& Educational Strategies for Early Detection of Bioinvaders} (p. 38). Ediciones de la Universidad de Oviedo. ISBN 978-84-16664-34-4.}
+\cventry{2015}{\textbf{Rayón Viña, F.} (2015). Diversidad y función de aves insectívoras en cultivos de manzano de sidra [resumen de TFG]. \textit{Tecnología Agroalimentaria} (SERIDA), 16. ISSN 1135-6030.}
+```
+
+# Contribuciones a congresos
+
+```{=latex}
+\cventry{2026}{Nogueira, E., \textbf{Rayón, F.}, Velasco-Senovilla, E., Maneiro, I., Otero, P., Alonso-Pérez, F. \& Cabrero, A. \textit{Warming-driven changes in zooplankton assemblages: case study from the Coastal Ocean Observing System Radial-Vigo}. \textbf{Póster}. Encuentro de Ciencias Marinas, 2026.}
+\cventry{2024}{\textbf{Rayón, F.} \textit{VGOHAdB – Base de datos de la Actuación «Ecología Operacional de Plancton»}. \textbf{Comunicación oral (relator)}. IV Asemblea Xeral do Programa de Ciencias Mariñas de Galicia. Santiago de Compostela, 22/05/2024.}
+\cventry{2023}{\textbf{Rayón, F.}, Velasco, E., Ramilo, I., Cabrero, A., Otero, P., Casas, G. \& Nogueira, E. \textit{VGOHAdb. Base de datos de la actuación 3.3 Ecología Operacional del Plancton}. \textbf{Póster}. III Asemblea Xeral do Programa de Ciencias Mariñas de Galicia. Santiago de Compostela, 27/10/2023.}
+\cventry{2019}{Borrell, Y.J., Parrondo, M., \textbf{Rayón Viña, F.} \& Miralles, L. \textit{Ciencia ciudadana y gamificación como estrategias educacionales alternativas para enseñar conservación marina en las universidades}. \textbf{Comunicación oral}. Congreso Internacional de Innovación Docente e Investigación en Educación Superior (CIDICO). Madrid, 20–22/11/2019.}
+\cventry{2019}{Parrondo, M., \textbf{Rayón-Viña, F.}, Miralles, L., Rico, J.M., García-Vázquez, E. \& Borrell, Y.J. \textit{Juegos de estrategia como herramientas para la enseñanza universitaria del concepto de sostenibilidad en la explotación de recursos marinos (PINN-17-A-054)}. \textbf{Póster}. XI Jornadas de Innovación en Docencia Universitaria, Universidad de Oviedo. Mieres, 16/01/2019.}
+\cventry{2018}{\textbf{Rayon-Viña, F.}, Miralles, L., Gómez-Agenjo, M., Dopico, E. \& García-Vázquez, E. \textit{The fight against beach litter: a matter of perception and awareness}. \textbf{Comunicación oral}. YOUMARES 9 – The Oceans: Our Research, Our Future. Oldenburg (Alemania), 11–14/09/2018.}
+\cventry{2016}{\textbf{Rayón Viña, F.} \textit{Marine debris, a socioenvironmental approach for new solutions}. \textbf{Comunicación oral}. 1st International ALERTOOLS Workshop: Science \& Educational Strategies for Early Detection of Bioinvaders. Avilés, 13–15/10/2016.}
+\cventry{2016}{\textbf{Rayón Viña, F.} \textit{La basura marina: el caballo de Troya del s. XXI}. \textbf{Póster}. 1st International ALERTOOLS Workshop. Avilés, 13–15/10/2016.}
+\cventry{2015}{García, D., Miñarro, M. \& \textbf{Rayón, F.} \textit{Control biológico de carpocapsa y riqueza de aves en pomaradas asturianas}. \textbf{Póster}. IX Congreso Nacional de Entomología Aplicada (SEEA). Valencia, 19–23/10/2015.}
+```
+
+# Experiencia docente
+
+```{=latex}
+\cventry{ago. 2019}{\textbf{Profesor en la IMBRSea Joint Summer School 2019.} International Master of Science in Marine Biological Resources (Erasmus Mundus). Tjärnö Marine Laboratory (Suecia), 13–23/08/2019. Profesor responsable de un grupo de estudiantes (seguimiento y tutela del trabajo de investigación). 80 h de docencia (escuela de 6 ECTS).}
+\cventry{sep. – dic. 2017}{\textbf{Profesor conferenciante.} \textit{Aula de Pensamiento Científico. Taller de Evolución: Naves, puertos y contactos}. Extensión Universitaria, Universidad de Oviedo (dir. Dr. Eduardo Dopico). 2 h.}
+\cventry{2017 – 2018}{\textbf{Innovación docente.} Diseño y evaluación del juego de estrategia \textit{Sustainable Sea / Mar Sostenible} en Grado en Biología, máster Erasmus Mundus en Recursos Biológicos Marinos, Aula de Pensamiento Científico y Educación Secundaria (proyecto PINN-17-A-054).}
+```
+
+# Divulgación científica
+
+```{=latex}
+\cventry{nov. 2024}{Divulgador científico en las actividades del proyecto CIMAR con la asociación DOWN Vigo (Vigo).}
+\cventry{sep. 2023}{Talleres del C.O. de Vigo (IEO-CSIC) en la Noche Gallega de las Personas Investigadoras (G-NIGHT, HORIZON-MSCA-2022-CITIZENS-01). Casa Galega da Cultura, Vigo, 29/09/2023.}
+\cventry{sep. 2022}{Talleres del C.O. de Vigo en la \textit{Galician Night of Researchers} (HORIZON-MSCA-2022-CITIZENS-01). Plaza del Berbés, Vigo, 30/09/2022.}
+\cventry{jun. 2022}{Talleres para el Día Mundial de los Océanos en la delegación de la ONCE de Vigo (personas con discapacidad visual), 08/06/2022.}
+\cventry{sep. 2021}{Talleres del C.O. de Vigo en G-NIGHT: Noite galega das persoas investigadoras (H2020-MSCA-NIGHT 101035979). Tinglado del Puerto de Vigo, 24/09/2021.}
+\cventry{sep. 2017}{Colaborador en la Noche Europea de los Investigadores, Universidad de Oviedo (UCC+i, MINECO-17-FCT-16-10670).}
+\cventry{ago. 2017}{Aula del Mar SM\&F (Salinas, Asturias), 3–6/08/2017: dos comunicaciones orales, póster sobre contaminación marina y voluntariado (32 h).}
+\cventry{ago. 2016}{Aula del Mar SM\&F (Salinas, Asturias), 4–7/08/2016: comunicación oral, póster sobre contaminación marina y voluntariado (40 h).}
+```
+
+# Propiedad intelectual
+
+```{=latex}
+\cventry{2018 – 2019}{\textbf{Juego educativo de mesa \textit{Sustainable Sea}.} Autores: Fernando Rayón Viña, Marina Parrondo Lombardía y Laura Miralles López. Registro de la Propiedad Intelectual del Principado de Asturias: solicitud nº 412 (26/10/2018); inscripción de derechos nº 05/2019/39 (Resolución de 14/01/2019).}
+```
+
+# Revisión de artículos
+
+```{=latex}
+\cventry{}{Marine Pollution Bulletin; Environmental Challenges; Regional Environmental Change; Environment, Development and Sustainability; Environmental Monitoring and Assessment.}
+```
+
+# Formación complementaria
+
+```{=latex}
+\cvhours{jun. 2026}{Beyond Beginner R: Advancing Your Coding Skills. Physalia Courses (online), 2 ECTS.}{24 h}
+\cvhours{abr. 2026}{Handling Missing Data in R. Physalia Courses (online), 1 ECTS.}{15 h}
+\cvhours{nov. 2024}{Trabajos de campo en el entorno marino: prevención y control en los centros del CSIC. CSIC (aula virtual).}{3 h}
+\cvhours{oct. 2024}{Prevención de riesgos laborales para personal del CSIC: calor extremo (2 h), seguridad vial e \textit{in itinere} (2 h) y teletrabajo (3 h). ASPY Prevención.}{7 h}
+\cvhours{abr. 2024}{Taller «Uso del FinisTerrae III» (supercomputación). CESGA (remoto).}{3 h}
+\cvhours{nov. 2023}{Introducción a Python para científicos. CSIC, Plan de Formación (presencial).}{30 h}
+\cvhours{sep. – oct. 2023}{Control de versiones con Git y GitHub. CSIC, Plan de Formación (online).}{25 h}
+\cvhours{oct. – nov. 2022}{Introducción a sistemas Linux y programación bash. CSIC, Plan de Formación (online).}{25 h}
+\cvhours{ene. – nov. 2022}{Especialización \textit{PostgreSQL for Everybody} (4 cursos: Database Design and Basic SQL; Intermediate PostgreSQL; JSON and Natural Language Processing; Database Architecture, Scale, and NoSQL with Elasticsearch). University of Michigan – Coursera. Verificación: coursera.org/verify/specialization/8K49JLXK424D.}{60 h}
+\cvhours{jul. 2022}{Data analysis with the tidyverse. Physalia Courses (online), 1 ECTS.}{20 h}
+\cvhours{abr. – oct. 2020}{Certificado de profesionalidad en Gestión Ambiental. Instituto Tecnológico del Cantábrico (Gijón).}{500 h}
+\cvhours{may. 2020}{Linux. Dicampus (teleformación; Plan Local de Formación del Ayuntamiento de Gijón).}{40 h}
+\cvhours{may. 2020}{Introduction to Git y Building Web Applications with Shiny in R. DataCamp (online).}{10 h}
+\cvhours{feb. 2020}{PH125.1x Data Science: R Basics. HarvardX – edX (certificado verificado).}{20 h}
+\cvhours{dic. 2019}{Introducción a Data Science: Programación Estadística con R. UNAM – Coursera.}{47 h}
+\cvhours{jun. 2018}{Introduction to R. DataCamp (online).}{4 h}
+\cvhours{may. 2018}{Coastal Ecology, Monitoring \& Assessment. Klaipėda University – Leibniz-Institut für Ostseeforschung. 6 ECTS; calificación 9/10.}{60 h}
+\cvhours{may. 2017}{Writing Scientific Articles. Programa de Formación Transversal de Doctorado, Universidad de Oviedo.}{20 h}
+\cvhours{feb. 2017}{Gestión y tratamiento de datos para la investigación: análisis estadísticos con R (Nivel I). Universidad de Oviedo.}{20 h}
+\cvhours{feb. 2017}{Gestión y tratamiento de datos para la investigación: introducción al análisis cualitativo (Nivel I). Universidad de Oviedo.}{20 h}
+\cvhours{2016 – 2017}{Control y Mejora de la Producción Primaria de Alimentos (asignatura del Máster en Biotecnología Alimentaria), Universidad de Oviedo. 3 ECTS; Notable (7,5).}{3 ECTS}
+\cvhours{oct. – dic. 2016}{Aula de Pensamiento Científico. Taller de Evolución: Recursos Naturales. Extensión Universitaria, Universidad de Oviedo.}{20 h}
+\cvhours{oct. – nov. 2016}{Aula de Paisaje Sonoro. Introducción a la Ecología Acústica (Gijón). Extensión Universitaria, Universidad de Oviedo.}{23 h}
+\cvhours{ago. 2016}{System Approach Framework (SAF) for coastal research and management: from theory to practice. Klaipėda University (proyecto BONUS BaltCoast). 6 ECTS.}{170 h}
+\cvhours{jul. 2016}{Iniciación a la programación con R. Un enfoque profesional. Cursos de Verano, Universidad de Oviedo.}{45 h}
+```
+
+# Otros méritos
+
+```{=latex}
+\cventry{jun. 2019}{Participante en la jornada «Basuras marinas en Asturias e implicación del sector pesquero» (WWF – Federación de Cofradías de Pescadores del Principado de Asturias, REDEPESCA). Gijón, 01/06/2019.}
+\cventry{ene. 2019}{Asistente a las XI Jornadas de Innovación en Docencia Universitaria. Universidad de Oviedo, Mieres (6 h).}
+```
+
+# Idiomas
+
+```{=latex}
+\cventry{Español}{Lengua materna.}
+\cventry{Inglés}{C1 (MCER). TOEFL iBT 110/120 (mayo 2026); Erasmus+ OLS C1 (2018); C.U.I.D.–UNED C1 (2015); London Tests of English Level 3 (Edexcel, 2005).}
+\cventry{Portugués}{B1 (MCER).}
+```
+
+# Herramientas y competencias
+
+```{=latex}
+\begin{itemize}\item Análisis de datos y estadística: R (tidyverse, Shiny, R Markdown/Quarto), Python (NumPy, pandas, matplotlib).\item Bases de datos: PostgreSQL (diseño, administración y mantenimiento), SQLite, SQL y DBeaver.\item Series temporales y análisis espectral (\textit{wavelets}); SIG (QGIS) y cartografía.\item Linux, Bash/zsh, computación de altas prestaciones (CESGA FinisTerrae III); Git, GitHub y GitLab.\item LaTeX, Markdown, HTML y CSS; LibreOffice / Microsoft Office.\item Técnicas moleculares (extracción de ADN, PCR, \textit{barcoding}, ADN ambiental); muestreo de basura marina; metodologías de ciencias sociales (cuestionarios).\end{itemize}
+```
