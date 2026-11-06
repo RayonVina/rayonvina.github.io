@@ -240,9 +240,9 @@ p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
 }
 
 // make nav bar be centered in mobile
-.fixed-top {
-  position: absolute;
-}
+// .fixed-top {
+//   position: absolute;
+// }
 
 .aa-DetachedOverlay {
   position: absolute;
@@ -294,30 +294,164 @@ p {
     justify-content: center !important;
   }
 
-  // navigation footer
-  .nav-footer {
-      flex-direction: row;
-    }
+  // // navigation footer
+  // .nav-footer {
+  //     flex-direction: row;
+  //   }
 
-  .nav-footer-center {
-    order: 1 !important;
-    flex-basis: 100%;
-    margin: 0 0 -1.2em 0;
-  }
+  // .nav-footer-center {
+  //   order: 1 !important;
+  //   flex-basis: 100%;
+  //   margin: 0 0 -1.2em 0;
+  // }
 
-  .nav-footer-right {
-    order: 2 !important;
-    flex-basis: 100%;
-    text-align: center;
-  }
+  // .nav-footer-right {
+  //   order: 2 !important;
+  //   flex-basis: 100%;
+  //   text-align: center;
+  // }
 
-  .nav-footer-left {
-    order: 3 !important;
-    flex-basis: 100%;
-    text-align: center;
-  }
+  // .nav-footer-left {
+  //   order: 3 !important;
+  //   flex-basis: 100%;
+  //   text-align: center;
+  // }
 
   .navbar .quarto-navbar-tools {
     text-align: left;
+  }
+}
+
+// Navegación y pie compartidos por los dos idiomas
+
+:root {
+  --frv-footer-height: 5rem;
+}
+
+// Reservar espacio para que el pie fijo no tape el contenido.
+body {
+  padding-bottom: var(--frv-footer-height) !important;
+}
+
+html {
+  scroll-padding-bottom: calc(var(--frv-footer-height) + 1rem);
+}
+
+// Pie fijo con fondo opaco.
+footer.footer {
+  position: fixed;
+  inset: auto 0 0 0;
+  z-index: 1020;
+  width: 100%;
+  background-color: $body-bg;
+  border-top: 1px solid rgba($primary, 0.15);
+}
+
+// Dos laterales iguales: el bloque central queda centrado en la ventana.
+footer.footer .nav-footer {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  grid-template-areas: "left center right";
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  max-width: none;
+  padding: 0.65rem 1rem;
+  padding-bottom: calc(0.65rem + env(safe-area-inset-bottom, 0px));
+  box-sizing: border-box;
+}
+
+footer.footer .nav-footer-left {
+  grid-area: left;
+  justify-self: start;
+  text-align: left;
+}
+
+footer.footer .nav-footer-center {
+  grid-area: center;
+  justify-self: center;
+  text-align: center;
+}
+
+footer.footer .nav-footer-right {
+  grid-area: right;
+  justify-self: end;
+  text-align: right;
+}
+
+// Anular tamaños, márgenes y órdenes heredados del pie.
+footer.footer .nav-footer-left,
+footer.footer .nav-footer-center,
+footer.footer .nav-footer-right {
+  min-width: 0;
+  margin: 0 !important;
+  order: initial !important;
+  flex-basis: auto !important;
+}
+
+footer.footer .nav-footer p {
+  margin: 0;
+}
+
+// Separación uniforme de los iconos centrales.
+footer.footer .nav-footer-center > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+footer.footer .nav-footer-center a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 !important;
+}
+
+footer.footer .nav-footer-center i {
+  font-size: 1rem;
+}
+
+// Icono ORCID de la barra superior.
+.navbar .frv-orcid-tool {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+  text-decoration: none;
+}
+
+.navbar .frv-orcid-tool i {
+  font-size: 1rem;
+}
+
+// En móvil: iconos, enlaces y copyright, en tres filas centradas.
+@media screen and (max-width: 767.98px) {
+  footer.footer .nav-footer {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      "center"
+      "right"
+      "left";
+    gap: 0.35rem;
+    padding-top: 0.45rem;
+    padding-bottom: calc(0.45rem + env(safe-area-inset-bottom, 0px));
+  }
+
+  footer.footer .nav-footer-left,
+  footer.footer .nav-footer-center,
+  footer.footer .nav-footer-right {
+    justify-self: center;
+    text-align: center;
+  }
+
+  footer.footer .nav-footer-left p {
+    text-align: center;
+  }
+
+  footer.footer .nav-footer-right .navbar-nav {
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }

@@ -54,8 +54,6 @@ website:
     tools:
       - icon: github
         href: https://github.com/RayonVina
-    # Los menús (navbar: right) y el pie de página (page-footer) se definen
-    # en los perfiles de idioma: _quarto-es.yml y _quarto-en.yml
 
 format:
   html:
@@ -64,4 +62,6 @@ format:
     code-link: true
     pagetitle: "{{< meta title >}} | Fernando Rayón Viña"
     # Selector de idioma ES/EN entre el icono de GitHub y la lupa
-    include-after-body: assets/language-switcher.html
+    include-after-body:
+    - assets/language-switcher.html
+    - assets/navigation-layout.html

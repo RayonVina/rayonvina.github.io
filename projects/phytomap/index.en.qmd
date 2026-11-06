@@ -1,6 +1,6 @@
 ---
-title: “Phyto-MAP · Marine Phytoplankton Atlas”
-subtitle: “Integration and harmonization of marine phytoplankton abundance observations on a global scale”
+title: "Phyto-MAP · Marine Phytoplankton Atlas"
+subtitle: "Integration and harmonization of marine phytoplankton abundance observations on a global scale "
 date: 2025-06-01
 image: logo.png
 title-block-banner: featured.jpg

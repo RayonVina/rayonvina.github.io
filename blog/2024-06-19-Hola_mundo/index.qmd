@@ -6,8 +6,7 @@ date: "2024/06/19"
 image: hola-mundo.png
 title-block-banner: featured.png
 categories:
-  - fuera de tema
-# Redirige la antigua URL de la versión española (index_es.html) a esta página
+  - Off topic
 aliases:
   - index_es.html
 header-includes: |
@@ -23,7 +22,7 @@ resources:
 #| results: markup
 #| attr.source: ".terminal-style"
 
-print("Hola mundo!")
+print("¡Hola mundo!")
 ```
 
 Pues como he puesto un poco más arriba esto es simplemente una primera entrada de bienvenida. He construido esta web utilizando [Posit (RStudio) Quarto](https://quarto.org/) (en R obviamente) casi a modo de experimento, utilizando únicamente Rstudio Desktop, tiempo y paciencia.  
