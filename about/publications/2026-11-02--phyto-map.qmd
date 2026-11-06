@@ -1,0 +1,87 @@
+---
+title: "Phyto-MAP: base de datos de abundancia de fitoplancton marino"
+author:
+  - name: Fernando Rayón-Viña
+    orcid: 0000-0002-1622-2180
+  - name: Zoe V. Finkel
+    orcid: https://orcid.org/0000-0003-4212-3917
+  - name: Andrew J. Irwin
+    orcid: https://orcid.org/0000-0001-7784-2319
+date: 2026-11-02
+categories:
+  - Conjunto de datos
+  - Fitoplancton
+  - Biodiversidad marina
+  - Biogeografía
+  - Datos oceanográficos
+description: "Zenodo · Conjunto de datos"
+subtitle: "Una base de datos relacional que integra y armoniza observaciones de abundancia de fitoplancton marino procedentes de múltiples fuentes."
+format:
+  html:
+    page-layout: full
+    toc: false
+---
+
+[{{< ai doi >}} DOI: 10.5281/zenodo.23424052](https://doi.org/10.5281/zenodo.23424052)
+
+[{{< ai zenodo >}} Acceder al conjunto de datos en Zenodo](https://doi.org/10.5281/zenodo.23424052){{< ai open-data >}}
+
+## Descripción
+
+Phyto-MAP integra registros de abundancia de fitoplancton marino
+procedentes de publicaciones, archivos e instituciones en un modelo
+de datos relacional común. Las abundancias se estandarizan a células
+por litro y se vinculan con los metadatos disponibles sobre las fuentes,
+el muestreo, la fecha, la localización, la profundidad, la taxonomía
+y los protocolos analíticos.
+
+La base de datos conserva las denominaciones taxonómicas comunicadas
+por las fuentes y los atributos asociados a su curación, junto con
+las clasificaciones taxonómicas utilizadas en cada entrega. Esta
+estructura facilita la consulta conjunta de observaciones heterogéneas
+sin perder la información necesaria para interpretar su procedencia
+y tratamiento.
+
+## Datos y documentación
+
+La distribución incluye:
+
+- La base de datos relacional en SQLite.
+- Exportaciones de las tablas en CSV y una exportación combinada
+  con una fila por registro de abundancia.
+- El esquema de la base de datos y el diccionario de variables.
+- La bibliografía de fuentes y un índice de procedencia.
+- Documentación y código de validación técnica.
+- Metadatos de citación, un manifiesto de la entrega y sumas
+  de comprobación SHA-256.
+
+## Consideraciones de uso
+
+Las diferencias entre fuentes en esfuerzo de muestreo, métodos
+analíticos, precisión temporal y espacial y resolución taxonómica
+deben tenerse en cuenta antes de combinar observaciones.
+
+Los ceros conservados representan la no detección de un taxón
+según el protocolo de la fuente, no necesariamente su ausencia
+ecológica. Del mismo modo, los registros ausentes no deben
+interpretarse automáticamente como abundancias nulas.
+
+La procedencia se documenta a nivel de fuente y subfuente;
+la base de datos no ofrece una correspondencia universal entre
+cada registro curado y una fila identificable de los datos originales.
+
+## Referencia
+
+Rayón-Viña, F., Finkel, Z. V., & Irwin, A. J. (2026).
+*Phyto-MAP, a curated database of marine phytoplankton abundance records*
+[Conjunto de datos]. Zenodo.
+
+Para utilizar los datos en investigación, cita la versión consultada
+y las fuentes originales que contribuyan a tu trabajo, según corresponda.
+
+## Recursos relacionados
+
+[{{< fa brands github >}} Scripts de procesamiento](https://github.com/RayonVina/phytomap-scripts) {{< ai open-materials >}} ·
+[{{< ai zenodo >}} Scripts archivados en Zenodo](https://doi.org/10.5281/zenodo.23351062) {{< ai open-materials >}}
+
+[{{< fa solid arrow-left >}} Volver a publicaciones](../publications.qmd)
