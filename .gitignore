@@ -7,3 +7,5 @@ publish.qmd
 /_site/
 *.TMP
 **/*.quarto_ipynb
+about/CV.es.qmd
+about/CV.en.qmd
