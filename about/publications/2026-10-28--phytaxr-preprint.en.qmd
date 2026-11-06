@@ -35,4 +35,4 @@ Taxonomic harmonisation is a persistent challenge for phytoplankton monitoring a
 [{{< fa brands github >}} PhyTaxR code](https://github.com/RayonVina/phytaxr) ·
 [{{< ai zenodo >}} Zenodo repository](https://doi.org/10.5281/zenodo.21905974)
 
-[{{< fa solid arrow-left >}} Back to Publications](../publications.en.qmd)
+[{{< fa solid arrow-left >}} Back to Publications](../publications.qmd)

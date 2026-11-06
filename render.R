@@ -13,9 +13,25 @@
 # Evita errores con nombres de archivo con caracteres no ASCII (alvariño.jpg)
 invisible(Sys.setlocale("LC_ALL", "C.UTF-8"))
 
-site_url   <- "https://rayonvina.rbind.io"
+site_url <- "https://rayonvina.rbind.io"
 output_dir <- "docs"
-languages  <- c("en")  # idiomas secundarios definidos en _quarto.yml
+languages <- c("en") # idiomas secundarios definidos en _quarto.yml
+
+# Generar los PDF desde el repositorio original antes de que
+# babelquarto prepare sus directorios temporales.
+message("Actualizando los PDF del currículum...")
+
+cv_status <- system2(
+  "Rscript",
+  args = "scripts/render-cv-pdf.R"
+)
+
+if (cv_status != 0L) {
+  stop(
+    "No se ha podido generar alguno de los PDF del CV. ",
+    "Se cancela el renderizado de la web."
+  )
+}
 
 babelquarto::render_website(
   project_path = ".",
@@ -26,7 +42,9 @@ babelquarto::render_website(
 fix_hreflang <- function(file) {
   lines <- readLines(file, encoding = "UTF-8", warn = FALSE)
   is_alt <- grepl('<link rel="alternate" hreflang=', lines, fixed = TRUE)
-  if (!any(is_alt)) return(invisible(FALSE))
+  if (!any(is_alt)) {
+    return(invisible(FALSE))
+  }
 
   for (i in which(is_alt)) {
     for (lang in languages) {
@@ -46,7 +64,11 @@ fix_hreflang <- function(file) {
   invisible(TRUE)
 }
 
-html_files <- list.files(output_dir, pattern = "\\.html$",
-                         recursive = TRUE, full.names = TRUE)
+html_files <- list.files(
+  output_dir,
+  pattern = "\\.html$",
+  recursive = TRUE,
+  full.names = TRUE
+)
 invisible(lapply(html_files, fix_hreflang))
 message("Web compilada en ", output_dir, "/ y enlaces hreflang corregidos.")

@@ -1,7 +1,16 @@
 project:
   type: website
   output-dir: docs
-  resources: /CNAME
+
+  render:
+    - "**/*.qmd"
+    - "!about/CV*.qmd"
+    - "!about/CV*.qmd"
+
+  resources:
+    - /CNAME
+    - about/CV.es.pdf
+    - about/CV.en.pdf
 
 # Perfil por defecto (español) para que `quarto preview` muestre menús y pie
 profile:
