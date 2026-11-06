@@ -38,7 +38,6 @@ $link-hover-decoration:   none;
 // Tables
 
 $table-border-color:           $primary;
-$table-group-separator-color:  lighten($primary, 40%);
 $table-caption-color:          $primary;
 
 // Code blocks
@@ -46,8 +45,8 @@ $code-block-bg:                $white;
 $code-block-border:            #ebebeb;
 
 // Inline code
-$code-color:                   $primary-dark;
-$code-bg:                      $accent-light;
+$code-color:                   #243447;
+$code-bg:                      #f5f7fa;
 
 // Table of contents
 $toc-color:                    $link-color;
@@ -79,8 +78,14 @@ div.sourceCode {
 }
 
 // inline code
-p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
-  border: 1px solid $accent;
+p code:not(pre code),
+li code:not(pre code),
+td code:not(pre code) {
+  color: $code-color;
+  background-color: $code-bg;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.25rem;
+  padding: 0.1em 0.3em;
 }
 
 // Blockquotes
