@@ -6,8 +6,8 @@
       version="2.0">
 <channel>
 <title>Fernando Rayón Viña</title>
-<link>/en/blog/#category=R</link>
-<atom:link href="/en/blog/index-r.xml" rel="self" type="application/rss+xml"/>
+<link>https://rayonvina.rbind.io/en/blog/#category=R</link>
+<atom:link href="https://rayonvina.rbind.io/en/blog/index-r.xml" rel="self" type="application/rss+xml"/>
 <description>I will try to post here on topics that interest me, especially those related to what I&#39;m doing.
 &lt;br&gt;
 All posts are available in both English and Spanish.
@@ -17,7 +17,7 @@ All posts are available in both English and Spanish.
 <item>
   <title>A new version of my website! Version 2.0</title>
   <dc:creator>Fernando Rayón Viña</dc:creator>
-  <link>/en/blog/2026-11-06-Ya_era_hora/</link>
+  <link>https://rayonvina.rbind.io/en/blog/2026-11-06-Ya_era_hora/</link>
   <description><![CDATA[ 
 
 
@@ -34,7 +34,7 @@ All posts are available in both English and Spanish.
 <h2 class="anchored" data-anchor-id="a-website-in-spanish-and-english">A website in Spanish and English</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="/en/blog/2026-11-06-Ya_era_hora/translation.gif" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+<p><img src="https://rayonvina.rbind.io/en/blog/2026-11-06-Ya_era_hora/translation.gif" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 <p>When I developed the first version of this website, I had already tried to make it bilingual. After plenty of attempts and experiments, I realized that, even if it was possible, doing so would be a huge headache. At the time, I settled for a clunky but practical solution: linking to the Spanish content from the English content, and vice versa.</p>
@@ -223,15 +223,15 @@ font-style: inherit;">FALSE</span></span>
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-rayón_viña2026" class="csl-entry quarto-appendix-citeas">
 Rayón Viña, Fernando. 2026. <span>“A New Version of My Website! Version
-2.0.”</span> November 6. <a href="https:///en/blog/2026-11-06-Ya_era_hora/">/en/blog/2026-11-06-Ya_era_hora/</a>.
+2.0.”</span> November 6. <a href="https://rayonvina.rbind.io/en/blog/2026-11-06-Ya_era_hora/">https://rayonvina.rbind.io/en/blog/2026-11-06-Ya_era_hora/</a>.
 </div></div></section></div> ]]></description>
   <category>Quarto</category>
   <category>R</category>
   <category>babelquarto</category>
   <category>Web development</category>
-  <guid>/en/blog/2026-11-06-Ya_era_hora/</guid>
+  <guid>https://rayonvina.rbind.io/en/blog/2026-11-06-Ya_era_hora/</guid>
   <pubDate>Fri, 06 Nov 2026 04:00:00 GMT</pubDate>
-  <media:content url="/en/blog/2026-11-06-Ya_era_hora/translation.gif" medium="image" type="image/gif"/>
+  <media:content url="https://rayonvina.rbind.io/en/blog/2026-11-06-Ya_era_hora/translation.gif" medium="image" type="image/gif"/>
 </item>
 </channel>
 </rss>

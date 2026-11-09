@@ -1,1 +1,1 @@
-Sitemap: /en/sitemap.xml
+Sitemap: https://rayonvina.rbind.io/en/sitemap.xml
