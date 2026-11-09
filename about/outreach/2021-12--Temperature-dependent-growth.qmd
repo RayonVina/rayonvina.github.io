@@ -49,4 +49,4 @@ Los dinoflagelados bentónicos del género Gambierdiscus producen ciguatoxinas, 
 :::
 
 
-[{{< fa solid arrow-left >}} Volver a publicaciones](../publications.qmd)
+[{{< fa solid arrow-left >}} Volver a publicaciones](../outreach.qmd)

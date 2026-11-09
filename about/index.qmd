@@ -85,6 +85,6 @@ Si quieres hablar sobre investigación, datos marinos o posibles colaboraciones,
 ::: g-col-6
 ## Publicaciones
 
-[Ver publicaciones](publications.qmd){.btn .btn-primary}
+[Ver publicaciones](outreach.qmd){.btn .btn-primary}
 :::
 :::

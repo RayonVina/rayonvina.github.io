@@ -46,4 +46,4 @@ Las basuras marinas suelen ser abandonadas por los usuarios de las playas. Por e
 
 
 
-[{{< fa solid arrow-left >}} Volver a publicaciones](../publications.qmd)
+[{{< fa solid arrow-left >}} Volver a publicaciones](../outreach.qmd)

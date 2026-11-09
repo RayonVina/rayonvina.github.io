@@ -51,8 +51,8 @@ about/
 ├── index.en.qmd
 ├── resume.qmd
 ├── resume.en.qmd
-├── publications.qmd
-└── publications.en.qmd
+├── outreach.qmd
+└── outreach.en.qmd
 ```
 
 The same structure is used for blog posts and project pages.

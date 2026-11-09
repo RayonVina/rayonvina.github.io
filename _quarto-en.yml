@@ -8,8 +8,8 @@ website:
             href: about/index.qmd
           - text: "Curriculum vitæ"
             href: about/resume.qmd
-          - text: "Publications"
-            href: about/publications.qmd
+          - text: "Outreach"
+            href: about/outreach.qmd
       - text: "Projects"
         href: projects/index.qmd
       - text: "Blog"

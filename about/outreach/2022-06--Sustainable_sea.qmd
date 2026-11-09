@@ -43,4 +43,4 @@ Sustainable Sea is a strategy game developed for educational purposes in which p
 Sustainable Sea es un juego de estrategia desarrollado con fines educativos en el que los jugadores asumen el papel de pescadores mientras aprenden conceptos relacionados con la gestión sostenible de los recursos pesqueros. Los jugadores obtienen puntos a medida que aplican políticas sostenibles. El juego se probó con estudiantes de bachillerato, de grado y de máster en Asturias (España). Se realizaron pruebas antes y después de jugar para evaluar los conocimientos adquiridos. El juego también se evaluó como herramienta educativa mediante una encuesta de satisfacción. Se observó un aumento general de la comprensión de los conceptos de gestión sostenible de la pesca (significativo en el grupo de grado), y el alumnado mostró una preferencia significativa por esta herramienta docente alternativa.
 :::
 
-[{{< fa solid arrow-left >}} Volver a publicaciones](../publications.qmd)
+[{{< fa solid arrow-left >}} Volver a publicaciones](../outreach.qmd)

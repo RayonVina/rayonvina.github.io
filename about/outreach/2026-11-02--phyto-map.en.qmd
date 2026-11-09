@@ -81,4 +81,4 @@ and the contributing original sources relevant to your work.
 [{{< fa brands github >}} Data-processing scripts](https://github.com/RayonVina/phytomap-scripts) {{< ai open-materials >}} ·
 [{{< ai zenodo >}} Scripts archived on Zenodo](https://doi.org/10.5281/zenodo.23351062) {{< ai open-materials >}}
 
-[{{< fa solid arrow-left >}} Back to publications](../publications.qmd)
+[{{< fa solid arrow-left >}} Back to outreach](../outreach.qmd)

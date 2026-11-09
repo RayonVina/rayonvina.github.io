@@ -20,5 +20,3 @@ install.packages("babelquarto", repos = c("https://ropensci.r-universe.dev", "ht
 source("render.R")   # compila docs/ (ambos idiomas) y corrige los enlaces hreflang
 servr::httw("docs")  # vista previa local opcional
 ```
-
-No uses `quarto render` ni `quarto publish` para publicar: solo generarían el idioma principal.

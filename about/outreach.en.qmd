@@ -1,10 +1,10 @@
 ---
-title: "Publications" 
+title: "Outreach" 
 description: |
   Journal articles, book chapters, preprints, software, datasets, and other scientific contributions.
 listing: 
   contents: 
-    - "**/publications/*.qmd"
+    - "**/outreach/*.qmd"
   sort: "date desc"
   type: default
   categories: false

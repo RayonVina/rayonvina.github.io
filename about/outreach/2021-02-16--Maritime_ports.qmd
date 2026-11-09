@@ -49,4 +49,4 @@ La contaminación por plásticos es un problema ambiental de primer orden que af
 
 :::
 
-[{{< fa solid arrow-left >}} Volver a publicaciones](../publications.qmd)
+[{{< fa solid arrow-left >}} Volver a publicaciones](../outreach.qmd)

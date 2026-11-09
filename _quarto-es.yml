@@ -9,7 +9,7 @@ website:
           - text: "Currículum vítæ"
             href: about/resume.qmd
           - text: "Publicaciones"
-            href: about/publications.qmd
+            href: about/outreach.qmd
       - text: "Proyectos"
         href: projects/index.qmd
       - text: "Blog"

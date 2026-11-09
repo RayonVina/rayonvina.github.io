@@ -45,4 +45,4 @@ La armonización taxonómica supone un reto constante para el seguimiento del fi
 [{{< fa brands github >}} Código de phytaxr](https://github.com/RayonVina/phytaxr) ·
 [{{< ai zenodo >}} Software en Zenodo](https://doi.org/10.5281/zenodo.21905974)
 
-[{{< fa solid arrow-left >}} Volver a publicaciones](../publications.qmd)
+[{{< fa solid arrow-left >}} Volver a publicaciones](../outreach.qmd)

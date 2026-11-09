@@ -4,7 +4,7 @@ description: |
   Artículos, capítulos de libro, preprints, software, conjuntos de datos y otras contribuciones científicas.
 listing: 
   contents: 
-    - "**/publications/*.qmd"
+    - "**/outreach/*.qmd"
   sort: "date desc"
   type: default
   categories: false

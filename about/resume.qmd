@@ -161,7 +161,7 @@ Mi producción científica incluye artículos en revistas,
 capítulos de libro e informes técnicos sobre ecología del plancton,
 basura marina y conservación.
 
-[Consultar publicaciones](publications.qmd){.btn .btn-primary}
+[Consultar publicaciones](outreach.qmd){.btn .btn-primary}
 
 ## Formación complementaria seleccionada
 

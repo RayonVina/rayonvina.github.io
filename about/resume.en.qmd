@@ -159,13 +159,13 @@ and Atlantic regions.
 - Science outreach through IEO-CSIC activities and collaborations
   with organisations such as ONCE and DOWN Vigo.
 
-## Publications
+## Outreach
 
 My scientific output includes journal articles, book chapters,
 and technical reports on plankton ecology, marine litter,
 and conservation.
 
-[View publications](publications.qmd){.btn .btn-primary}
+[View outreach](outreach.qmd){.btn .btn-primary}
 
 ## Selected additional training
 

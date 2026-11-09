@@ -46,4 +46,4 @@ Los residuos plásticos flotantes, como botellas y artes de pesca, sirven de ref
 :::
 
 
-[{{< fa solid arrow-left >}} Volver a publicaciones](../publications.qmd)
+[{{< fa solid arrow-left >}} Volver a publicaciones](../outreach.qmd)

@@ -44,4 +44,4 @@ Las basuras marinas son actualmente una fuente importante de problemas ambiental
 
 :::
 
-[{{< fa solid arrow-left >}} Volver a publicaciones](../publications.qmd)
+[{{< fa solid arrow-left >}} Volver a publicaciones](../outreach.qmd)

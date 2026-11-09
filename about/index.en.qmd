@@ -84,8 +84,8 @@ To discuss research, marine data, or potential collaborations, please [get in to
 :::
 
 ::: g-col-6
-## Publications
+## Outreach
 
-[View Publications](publications.qmd){.btn .btn-primary}
+[View Outreach](outreach.qmd){.btn .btn-primary}
 :::
 :::
