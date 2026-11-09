@@ -1,0 +1,51 @@
+---
+title: "Sustainable Sea: A board game for engaging students in sustainable fisheries management"
+author:
+
+  - name: Fernando Rayón Viña
+    orcid: 0000-0002-1622-2180
+  - name: Marina Parrondo Lombardía
+    orcid: 0000-0003-0715-4400
+  - name: Yaisel Juan Borrell Pichs
+    orcid: 0000-0003-2840-4384
+  - name: Laura Miralles
+    orcid: 0000-0002-7146-9776
+
+date: "2021-06-11"
+slug: sustainable-sea
+categories:
+  - Publicación
+  - Desarrollo sostenible
+  - Cambio climático
+  - Juego serio
+description: "Applied Environmental Education & Communication"
+# publication_short: ""
+subtitle: "«Sustainable Sea», un juego educativo de estrategia, mejoró de forma eficaz la comprensión de las prácticas de pesca sostenible por parte del alumnado en Asturias (España), con un impacto notable en los estudiantes de grado."
+abstract: ""
+
+format: 
+  html: 
+    page-layout: full
+    toc: false
+product-icons:
+  - classes: "fa-solid fa-file-contract"
+    label: "Artículo de revista"
+  - classes: "ai ai-closed-access"
+    label: "Acceso cerrado"
+---
+
+{{< fa regular newspaper >}} Consulta el artículo aquí: {{< ai doi >}}  [10.1080/1533015X.2021.1930608](https://doi.org/10.1080/1533015X.2021.1930608) {{< ai closed-access >}}
+
+## Abstract
+Sustainable Sea is a strategy game developed for educational purposes in which players assume the role of fishermen while learning concepts related to the sustainable management of fishing resources. Players earn points as they apply sustainable policies. The game was tested on high-school students and students pursuing bachelor’s and master’s degrees in Asturias (Spain). Pre- and post-tests were performed to evaluate the knowledge acquired from playing the game. The game was also evaluated as an educational tool using a satisfaction survey. A general increase in the understanding of fisheries sustainable management concepts was observed (significant in the bachelor’s degree group), and the students exhibited a significant preference for this alternative teaching tool.
+
+::: {.callout-note collapse="true"}
+## Traducción al español
+
+##### Título traducido: Sustainable Sea: Un juego de mesa para involucrar a los estudiantes en la gestión sostenible de las pesquerías
+
+### Resumen
+Sustainable Sea es un juego de estrategia desarrollado con fines educativos en el que los jugadores asumen el papel de pescadores mientras aprenden conceptos relacionados con la gestión sostenible de los recursos pesqueros. Los jugadores obtienen puntos a medida que aplican políticas sostenibles. El juego se probó con estudiantes de bachillerato, de grado y de máster en Asturias (España). Se realizaron pruebas antes y después de jugar para evaluar los conocimientos adquiridos. El juego también se evaluó como herramienta educativa mediante una encuesta de satisfacción. Se observó un aumento general de la comprensión de los conceptos de gestión sostenible de la pesca (significativo en el grupo de grado), y el alumnado mostró una preferencia significativa por esta herramienta docente alternativa.
+:::
+
+[{{< fa solid arrow-left >}} Volver a publicaciones](../outreach.qmd)

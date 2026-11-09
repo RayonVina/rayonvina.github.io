@@ -1,0 +1,70 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  // Añadir ORCID a las herramientas de la barra superior.
+  const tools = document.querySelector(".quarto-navbar-tools");
+
+  if (tools) {
+    const github = tools.querySelector('a[href*="github.com"]');
+    let orcid = tools.querySelector('a[href*="orcid.org/0000-0002-1622-2180"]');
+
+    if (!orcid && github) {
+      orcid = document.createElement("a");
+
+      orcid.href = "https://orcid.org/0000-0002-1622-2180";
+      orcid.className =
+        "quarto-navigation-tool px-1 frv-orcid-tool";
+
+      const isEnglish = document.documentElement.lang
+        .toLowerCase()
+        .startsWith("en");
+
+      const label = isEnglish
+        ? "Fernando Rayón Viña's ORCID profile"
+        : "Perfil ORCID de Fernando Rayón Viña";
+
+      orcid.setAttribute("title", label);
+      orcid.setAttribute("aria-label", label);
+
+      const icon = document.createElement("i");
+      icon.className = "ai ai-orcid";
+      icon.setAttribute("aria-hidden", "true");
+
+      orcid.appendChild(icon);
+      github.insertAdjacentElement("afterend", orcid);
+    }
+
+    // Mantener el selector de idioma después de ORCID.
+    const languageToggle = tools.querySelector(".babelquarto-toggle");
+
+    if (orcid && languageToggle) {
+      orcid.insertAdjacentElement("afterend", languageToggle);
+    }
+  }
+
+  // Reservar el espacio exacto del pie fijo.
+  const footer = document.querySelector("footer.footer");
+
+  if (footer) {
+    const updateFooterHeight = function () {
+      const height = Math.ceil(footer.getBoundingClientRect().height);
+
+      document.documentElement.style.setProperty(
+        "--frv-footer-height",
+        (height + 12) + "px"
+      );
+    };
+
+    updateFooterHeight();
+    window.addEventListener("resize", updateFooterHeight);
+
+    if ("ResizeObserver" in window) {
+      const observer = new ResizeObserver(updateFooterHeight);
+      observer.observe(footer);
+    }
+
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(updateFooterHeight);
+    }
+  }
+});
+</script>

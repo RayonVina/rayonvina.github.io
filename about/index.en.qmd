@@ -1,0 +1,91 @@
+---
+# About index
+
+title: "About me"
+
+image: ../assets/images/profile.png
+image-alt: "Portrait of Fernando Rayón Viña"
+
+about:
+  template: trestles
+  image-width: 14em
+  image-shape: rounded
+  id: hero-heading
+  links:
+    - text: "{{< fa brands github >}}"
+      aria-label: Personal GitHub
+      href: https://github.com/RayonVina
+    - text: "{{< fa brands git-alt >}}"
+      aria-label: Group's GitHub 
+      href: https://github.com/Marine-microbial-macroecology
+    - icon: globe
+      aria-label: Group webpage
+      href: https://mmab.ca/
+    - text: "{{< ai orcid >}}"
+      aria-label: ORCID
+      href: https://orcid.org/0000-0002-1622-2180/
+    - text: "{{< ai google-scholar >}}"
+      aria-label: Google Scholar
+      href: https://scholar.google.com/citations?user=CTlje38AAAAJ&hl=es/
+    - text: "{{< fa brands square-twitter >}}"
+      aria-label: Twitter
+      href: https://x.com/RayonVina/
+    - text: "{{< ai researchgate >}}"
+      aria-label: ResearchGate
+      href: https://www.researchgate.net/profile/Fernando-Rayon-Vina/
+
+format: 
+  html: 
+    page-layout: full
+    toc: false
+
+---
+
+::: {#hero-heading}
+# ¡Hola!
+
+I am a biologist and a research associate at the Marine Microbial Macroecology Lab ([MMAB](https://mmab.ca/)) at Dalhousie University in Canada. My work lies at the intersection of plankton ecology and data science.
+
+I am currently contributing to Phyto-MAP, a global atlas of phytoplankton observations. I work with historical datasets from various sources to make them comparable and facilitate their use in research: from reviewing species names and harmonizing variables to documenting how the data have been processed.
+
+As part of an interdisciplinary team, I contribute to the synthesis and analysis of large-scale ecological data to study the effects of climate change on marine organisms, particularly phytoplankton. I am interested in linking observations collected at different locations and times to understand plankton variability and changes in marine ecosystems. My work supports the development of predictive models that integrate information from satellite observations, field studies, laboratory experiments, and the fossil record.
+
+Feel free to [contact me](/contact.qmd) if you have any questions or suggestions.
+:::
+
+## My background
+::: grid
+::: {#about-me-1 .g-col-6}
+My training in Biology and Marine Conservation led me to investigate the links between human activities and coastal ecosystems. During my master's and doctoral studies at the University of Oviedo, I studied marine litter from a socioenvironmental perspective, combining research into its biological risks with the study of public perceptions and participation.
+
+This period, which included a research stay at Klaipėda University in Lithuania, strengthened my interest in approaching environmental problems across disciplines.
+:::
+
+::: {#about-me-2 .g-col-6}
+Later, in the Harmful Microalgae and Plankton Ecology group (VGOHAB) at the Vigo Oceanographic Centre (IEO-CSIC), I shifted my focus towards oceanographic data management and analysis. I designed and managed VGOHAdB, a database integrating plankton observations and environmental variables from the RADIALES-Vigo time series dating back to 1984.
+
+There, I developed my experience in time-series analysis and workflows using R and PostgreSQL. That experience connects with my current work: transforming heterogeneous data into information that can help answer ecological questions.
+:::
+:::
+
+## Beyond the data
+
+I have also been involved in teaching and science outreach, from the IMBRSea international master's summer school to activities with organisations such as ONCE and DOWN Vigo. These experiences complement my research and my interest in making marine science accessible to diverse audiences.
+
+To discuss research, marine data, or potential collaborations, please [get in touch](/contact.qmd).
+
+:::
+
+::: grid
+::: g-col-6
+## Curriculum Vitae
+
+[View CV](resume.qmd){.btn .btn-primary}
+:::
+
+::: g-col-6
+## Outreach
+
+[View Outreach](outreach.qmd){.btn .btn-primary}
+:::
+:::

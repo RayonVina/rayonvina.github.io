@@ -1,0 +1,75 @@
+.outreach-list {
+  margin: 0;
+  padding: 0;
+}
+
+.outreach-entry {
+  display: grid;
+  grid-template-columns: 4.5rem minmax(0, 1fr) minmax(10rem, 24%);
+  column-gap: 1.25rem;
+  align-items: start;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--bs-border-color, #dee2e6);
+}
+
+.outreach-icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.65rem;
+  padding-top: 0.15rem;
+}
+
+.outreach-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.6rem;
+  min-height: 1.8rem;
+  font-size: 1.45rem;
+  line-height: 1;
+  color: var(--bs-body-color, #343a40);
+}
+
+.outreach-main,
+.outreach-meta {
+  min-width: 0;
+}
+
+.outreach-main .listing-title {
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.outreach-main .listing-title:hover {
+  text-decoration: underline;
+}
+
+.outreach-main .listing-description {
+  margin-top: 0.35rem;
+  font-size: 0.95rem;
+}
+
+.outreach-meta {
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.outreach-meta .listing-date {
+  margin-bottom: 0.3rem;
+}
+
+@media (max-width: 767px) {
+  .outreach-entry {
+    grid-template-columns: 4.5rem minmax(0, 1fr);
+    column-gap: 0.8rem;
+    row-gap: 0.5rem;
+  }
+
+  .outreach-meta {
+    grid-column: 2;
+  }
+}

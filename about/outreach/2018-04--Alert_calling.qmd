@@ -1,0 +1,54 @@
+---
+title: "Alert calling in port areas: Marine litter as possible secondary dispersal vector for hitchhiking invasive species"
+author:
+  - name: Laura Miralles
+    orcid: 0000-0002-7146-9776
+  - name: Marta Gómez Agenjo
+  - name: Fernando Rayón Viña
+    orcid: 0000-0002-1622-2180
+  - name: Greta Gyraitė
+  - name: Eva García Vázquez
+    orcid: 0000-0002-8429-838X
+
+date: "2018-04"
+slug: alert-calling
+categories:
+  - Investigación
+  - Botellas de plástico
+  - Artes de pesca
+  - Especies no autóctonas
+  - Costa cantábrica
+  - Código de barras genético
+description: "Journal for Nature Conservation"
+publication_short: "JNC"
+subtitle: "Una publicación en la que mostramos que los residuos plásticos, incluidos los cabos, pueden transportar especies no autóctonas (NIS), y que el seguimiento de la biota adherida a las basuras marinas podría ayudar a detectarlas."
+abstract: ""
+format: 
+  html: 
+    page-layout: full
+    toc: false
+product-icons:
+  - classes: "fa-solid fa-file-contract"
+    label: "Artículo de revista"
+  - classes: "ai ai-closed-access"
+    label: "Acceso cerrado"
+---
+
+{{< fa regular newspaper >}} Consulta el artículo aquí: {{< ai doi >}}  [10.1016/j.jnc.2018.01.005](https://doi.org/10.1016/j.jnc.2018.01.005) {{< ai closed-access >}}
+
+## Abstract
+
+Floating plastic debris, such as bottles and fishing gear, is a shelter for different species in the oceans. Litter may therefore help the spread of non-indigenous species (NIS). Here we have challenged the idea of using the abundance of marine litter present in a zone to estimate the risk of NIS introduction. To test this, a targeted sampling of plastic bottles and fishing gear (ropes and nets) was performed along 22 beaches from the Cantabrian coast where ports have been reported as a source of biological invasions. All items with attached organisms were collected and recorded. Genetic barcoding was used to ascertain the species and identify NIS. In total 17 species attached to plastic bottles and fishing gears were identified. Three of them, found on the two types of items, are catalogued as invasive species: Austrominius modestus; Magallana gigas; and, Amphibalanus amphitrite. Prevalence and mean intensity of non-indigenous biota on plastic bottles and fishing gear were not significantly different. The abundance of barnacles in litter was significantly correlated with that found from ports in the same region. The results suggest that ropes are able to transport different marine organisms and NIS as plastic bottles do. Monitoring biota on marine litter could serve as an additional tool for NIS detection.
+
+::: {.callout-note collapse="true"}
+## Traducción al español
+
+##### Título traducido: Alerta en las zonas portuarias: los residuos marinos como posible vector secundario de dispersión de especies invasoras que viajan de polizón.
+
+### Resumen
+
+Los residuos plásticos flotantes, como botellas y artes de pesca, sirven de refugio a diferentes especies en los océanos. Por lo tanto, los residuos pueden contribuir a la propagación de especies no autóctonas (NIS). En este estudio hemos cuestionado la idea de utilizar la abundancia de residuos marinos presentes en una zona para estimar el riesgo de introducción de especies no autóctonas. Para comprobarlo, se llevó a cabo un muestreo específico de botellas de plástico y artes de pesca (cuerdas y redes) a lo largo de 22 playas de la costa cantábrica, donde se ha señalado que los puertos son una fuente de invasiones biológicas. Se recogieron y registraron todos los objetos con organismos adheridos. Se utilizó el código de barras genético para determinar las especies e identificar las NIS. En total, se identificaron 17 especies adheridas a botellas de plástico y artes de pesca. Tres de ellas, encontradas en ambos tipos de objetos, están catalogadas como especies invasoras: Austrominius modestus; Magallana gigas; y Amphibalanus amphitrite. La prevalencia y la intensidad media de la biota no autóctona en las botellas de plástico y los artes de pesca no mostraron diferencias significativas. La abundancia de percebes en los residuos marinos se correlacionó significativamente con la observada en los puertos de la misma región. Los resultados sugieren que las cuerdas pueden transportar diferentes organismos marinos y especies exóticas invasoras, al igual que las botellas de plástico. El seguimiento de la biota presente en los residuos marinos podría servir como herramienta adicional para la detección de especies exóticas invasoras.
+:::
+
+
+[{{< fa solid arrow-left >}} Volver a publicaciones](../outreach.qmd)

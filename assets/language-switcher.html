@@ -1,0 +1,63 @@
+<!--
+  Selector de idioma ES/EN (botón alterno).
+  babelquarto inserta un menú desplegable (#languages-links-parent) al principio
+  del menú de navegación. Este script lo sustituye por un único botón situado
+  entre el icono de GitHub y la lupa, que enlaza con la traducción de la página
+  actual. Si la página no tiene traducción, babelquarto no genera el enlace y
+  no se muestra ningún botón.
+-->
+<style>
+  /* Oculta el desplegable nativo de babelquarto (lo sustituye el botón). */
+  .navbar #languages-links-parent { display: none !important; }
+  .navbar .babelquarto-toggle {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    line-height: 1.3;
+    padding: 0.1rem 0.35rem !important;
+    margin: 0 0.25rem;
+    border: 1px solid currentColor;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    vertical-align: middle;
+  }
+  .navbar .babelquarto-toggle:hover,
+  .navbar .babelquarto-toggle:focus { opacity: 0.8; }
+  /* En pantallas estrechas se reserva espacio para que la lupa no salte de línea. */
+  @media (max-width: 991.98px) {
+    .navbar .babelquarto-toggle { margin: 0 0.15rem; }
+    .navbar:has(.babelquarto-toggle) .navbar-brand-container { max-width: calc(100% - 155px); }
+  }
+</style>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var parent = document.getElementById("languages-links-parent");
+    if (!parent) return;
+    var link = parent.querySelector("#languages-links a.dropdown-item");
+    var holder = parent.closest("li.nav-item") || parent;
+    if (!link) { holder.remove(); return; }
+
+    var lang = (link.id || "").replace("language-link-", "");
+    var toggle = document.createElement("a");
+    toggle.href = link.getAttribute("href");
+    toggle.textContent = link.textContent.trim();
+    toggle.className = "quarto-navigation-tool px-1 babelquarto-toggle";
+    toggle.setAttribute("hreflang", lang);
+    toggle.setAttribute("lang", lang);
+    var label = lang === "en" ? "Read this page in English" : "Ver esta página en español";
+    toggle.setAttribute("title", label);
+    toggle.setAttribute("aria-label", label);
+
+    var tools = document.querySelector(".quarto-navbar-tools");
+    var github = tools ? tools.querySelector('a[href*="github.com"]') : null;
+    if (github) {
+      github.insertAdjacentElement("afterend", toggle);
+    } else if (tools) {
+      tools.appendChild(toggle);
+    } else {
+      return; // sin barra de herramientas: se mantiene el menú original
+    }
+    holder.remove();
+  });
+</script>

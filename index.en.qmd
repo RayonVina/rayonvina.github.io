@@ -1,0 +1,75 @@
+---
+#Homepage index
+
+title: "Fernando Rayón Viña"
+pagetitle: "Fernando Rayón Viña"
+subtitle: "Biologist and data scientist specializing in marine ecosystems"
+image: assets/images/pc_boat.png
+image-alt: "A photo of me"
+
+twitter-card:
+    title: Fernando Rayón Viña
+    description: |
+      Biologist and data scientist specializing in marine ecosystems.
+    card-style: summary
+    image: assets/images/profile.png
+    creator: "@RayonVina"
+    site: "@RayonVina"
+
+about:
+  template: solana
+  image-width: 28em
+  id: hero-heading
+  links:
+    - text: "{{< fa brands github >}}"
+      aria-label: My github profile 
+      href: https://github.com/RayonVina
+    
+    # - text: "{{< fa brands git-alt >}}"
+    #   aria-label: Repositorio profesional 
+    #   href: https://git.csic.es/53676339C/
+      
+    # - icon: globe
+    #   aria-label: Web del grupo
+    #   href: https://vgohab.com/
+
+    - icon: globe
+      aria-label: Web del grupo
+      href: https://mmab.ca/
+      
+    - text: "{{< ai orcid >}}"
+      aria-label: Orcid
+      href: https://orcid.org/0000-0002-1622-2180/
+      
+    - text: "{{< ai google-scholar >}}"
+      aria-label: Google scholar
+      href: https://scholar.google.com/citations?user=CTlje38AAAAJ&hl=es/
+      
+    - text: "{{< fa brands square-twitter >}}"
+      aria-label: Twitter
+      href: https://x.com/RayonVina/
+      
+    - text: "{{< ai researchgate >}}"
+      aria-label: ResearchGate
+      href: https://www.researchgate.net/profile/Fernando-Rayon-Vina/
+
+page-layout: full
+
+execute: 
+  # freeze: auto
+  echo: false
+  warning: false
+---
+
+<br><br>
+
+::: {#hero-heading}
+
+I’m a biologist and data scientist working as a research associate in the Marine Microbial Macroecology Lab at Dalhousie University. My work combines marine ecology, programming, and data management to study plankton and understand changes in ocean ecosystems.
+
+I currently contribute to Phyto-MAP, a global atlas of phytoplankton observations. I develop R tools and reproducible workflows to collect, clean, integrate, and analyse historical time series of plankton data and other oceanographic variables. I also design tools that support data collection, archiving, and compilation in PostgreSQL and SQLite databases, supporting my research group’s work on marine ecosystems.
+
+[More about me →](/about/index.qmd)
+:::
+
+<!-- hero-heading -->

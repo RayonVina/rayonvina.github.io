@@ -1,14 +1,14 @@
 ---
 title: "Programa de Ciencias Mariñas de Galicia"
-subtitle: "The most ambitious marine research project to meet the challenges of the marine environment and the blue economy in Galicia"
+subtitle: "El proyecto de investigación marina más ambicioso para afrontar los retos del medio marino y la economía azul en Galicia"
 date: 2023-04-01
 image: logo.png
 title-block-banner: featured.jpg
 categories:
-  - Essential Oceanographic Variables
+  - Variables oceánicas esenciales
   - Vigo
   - PCCMMG
-  - Database
+  - Base de datos
   - CESGA
 header-includes: |
   <link rel="stylesheet" href="../../assets/blog.css">
@@ -16,23 +16,30 @@ resources:
   - ../../assets/blog.css
 ---
 
-### Project Tenure
+### Participación en el proyecto
 
-April 2023 - April 2025
+Abril de 2023 - abril de 2025
 
-# About the Project:
+# Sobre el proyecto:
+![](logo.png){fig-align="center"} El *Programa de Ciencias Mariñas de Galicia*, proyecto de investigación español financiado con [fondos europeos NextGenerationEU](https://next-generation-eu.europa.eu/index_es), forma parte del [proyecto ThinkInAzul](https://thinkinazul.es/). 
 
-![](logo.png){fig-align="center"} The *Programa de Ciencias Mariñas de Galicia*, which is the Spanish research project funded with the [European NextGenerationEU funding](https://next-generation-eu.europa.eu/index_en). (Marine Sciences Program of Galicia) is part of the [ThinkInAzul project](https://thinkinazul.es/en/). 
+[![](thinkinazul.png){fig-alt="Logotipo de ThinkInAzul"}<br>Logotipo de ThinkInAzul]{.aside}
 
-[![](thinkinazul.png){fig-alt="Thininazul logo"}<br>Thininazul logo]{.aside}
+Reconocida por su complejidad, la ciencia de la sostenibilidad requiere enfoques de investigación interdisciplinares y ambiciosos. Esta complejidad pone de relieve la necesidad de una investigación que equilibre la amplitud con la búsqueda de impactos concretos y demostrables, más allá de la generación de nuevo conocimiento científico. Galicia, con sus 1.400 km de costa, sus singulares rías y sus diversos ecosistemas, junto con una elevada densidad de población y una estructura económica y social dependiente del mar, ofrece un contexto ideal para este tipo de iniciativas de investigación marina.
 
-Recognized for its complexity, sustainability science requires interdisciplinary and ambitious research approaches. This complexity underlines the need for research that balances breadth with the pursuit of concrete and demonstrable impacts beyond the generation of new scientific knowledge. Galicia, with its extensive 1400 km coastline, unique estuaries and diverse ecosystems, coupled with a high population density and a marine-dependent economic and social structure, provides an ideal context for such marine research initiatives.
+Ante el cambio global, es fundamental que la comunidad científica intensifique sus esfuerzos para comprender el estado del medio y de los recursos marinos, identificar las zonas vulnerables, predecir escenarios futuros —especialmente los relacionados con el cambio global— y desarrollar medidas que garanticen la explotación sostenible de las especies de interés comercial y de los ecosistemas marinos, la conservación de la biodiversidad, la protección de los ecosistemas vulnerables y la salud general del medio marino. La resiliencia del medio marino y de la sociedad, así como el bienestar y la salud de la población, dependen en gran medida de los avances en estos ámbitos. Este es el enfoque estratégico del Programa de Ciencias Mariñas de Galicia.
 
-In the face of global change, it is crucial for the scientific community to intensify efforts to understand the state of the environment and marine resources, identify vulnerable areas, predict future scenarios - especially those involving global change - and develop measures to ensure sustainable exploitation of commercially important species, marine ecosystems, biodiversity conservation, protection of vulnerable ecosystems and the overall health of the marine environment. The resilience of the marine environment and society, as well as societal well-being and health, depend to a large extent on progress in these areas. This defines the strategic focus of the Marine Sciences Program in Galicia.
+## Mi contribución
+Participé en la Actuación A3.3, «Ecología Operacional de Plancton», desde el grupo de Microalgas Nocivas y Ecología del Plancton (VGOHAB) del Centro Oceanográfico de Vigo.
 
-# Role in Project
+Mi trabajo se centró en adaptar y mantener VGOHAdB para integrar observaciones de plancton y variables ambientales, facilitando su consulta y análisis conjunto.
 
-Work package 3 of the marine science program aims at adapting new analytical and optical technologies (among others) for the study of plankton communities, in order to analyze the state of these communities to measure the state of environmental quality. To this end, our working group performs plankton sampling tasks together with other Essential Oceanographic Variables (EOVs). We have also implemented new technologies for the characterization of plankton through image analysis ([Cytosense](https://www.cytobuoy.com/products/cytosense-c/) and [Planktoscope](https://www.planktoscope.org/)). My tasks in this project consist of adapting and updating the database to house all these new data, together with other data generated in the framework of the *Programa de Ciencias Mariñas*, as well as analyzing them for technical reports and scientific articles.
+- Diseño y administración de la base de datos PostgreSQL bajo Linux
+- Desarrollo de protocolos de gestión, edición y análisis con R
+- Desarrollo de aplicaciones Shiny para consultar y visualizar datos
+- Implementación de análisis estadísticos y de series temporales
 
-[![](finisterrae.jpg){fig-alt="Finisterrae supercomputer"}<br>The Finisterrae supercomputer, where the database is hosted]{.aside}
-To this end, we are in the process of expanding, remodeling and migrating the database to the servers of the [Centro de Supercomputación de Galicia](https://www.cesga.es/en/home-2/), which improves its access and scalability, and improves the capacity of interaction with other databases of the project and other external ones.
+## Conexión con la observación a largo plazo
+Este trabajo se apoyó y contribuyó al trabajo en las series oceanográficas y de plancton de RADIALES-Vigo. La integración de datos históricos y nuevas observaciones permite estudiar la variabilidad de las comunidades planctónicas y su relación con las condiciones ambientales.
+
+[Conocer mi trabajo con RADIALES](../radiales/index.qmd)

@@ -1,0 +1,27 @@
+---
+title: "My digressions"
+description: |
+  I will try to post here on topics that interest me, especially those related to what I'm doing.
+  <br>
+  All posts are available in both English and Spanish.
+listing: 
+  contents: 
+    - "**/index.qmd"
+  sort: "date desc"
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, author, description, categories, date, image]
+  image-align: right
+  image-height: 125px
+  page-size: 3
+  feed:
+    categories: [R]
+citation: false
+toc: false
+comments: false
+format: 
+  html: 
+    page-layout: full
+---

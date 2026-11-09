@@ -1,16 +1,16 @@
 ---
-#Homepage index
+# Portada
 
 title: "Fernando Rayón Viña"
 pagetitle: "Fernando Rayón Viña"
-subtitle: "Data scientist and research associate"
+subtitle: "Biólogo y científico de datos especializado en ecosistemas marinos"
 image: assets/images/pc_boat.png
-image-alt: "A photo of me"
+image-alt: "Una foto mía"
 
 twitter-card:
     title: Fernando Rayón Viña
     description: |
-      Data scientist and research associate at the Spanish Institute of Oceanography (IEO-CSIC).
+      Biólogo y científico de datos especializado en ecosistemas marinos.
     card-style: summary
     image: assets/images/profile.png
     creator: "@RayonVina"
@@ -22,17 +22,21 @@ about:
   id: hero-heading
   links:
     - text: "{{< fa brands github >}}"
-      aria-label: My github profile 
+      aria-label: Mi perfil de GitHub 
       href: https://github.com/RayonVina
       
-    - text: "{{< fa brands git-alt >}}"
-      aria-label: Professional repository 
-      href: https://git.csic.es/53676339C/
+    # - text: "{{< fa brands git-alt >}}"
+    #   aria-label: Repositorio profesional 
+    #   href: https://git.csic.es/53676339C/
       
+    # - icon: globe
+    #   aria-label: Web del grupo
+    #   href: https://vgohab.com/
+
     - icon: globe
-      aria-label: Group webpage
-      href: https://vgohab.com/
-      
+      aria-label: Web del grupo
+      href: https://mmab.ca/
+    
     - text: "{{< ai orcid >}}"
       aria-label: Orcid
       href: https://orcid.org/0000-0002-1622-2180/
@@ -55,21 +59,17 @@ execute:
   # freeze: auto
   echo: false
   warning: false
-header-includes: >
-  <link rel="stylesheet" href="assets/index.css">
-resources:
-  - assets/index.css
 ---
 
 <br><br>
 
 ::: {#hero-heading}
 
-I am a biologist and data scientist with a passion for the ocean.  
-My work revolves around data management and analysis for my research group using R tools, focusing on the continuous historical collection of plankton and other essential oceanographic variables for ecosystem studies. I also develop tools to facilitate data collection, archiving, and compilation using PostgreSQL/SQLite databases for research.  
-My work focuses on the integration of biology and data science to better understand our world's marine ecosystems.
+Soy biólogo y científico de datos, y trabajo como investigador asociado en el Marine Microbial Macroecology Lab de Dalhousie University. Mi trabajo combina ecología marina, programación y gestión de datos para estudiar el plancton y comprender los cambios en los ecosistemas oceánicos.
 
-[More about me →](/about/index.qmd)
+Actualmente contribuyo a Phyto-MAP, un atlas global de observaciones de fitoplancton. Desarrollo herramientas en R y flujos de trabajo reproducibles para recopilar, depurar, integrar y analizar series históricas de datos de plancton y otras variables oceanográficas. También diseño herramientas que facilitan la recogida, el archivo y la compilación de datos en bases de datos PostgreSQL y SQLite, apoyando la investigación de mi grupo sobre los ecosistemas marinos.
+
+[Más sobre mí →](/about/index.qmd)
 :::
 
 <!-- hero-heading -->

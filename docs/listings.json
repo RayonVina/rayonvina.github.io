@@ -1,32 +1,35 @@
 [
   {
-    "listing": "/about/publications.html",
+    "listing": "/about/outreach.html",
     "items": [
-      "/about/publications/2024-12--Zooplankton_dynamics.html",
-      "/about/publications/2022-07--Flotsam.html",
-      "/about/publications/2022-03--Public_awareness.html",
-      "/about/publications/2021-12--Temperature-dependent-growth.html",
-      "/about/publications/2022-06--Sustainable_sea.html",
-      "/about/publications/2021-02-16--Maritime_ports.html",
-      "/about/publications/2020-06-18--Environmental_DNA.html",
-      "/about/publications/2019-04--Marine_litter_public.html",
-      "/about/publications/2018-06--Marine_south.html",
-      "/about/publications/2018-04--Alert_calling.html"
+      "/about/outreach/2026-11-02--phyto-map.html",
+      "/about/outreach/2026-10-28--phytaxr-preprint.html",
+      "/about/outreach/2024-12--Zooplankton_dynamics.html",
+      "/about/outreach/2022-07--Flotsam.html",
+      "/about/outreach/2022-03--Public_awareness.html",
+      "/about/outreach/2021-12--Temperature-dependent-growth.html",
+      "/about/outreach/2022-06--Sustainable_sea.html",
+      "/about/outreach/2021-02-16--Maritime_ports.html",
+      "/about/outreach/2020-06-18--Environmental_DNA.html",
+      "/about/outreach/2019-04--Marine_litter_public.html",
+      "/about/outreach/2018-06--Marine_south.html",
+      "/about/outreach/2018-04--Alert_calling.html"
     ]
   },
   {
     "listing": "/blog/index.html",
     "items": [
+      "/blog/2026-11-06-Ya_era_hora/index.html",
       "/blog/2024-06-19-Hola_mundo/index.html"
     ]
   },
   {
     "listing": "/projects/index.html",
     "items": [
-      "/projects/blueports/index.html",
-      "/projects/radiales/index.html",
+      "/projects/phytomap/index.html",
       "/projects/pccmmg/index.html",
-      "/projects/phytomap/index.html"
+      "/projects/radiales/index.html",
+      "/projects/blueports/index.html"
     ]
   }
 ]

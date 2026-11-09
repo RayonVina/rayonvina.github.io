@@ -1,0 +1,39 @@
+# Language profile: English (secondary language, rendered in /en/)
+website:
+  navbar:
+    right:
+      - text: "About"
+        menu:
+          - text: "About me"
+            href: about/index.qmd
+          - text: "Curriculum vitæ"
+            href: about/resume.qmd
+          - text: "Outreach"
+            href: about/outreach.qmd
+      - text: "Projects"
+        href: projects/index.qmd
+      - text: "Blog"
+        href: blog/index.qmd
+
+  page-footer:
+    left: >-
+      &#169; 2025 Fernando Rayón Viña &#8729; Made with [Quarto](https://quarto.org)
+    center:
+      <a class="link-dark me-1" href="https://github.com/RayonVina" title="Github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
+      <a class="link-dark me-1" href="https://orcid.org/0000-0002-1622-2180" title="Orcid" target="_blank" rel="noopener">{{< ai orcid >}}</a>
+      <a class="link-dark me-1" href="https://scholar.google.com/citations?user=CTlje38AAAAJ&hl=es" title="Google Scholar" target="_blank"rel="noopener">{{< ai google-scholar >}}</a>
+      <a class="link-dark me-1" href="https://x.com/RayonVina" title="Twitter" target="_blank" rel="noopener">{{< fa brands square-twitter >}}</a>
+      <a class="link-dark me-1" href="https://www.researchgate.net/profile/Fernando-Rayon-Vina" title="ResearchGate" target="_blank" rel="noopener">{{< ai researchgate >}}</a>
+    right:
+      - text: "Contact"
+        aria-label: "Contact Form"
+        href: "contact.qmd"
+      - text: "License"
+        aria-label: "License Details"
+        href: license.qmd
+format:
+  html:
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+

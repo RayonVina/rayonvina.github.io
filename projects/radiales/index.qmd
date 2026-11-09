@@ -1,14 +1,14 @@
 ---
 title: "RADIALES"
-subtitle: "Series temporales de oceanografía en el norte de España <br> Oceanographic Time Series in Northern Spain"
+subtitle: "Series temporales de oceanografía en el norte de España"
 date: 2020-04-01
 image: logo.png
 title-block-banner: featured.jpg
 categories:
-  - Essential Oceanographic Variables
+  - Variables oceánicas esenciales
   - Vigo
   - RADIALES
-  - Database
+  - Base de datos
   - VGOHAB
 header-includes: |
   <link rel="stylesheet" href="../../assets/blog.css">
@@ -17,20 +17,41 @@ resources:
 
 ---
 
-### Project Tenure
+### Participación en el proyecto
 
-April 2020 - April 2025
+Abril de 2020 - abril de 2025
 
-# About the Project:
+# Sobre el proyecto:
 
 ![](radiales_blue.png){fig-align="center"}
 
-The [Spanish Institute of Oceanography (IEO)](https://www.ieo.es/es_ES/web/ieo) has been conducting systematic ocean observation programs to interpret the changing marine ecosystems. These ecosystems are influenced by natural temporal and spatial variability as well as human activities such as fishing, pollution, and global warming. As part of [![](alvariño.jpg){fig-alt="B/O Ángeles Alvariño, one of the oceanographic vessels that carry out the RADIALES campaigns."}<br>B/O Ángeles Alvariño, one of the oceanographic vessels that carry out the RADIALES campaigns.]{.aside} international scientific initiatives, the IEO has collected and analyzed time series of oceanographic data since the 1980s. The observations were initially initiated on the coast of Galicia and later expanded to the Cantabrian and Mediterranean coasts. In 2007, the observation program was divided into two projects:[![](mytilus.png){fig-alt="B/O Mytilus, the vessel most commonly used for RADIAL Vigo."}<br>B/O Mytilus, the vessel most commonly used for RADIAL Vigo.]{.aside} [RADIALES](https://www.seriestemporales-ieo.net/), which maintains monthly observations on the northern coast of Spain, and RADMED, which focuses on the Mediterranean coasts with a seasonal frequency. Deep water observations were also started in 2004 in Galicia and the Cantabrian Sea (RADPROF) and in 2006 in the Canary Islands (RAPROCAN). These projects, along with tide gauge networks and satellite data stations, are the foundation of the IEO's ongoing ocean observation program.
+El [Instituto Español de Oceanografía (IEO)](https://www.ieo.es/es_ES/web/ieo) lleva a cabo programas sistemáticos de observación del océano para interpretar los cambios en los ecosistemas marinos. Estos ecosistemas están influidos por la variabilidad natural, temporal y espacial, así como por actividades humanas como la pesca, la contaminación y el calentamiento global. En el marco de [![](alvariño.jpg){fig-alt="B/O Ángeles Alvariño, uno de los buques oceanográficos que realizan las campañas RADIALES."}<br>B/O Ángeles Alvariño, uno de los buques oceanográficos que realizan las campañas RADIALES.]{.aside} iniciativas científicas internacionales, el IEO ha recogido y analizado series temporales de datos oceanográficos desde los años ochenta. Las observaciones comenzaron en la costa de Galicia y posteriormente se extendieron a las costas cantábrica y mediterránea. En 2007, el programa de observación se dividió en dos proyectos:[![](mytilus.png){fig-alt="B/O Mytilus, el buque más utilizado en la RADIAL de Vigo."}<br>B/O Mytilus, el buque más utilizado en la RADIAL de Vigo.]{.aside} [RADIALES](https://www.seriestemporales-ieo.net/), que mantiene observaciones mensuales en la costa norte de España, y RADMED, centrado en las costas mediterráneas con una frecuencia estacional. Las observaciones de aguas profundas comenzaron también en 2004 en Galicia y el Cantábrico (RADPROF) y en 2006 en Canarias (RAPROCAN). Estos proyectos, junto con las redes de mareógrafos y las estaciones de recepción de datos de satélite, constituyen la base del programa de observación oceánica permanente del IEO.
 
-# Role in Project
+# Mi papel en el proyecto
 
-Due to the nature of the project, each oceanographic center generates an enormous amount of oceanographic data annually for multiple Essential Oceanographic Variables (EOVs). As part of the plan to improve the information gathered in the project, my main duty is to design and deploy the VGOHAdB database, to store all data produced by our research group.
+Por la naturaleza del proyecto, cada centro oceanográfico genera cada año una enorme cantidad de datos para múltiples variables oceánicas esenciales (EOV). Dentro del plan para mejorar la información recogida en el proyecto, mi principal función es diseñar y poner en marcha la base de datos VGOHAdB, que almacena todos los datos producidos por nuestro grupo de investigación.
 
-![Structure of the VGOHAdB database](diagram.png){fig-align="center" width="400"}
+![Estructura de la base de datos VGOHAdB](diagram.png){fig-align="center" width="400"}
 
-My primary responsibilities within this project are to design, create, and maintain the database, primarily integrating data from the RADIALES Vigo program. To this end, a workflow has been developed to facilitate optimal data collection for subsequent analysis, homogenization, and population of the database. The database is a relational database in PostgreSQL, with a data structure separated by origins and data types, related by unique identifiers for the operations performed.
+Mis principales responsabilidades en este proyecto son diseñar, crear y mantener la base de datos, integrando principalmente los datos del programa RADIALES Vigo. Para ello se ha desarrollado un flujo de trabajo que facilita una recogida óptima de los datos para su posterior análisis, homogeneización y carga en la base de datos. Se trata de una base de datos relacional en PostgreSQL, con una estructura de datos separada por orígenes y tipos de datos, relacionados mediante identificadores únicos de las operaciones realizadas.
+
+## De las observaciones al análisis
+La integración de las series históricas permite estudiar no solo las diferencias entre campañas, sino también los cambios estacionales e interanuales de las comunidades planctónicas y su relación con las condiciones ambientales.
+
+Mi trabajo con VGOHAdB facilitó la organización y consulta conjunta de observaciones de plancton y variables oceanográficas. Sobre esta base, participé en análisis de series temporales, visualización de datos y elaboración de resultados científicos y técnicos.
+
+## Resultados relacionados
+### Dinámica del zooplancton
+
+Participación en el capítulo sobre dinámica del zooplancton en la ría de Vigo y la plataforma adyacente, que reúne series temporales y examina su relación con la variabilidad ambiental.
+
+[{{< ai doi >}} Zooplankton dynamics at the northern boundary of the Canary Current Upwelling System (NW Iberian Peninsula). Prospects from updated time series in the ‘Ría de Vigo’ and adjacent shelf](https://doi.org/10.1201/9781032662275-6)
+
+### Evaluación de hábitats pelágicos
+
+Participación en la evaluación de los hábitats pelágicos de la Demarcación Marina Noratlántica, dentro del tercer ciclo de Estrategias Marinas.
+
+Isla, A., Rayón Viña, F. y Velasco-Senovilla, E. (2025).
+*Evaluación del medio marino. Demarcación marina noratlántica.
+Tercer ciclo de estrategias marinas. Descriptor 1 – Hábitats pelágicos*.
+MITECO. NIPO: 665-25-050-2.

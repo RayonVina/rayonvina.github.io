@@ -1,0 +1,115 @@
+---
+title: "¡Nueva versión de mi web! Version 2.0"
+subtitle: "Dos idiomas, nuevos contenidos y un flujo de trabajo más reproducible"
+author: "Fernando Rayón Viña"
+date: "2026-11-06"
+image: translation.gif
+title-block-banner: featured.jpg
+categories:
+  - Quarto
+  - R
+  - babelquarto
+  - Desarrollo web
+header-includes: |
+  <link rel="stylesheet" href="../../assets/blog.css">
+resources:
+  - ../../assets/blog.css
+---
+
+## ¡Ya era hora!
+
+Después de más de dos años retomo este proyecto que tenía abandonado, con la esperanza do no volver a hacerlo (aunque no prometo nada). ¿Y qué ha cambiado para que me haya decidido a actualizar esta web? Pues básicamente que algo que había intentado en su momento y que no estaba entonces implementado ahora parece funcionar: establecer un sistema multilingüe.
+
+En su momento pensé «*Oye, tengo la web bastante abandonada y desactualizada*» y cuando me puse a invesitgar un poco sobre los avances que se habían hecho en Quarto estos años me quedé alucinado. Esta actualización empezó como un lavado de cara y terminó convirtiéndose en una revisión bastante completa: una presentación más clara, contenidos actualizados y, sobre todo, una estructura bilingüe en español e inglés. 
+
+La tecnología de base sigue siendo la misma: Quarto y R. La principal incorporación es  [`babelquarto`](https://docs.ropensci.org/babelquarto/), el paquete que me ha permitido organizar ambas versiones sin mantener dos sitios independientes.
+
+## Una web en español e inglés
+
+![](translation.gif){fig-align="center"}
+
+Cuando desarrollé la primera versión de esta web había ya intentado generar un sistema bilingüe. Después de bastantes intentonas y pruebas me di cuenta de que, de ser posible, iba a ser un dolor de cabeza enorme el hacerlo. En ese momento me decanté por una solución cutre pero práctica en la que los contenidos en español se enlazaban en el contenido en inglés y viceversa. 
+
+Pero evidentemente la primera idea era que el conjunto de la web se pudiera leer independientemente en cualquiera de los dos idiomas. La navegación, los pies de página, las fichas de proyectos y el resto del contenido tenían que mantener la coherencia entre idiomas. Para ello, como decía antes, he utilizado este `babelquarto`, un paquete de R que permite organizar el renderizado de proyectos multilingües de Quarto y enlazar sus versiones lingüísticas.
+
+### Qué hace (y qué no hace) `babelquarto`
+Sigo enamorado de quarto, desde que lo descubrí he hecho una migración completa a ese formato y es el que uso en todos los documentos que uso en mi trabajo diario. Por ello  quarto sigue siendo el motor que transforma los documentos fuente en las páginas de la web. `babelquarto` añade la coordinación necesaria para generar las distintas versiones,encargándose de organizar el renderizado de cada idioma y de relacionar las páginas correspondientes. No traduce automáticamente el contenido: los textos españoles e ingleses se mantienen en archivos fuente separados.
+
+Esta distinción es importante. Automatizar la construcción de una web no elimina la necesidad de revisar sus traducciones, sus enlaces y sus referencias.
+
+### La organización de los archivos
+El español es el idioma principal. Sus páginas conservan los nombres habituales de Quarto, mientras que las traducciones inglesas añaden el sufijo `.en`:
+
+```text
+index.qmd
+index.en.qmd
+
+about/
+├── index.qmd
+├── index.en.qmd
+├── resume.qmd
+├── resume.en.qmd
+├── outreach.qmd
+└── outreach.en.qmd
+```
+
+La misma estructura es la usada en las entradas del blog y en las fichas de proyectos.
+
+Esta convención permite mantener juntas las dos versiones de una página y proporciona a `babelquarto` el patrón necesario para identificar las traducciones de los documentos del idioma principal. Lo cual también facilita la traducción de todos los contenidos manteniendo el mismo formato.
+
+### La configuración de idiomas
+En `_quarto.yml` se define el español como idioma principal y el inglés como idioma adicional:
+
+```yaml
+lang: es
+
+babelquarto:
+  mainlanguage: es
+  languages: [en]
+  languagelinks: navbar
+  languagecodes:
+    - name: es
+      text: "ES"
+    - name:babelquarto::render_website(project_path = ".", site_url = "", preview = TRUE)
+ en
+      text: "EN"
+```
+
+`mainlanguage` identifica el idioma principal; `languages` contiene los adicionales, y `languagecodes` define las etiquetas que verá quien navegue por la web.
+
+En la salida, la versión española queda en la raíz del sitio y la inglesa en `/en/`. Así, las páginas equivalentes mantienen una estructura reconocible:
+
+```text
+/about/resume.html
+/en/about/resume.html
+```
+
+### Configuración común y perfiles por idioma
+También he separado la configuración compartida de la específica de cada versión:
+
+```text
+_quarto.yml
+_quarto-es.yml
+_quarto-en.yml
+```
+
+El archivo principal contiene el tema, los recursos y las opciones generales. Los perfiles de idioma definen elementos como los textos de los menús y del pie de página, mientras que los perfiles `_quarto-es.yml` y `_quarto-en.yml` permiten aplicar esos ajustes al renderizar cada idioma.
+
+Esto evita duplicar toda la configuración y facilita cambiar una característica visual una sola vez para las dos versiones.
+
+## Un selector de idioma adaptado al diseño
+La navegación bilingüe también necesitaba integrarse con el aspecto de la web. Para ello adaptaté el selector generado por `babelquarto` para mostrar un botón compacto ES/EN en la barra superior. El botón utiliza el enlace a la traducción de la página actual, en lugar de enviar siempre a la portada del otro idioma. Eso no es necesario, la propia librería por defecto tiene un selector desplegable con los idiomas, pero me gustó ese diseño más compacto.
+
+## Un único punto de entrada: render.R
+Para que se generen corréctamente ambas versiones en formato html, además de rederizar ciertos elementos durante el compilado de la web y de comprobar la integridad de todo durante el proceso; tenemos un pequeño script `render.R`.
+
+La construcción bilingüe se realiza con una llamada como esta, donde `site_url` contiene la dirección pública de la web:
+
+```r
+babelquarto::render_website(
+  project_path = ".",
+  site_url = site_url,
+  preview = FALSE
+)
+```
+Que permite hacer una previsualización de la misma en local con el selector de idiomas (cosa muy práctica cuando estás haciendo pruebas, lo puedo corroborar).
