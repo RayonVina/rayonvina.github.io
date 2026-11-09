@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Fernando Rayón Viña</title>
+<link>https://rayonvina.rbind.io/blog/</link>
+<atom:link href="https://rayonvina.rbind.io/blog/index.xml" rel="self" type="application/rss+xml"/>
+<description>Intentaré publicar aquí sobre temas que me interesan, especialmente los relacionados con lo que estoy haciendo.
+&lt;br&gt;
+Todas las entradas están disponibles en español y en inglés.
+</description>
+<generator>quarto-1.11.9</generator>
+<lastBuildDate>Fri, 06 Nov 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>¡Nueva versión de mi web! Version 2.0</title>
+  <dc:creator>Fernando Rayón Viña</dc:creator>
+  <link>https://rayonvina.rbind.io/blog/2026-11-06-Ya_era_hora/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="ya-era-hora" class="level2">
+<h2 class="anchored" data-anchor-id="ya-era-hora">¡Ya era hora!</h2>
+<p>Después de más de dos años retomo este proyecto que tenía abandonado, con la esperanza do no volver a hacerlo (aunque no prometo nada). ¿Y qué ha cambiado para que me haya decidido a actualizar esta web? Pues básicamente que algo que había intentado en su momento y que no estaba entonces implementado ahora parece funcionar: establecer un sistema multilingüe.</p>
+<p>En su momento pensé «<em>Oye, tengo la web bastante abandonada y desactualizada</em>» y cuando me puse a invesitgar un poco sobre los avances que se habían hecho en Quarto estos años me quedé alucinado. Esta actualización empezó como un lavado de cara y terminó convirtiéndose en una revisión bastante completa: una presentación más clara, contenidos actualizados y, sobre todo, una estructura bilingüe en español e inglés.</p>
+<p>La tecnología de base sigue siendo la misma: Quarto y R. La principal incorporación es <a href="https://docs.ropensci.org/babelquarto/"><code>babelquarto</code></a>, el paquete que me ha permitido organizar ambas versiones sin mantener dos sitios independientes.</p>
+</section>
+<section id="una-web-en-español-e-inglés" class="level2">
+<h2 class="anchored" data-anchor-id="una-web-en-español-e-inglés">Una web en español e inglés</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://rayonvina.rbind.io/blog/2026-11-06-Ya_era_hora/translation.gif" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>Cuando desarrollé la primera versión de esta web había ya intentado generar un sistema bilingüe. Después de bastantes intentonas y pruebas me di cuenta de que, de ser posible, iba a ser un dolor de cabeza enorme el hacerlo. En ese momento me decanté por una solución cutre pero práctica en la que los contenidos en español se enlazaban en el contenido en inglés y viceversa.</p>
+<p>Pero evidentemente la primera idea era que el conjunto de la web se pudiera leer independientemente en cualquiera de los dos idiomas. La navegación, los pies de página, las fichas de proyectos y el resto del contenido tenían que mantener la coherencia entre idiomas. Para ello, como decía antes, he utilizado este <code>babelquarto</code>, un paquete de R que permite organizar el renderizado de proyectos multilingües de Quarto y enlazar sus versiones lingüísticas.</p>
+<section id="qué-hace-y-qué-no-hace-babelquarto" class="level3">
+<h3 class="anchored" data-anchor-id="qué-hace-y-qué-no-hace-babelquarto">Qué hace (y qué no hace) <code>babelquarto</code></h3>
+<p>Sigo enamorado de quarto, desde que lo descubrí he hecho una migración completa a ese formato y es el que uso en todos los documentos que uso en mi trabajo diario. Por ello quarto sigue siendo el motor que transforma los documentos fuente en las páginas de la web. <code>babelquarto</code> añade la coordinación necesaria para generar las distintas versiones,encargándose de organizar el renderizado de cada idioma y de relacionar las páginas correspondientes. No traduce automáticamente el contenido: los textos españoles e ingleses se mantienen en archivos fuente separados.</p>
+<p>Esta distinción es importante. Automatizar la construcción de una web no elimina la necesidad de revisar sus traducciones, sus enlaces y sus referencias.</p>
+</section>
+<section id="la-organización-de-los-archivos" class="level3">
+<h3 class="anchored" data-anchor-id="la-organización-de-los-archivos">La organización de los archivos</h3>
+<p>El español es el idioma principal. Sus páginas conservan los nombres habituales de Quarto, mientras que las traducciones inglesas añaden el sufijo <code>.en</code>:</p>
+<pre class="text"><code>index.qmd
+index.en.qmd
+
+about/
+├── index.qmd
+├── index.en.qmd
+├── resume.qmd
+├── resume.en.qmd
+├── outreach.qmd
+└── outreach.en.qmd</code></pre>
+<p>La misma estructura es la usada en las entradas del blog y en las fichas de proyectos.</p>
+<p>Esta convención permite mantener juntas las dos versiones de una página y proporciona a <code>babelquarto</code> el patrón necesario para identificar las traducciones de los documentos del idioma principal. Lo cual también facilita la traducción de todos los contenidos manteniendo el mismo formato.</p>
+</section>
+<section id="la-configuración-de-idiomas" class="level3">
+<h3 class="anchored" data-anchor-id="la-configuración-de-idiomas">La configuración de idiomas</h3>
+<p>En <code>_quarto.yml</code> se define el español como idioma principal y el inglés como idioma adicional:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">lang</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> es</span></span>
+<span id="cb2-2"></span>
+<span id="cb2-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">babelquarto</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb2-4"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mainlanguage</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> es</span></span>
+<span id="cb2-5"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">languages</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">[</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">en</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">]</span></span>
+<span id="cb2-6"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">languagelinks</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> navbar</span></span>
+<span id="cb2-7"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">languagecodes</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb2-8"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">-</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">name</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> es</span></span>
+<span id="cb2-9"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">      </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">text</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"ES"</span></span>
+<span id="cb2-10"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">-</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> name:babelquarto::render_website(project_path = ".", site_url = "", preview = TRUE)</span></span>
+<span id="cb2-11"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> en</span></span>
+<span id="cb2-12"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">      </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">text</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"EN"</span></span></code></pre></div></div>
+<p><code>mainlanguage</code> identifica el idioma principal; <code>languages</code> contiene los adicionales, y <code>languagecodes</code> define las etiquetas que verá quien navegue por la web.</p>
+<p>En la salida, la versión española queda en la raíz del sitio y la inglesa en <code>/en/</code>. Así, las páginas equivalentes mantienen una estructura reconocible:</p>
+<pre class="text"><code>/about/resume.html
+/en/about/resume.html</code></pre>
+</section>
+<section id="configuración-común-y-perfiles-por-idioma" class="level3">
+<h3 class="anchored" data-anchor-id="configuración-común-y-perfiles-por-idioma">Configuración común y perfiles por idioma</h3>
+<p>También he separado la configuración compartida de la específica de cada versión:</p>
+<pre class="text"><code>_quarto.yml
+_quarto-es.yml
+_quarto-en.yml</code></pre>
+<p>El archivo principal contiene el tema, los recursos y las opciones generales. Los perfiles de idioma definen elementos como los textos de los menús y del pie de página, mientras que los perfiles <code>_quarto-es.yml</code> y <code>_quarto-en.yml</code> permiten aplicar esos ajustes al renderizar cada idioma.</p>
+<p>Esto evita duplicar toda la configuración y facilita cambiar una característica visual una sola vez para las dos versiones.</p>
+</section>
+</section>
+<section id="un-selector-de-idioma-adaptado-al-diseño" class="level2">
+<h2 class="anchored" data-anchor-id="un-selector-de-idioma-adaptado-al-diseño">Un selector de idioma adaptado al diseño</h2>
+<p>La navegación bilingüe también necesitaba integrarse con el aspecto de la web. Para ello adaptaté el selector generado por <code>babelquarto</code> para mostrar un botón compacto ES/EN en la barra superior. El botón utiliza el enlace a la traducción de la página actual, en lugar de enviar siempre a la portada del otro idioma. Eso no es necesario, la propia librería por defecto tiene un selector desplegable con los idiomas, pero me gustó ese diseño más compacto.</p>
+</section>
+<section id="un-único-punto-de-entrada-render.r" class="level2">
+<h2 class="anchored" data-anchor-id="un-único-punto-de-entrada-render.r">Un único punto de entrada: render.R</h2>
+<p>Para que se generen corréctamente ambas versiones en formato html, además de rederizar ciertos elementos durante el compilado de la web y de comprobar la integridad de todo durante el proceso; tenemos un pequeño script <code>render.R</code>.</p>
+<p>La construcción bilingüe se realiza con una llamada como esta, donde <code>site_url</code> contiene la dirección pública de la web:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1">babelquarto<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">render_website</span>(</span>
+<span id="cb5-2">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">project_path =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"."</span>,</span>
+<span id="cb5-3">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">site_url =</span> site_url,</span>
+<span id="cb5-4">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">preview =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">FALSE</span></span>
+<span id="cb5-5">)</span></code></pre></div></div>
+<p>Que permite hacer una previsualización de la misma en local con el selector de idiomas (cosa muy práctica cuando estás haciendo pruebas, lo puedo corroborar).</p>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reutilización</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cómo citar</h2><div><div class="quarto-appendix-secondary-label">Por favor, cita este trabajo como:</div><div id="ref-rayón_viña2026" class="csl-entry quarto-appendix-citeas">
+Rayón Viña, Fernando. 2026. <span>“¡Nueva versión de mi web! Version
+2.0.”</span> November 6. <a href="https://rayonvina.rbind.io/blog/2026-11-06-Ya_era_hora/">https://rayonvina.rbind.io/blog/2026-11-06-Ya_era_hora/</a>.
+</div></div></section></div> ]]></description>
+  <category>Quarto</category>
+  <category>R</category>
+  <category>babelquarto</category>
+  <category>Desarrollo web</category>
+  <guid>https://rayonvina.rbind.io/blog/2026-11-06-Ya_era_hora/</guid>
+  <pubDate>Fri, 06 Nov 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://rayonvina.rbind.io/blog/2026-11-06-Ya_era_hora/translation.gif" medium="image" type="image/gif"/>
+</item>
+<item>
+  <title>¡Hola mundo!</title>
+  <dc:creator>Fernando Rayón Viña</dc:creator>
+  <link>https://rayonvina.rbind.io/blog/2024-06-19-Hola_mundo/</link>
+  <description><![CDATA[ <div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://rdrr.io/r/base/print.html">print</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"¡Hola mundo!"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "&lt;U+00A1&gt;Hola mundo!"</code></pre>
+</div>
+</div>
+<p>Pues como he puesto un poco más arriba esto es simplemente una primera entrada de bienvenida. He construido esta web utilizando <a href="https://quarto.org/">Posit (RStudio) Quarto</a> (en R obviamente) casi a modo de experimento, utilizando únicamente Rstudio Desktop, tiempo y paciencia.<br>
+Tengo que agradecer a <a href="https://silviacanelon.com/about/">Silvia Canelón</a> que haya dejado su repositorio de github con el código fuente de su magnífica web abierto para que el resto podamos <del>copiarle</del> inspirarnos para hacer las nuestras.</p>
+<p>Dudo que postee con asiduidad, porque nunca lo he hecho, pero intentaré poner por aquí curiosidades con las que esté trabajando y que considere que merecen la pena. Lo que sí que tengo bastante claro es que seguiré haciendo cambios y mejoras a esta web.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://rayonvina.rbind.io/blog/2024-06-19-Hola_mundo/featured_full.gif" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p><a href="../../blog/index.html">← Volver al blog</a></p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reutilización</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cómo citar</h2><div><div class="quarto-appendix-secondary-label">Por favor, cita este trabajo como:</div><div id="ref-rayón_viña2024" class="csl-entry quarto-appendix-citeas">
+Rayón Viña, Fernando. 2024. <span>“¡Hola mundo!”</span> June 19. <a href="https://rayonvina.rbind.io/blog/2024-06-19-Hola_mundo/">https://rayonvina.rbind.io/blog/2024-06-19-Hola_mundo/</a>.
+</div></div></section></div> ]]></description>
+  <category>Off topic</category>
+  <guid>https://rayonvina.rbind.io/blog/2024-06-19-Hola_mundo/</guid>
+  <pubDate>Wed, 19 Jun 2024 03:00:00 GMT</pubDate>
+  <media:content url="https://rayonvina.rbind.io/blog/2024-06-19-Hola_mundo/hola-mundo.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+</channel>
+</rss>

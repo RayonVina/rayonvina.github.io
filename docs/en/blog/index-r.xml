@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Fernando Rayón Viña</title>
+<link>/en/blog/#category=R</link>
+<atom:link href="/en/blog/index-r.xml" rel="self" type="application/rss+xml"/>
+<description>I will try to post here on topics that interest me, especially those related to what I&#39;m doing.
+&lt;br&gt;
+All posts are available in both English and Spanish.
+</description>
+<generator>quarto-1.11.9</generator>
+<lastBuildDate>Fri, 06 Nov 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>A new version of my website! Version 2.0</title>
+  <dc:creator>Fernando Rayón Viña</dc:creator>
+  <link>/en/blog/2026-11-06-Ya_era_hora/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="about-time" class="level2">
+<h2 class="anchored" data-anchor-id="about-time">About time!</h2>
+<p>After more than two years, I am returning to this project, which I had left neglected, in the hope that I will not do that again (though I am not making any promises). So what has changed to make me decide to update this website? Basically, something I had tried back then, but which was not yet implemented, now seems to work: setting up a multilingual system.</p>
+<p>At one point I thought, “<em>Hey, my website is looking pretty abandoned and out-of-date</em>,” and when I started looking into the progress Quarto had made over the past few years, I was blown away. This update started as a facelift and ended up becoming a fairly comprehensive overhaul: a clearer presentation, updated content, and, above all, a bilingual structure in Spanish and English.</p>
+<p>The underlying technology remains the same: Quarto and R. The main addition is <a href="https://docs.ropensci.org/babelquarto/"><code>babelquarto</code></a>, the package that has allowed me to organize both versions without maintaining two separate sites.</p>
+</section>
+<section id="a-website-in-spanish-and-english" class="level2">
+<h2 class="anchored" data-anchor-id="a-website-in-spanish-and-english">A website in Spanish and English</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="/en/blog/2026-11-06-Ya_era_hora/translation.gif" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>When I developed the first version of this website, I had already tried to make it bilingual. After plenty of attempts and experiments, I realized that, even if it was possible, doing so would be a huge headache. At the time, I settled for a clunky but practical solution: linking to the Spanish content from the English content, and vice versa.</p>
+<p>But of course, the original idea was for the entire website to be readable independently in either language. The navigation, footers, project pages, and the rest of the content needed to remain consistent across languages. To achieve this, as I mentioned earlier, I used <code>babelquarto</code>, an R package that organizes the rendering of multilingual Quarto projects and links their language versions.</p>
+<section id="what-babelquarto-does-and-does-not-do" class="level3">
+<h3 class="anchored" data-anchor-id="what-babelquarto-does-and-does-not-do">What <code>babelquarto</code> does (and does not do)</h3>
+<p>I am still in love with Quarto. Since discovering it, I have moved entirely to this format, and I use it for all the documents in my day-to-day work. Quarto therefore remains the engine that transforms source documents into the website’s pages. <code>babelquarto</code> adds the coordination needed to generate the different versions, organizing the rendering of each language and linking the corresponding pages. It does not translate content automatically: the Spanish and English texts are maintained in separate source files.</p>
+<p>This distinction matters. Automating a website’s build process does not remove the need to review its translations, links, and references.</p>
+</section>
+<section id="file-organization" class="level3">
+<h3 class="anchored" data-anchor-id="file-organization">File organization</h3>
+<p>Spanish is the main language. Its pages retain the usual Quarto filenames, while the English translations add the <code>.en</code> suffix:</p>
+<pre class="text"><code>index.qmd
+index.en.qmd
+
+about/
+├── index.qmd
+├── index.en.qmd
+├── resume.qmd
+├── resume.en.qmd
+├── outreach.qmd
+└── outreach.en.qmd</code></pre>
+<p>The same structure is used for blog posts and project pages.</p>
+<p>This convention keeps the two versions of a page together and gives <code>babelquarto</code> the pattern it needs to identify translations of documents in the main language. It also makes it easier to translate all the content while preserving the same format.</p>
+</section>
+<section id="language-configuration" class="level3">
+<h3 class="anchored" data-anchor-id="language-configuration">Language configuration</h3>
+<p>In <code>_quarto.yml</code>, Spanish is defined as the main language and English as an additional language:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">lang</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> es</span></span>
+<span id="cb2-2"></span>
+<span id="cb2-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">babelquarto</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb2-4"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mainlanguage</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> es</span></span>
+<span id="cb2-5"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">languages</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">[</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">en</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">]</span></span>
+<span id="cb2-6"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">languagelinks</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> navbar</span></span>
+<span id="cb2-7"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">languagecodes</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb2-8"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">-</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">name</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> es</span></span>
+<span id="cb2-9"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">      </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">text</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"ES"</span></span>
+<span id="cb2-10"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">-</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> name:babelquarto::render_website(project_path = ".", site_url = "", preview = TRUE)</span></span>
+<span id="cb2-11"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> en</span></span>
+<span id="cb2-12"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">      </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">text</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"EN"</span></span></code></pre></div></div>
+<p><code>mainlanguage</code> identifies the main language; <code>languages</code> contains the additional languages, and <code>languagecodes</code> defines the labels visitors will see as they browse the website.</p>
+<p>In the output, the Spanish version is placed at the site’s root and the English version under <code>/en/</code>. Equivalent pages therefore retain a recognizable structure:</p>
+<pre class="text"><code>/about/resume.html
+/en/about/resume.html</code></pre>
+</section>
+<section id="shared-configuration-and-language-specific-profiles" class="level3">
+<h3 class="anchored" data-anchor-id="shared-configuration-and-language-specific-profiles">Shared configuration and language-specific profiles</h3>
+<p>I have also separated the shared configuration from the settings specific to each version:</p>
+<pre class="text"><code>_quarto.yml
+_quarto-es.yml
+_quarto-en.yml</code></pre>
+<p>The main file contains the theme, resources, and general options. The language profiles define elements such as menu and footer text, while the <code>_quarto-es.yml</code> and <code>_quarto-en.yml</code> profiles allow those settings to be applied when rendering each language.</p>
+<p>This avoids duplicating the entire configuration and makes it possible to change a visual feature just once for both versions.</p>
+</section>
+</section>
+<section id="a-language-switcher-that-fits-the-design" class="level2">
+<h2 class="anchored" data-anchor-id="a-language-switcher-that-fits-the-design">A language switcher that fits the design</h2>
+<p>Bilingual navigation also needed to fit the website’s appearance. To achieve this, I adapted the switcher generated by <code>babelquarto</code> to display a compact ES/EN button in the top navigation bar. The button uses the link to the translation of the current page, rather than always sending visitors to the other language’s homepage. This customization is not necessary: the package already provides a language dropdown by default, but I preferred the more compact design.</p>
+</section>
+<section id="a-single-entry-point-render.r" class="level2">
+<h2 class="anchored" data-anchor-id="a-single-entry-point-render.r">A single entry point: render.R</h2>
+<p>To ensure that both versions are generated correctly in HTML, render certain elements during the website build, and check everything’s integrity throughout the process, we have a small <code>render.R</code> script.</p>
+<p>The bilingual build is performed with a call like this, where <code>site_url</code> contains the website’s public address:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1">babelquarto<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">render_website</span>(</span>
+<span id="cb5-2">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">project_path =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"."</span>,</span>
+<span id="cb5-3">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">site_url =</span> site_url,</span>
+<span id="cb5-4">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">preview =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">FALSE</span></span>
+<span id="cb5-5">)</span></code></pre></div></div>
+<p>This makes it possible to preview the website locally with the language switcher (which is very handy when testing, as I can confirm).</p>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-rayón_viña2026" class="csl-entry quarto-appendix-citeas">
+Rayón Viña, Fernando. 2026. <span>“A New Version of My Website! Version
+2.0.”</span> November 6. <a href="https:///en/blog/2026-11-06-Ya_era_hora/">/en/blog/2026-11-06-Ya_era_hora/</a>.
+</div></div></section></div> ]]></description>
+  <category>Quarto</category>
+  <category>R</category>
+  <category>babelquarto</category>
+  <category>Web development</category>
+  <guid>/en/blog/2026-11-06-Ya_era_hora/</guid>
+  <pubDate>Fri, 06 Nov 2026 04:00:00 GMT</pubDate>
+  <media:content url="/en/blog/2026-11-06-Ya_era_hora/translation.gif" medium="image" type="image/gif"/>
+</item>
+</channel>
+</rss>

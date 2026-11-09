@@ -27,7 +27,8 @@ $white:                   $frv-surface;
 $body-bg:                 $frv-background;
 $body-color:              $frv-text;
 
-// Mantener compatibilidad con las reglas existentes del tema.
+// Variables de compatibilidad.
+// Se conservan hasta comprobar sus referencias en todo el proyecto.
 $primary-dark:            $frv-text;
 $secondary-light:         $frv-accent;
 $accent:                  $frv-accent;
@@ -42,7 +43,7 @@ $warning:                 #F0AD4E;
 $danger:                  #E74C3C;
 
 // ============================================================
-// Tipografía: sin cambios
+// Tipografía
 // ============================================================
 
 $font-family-sans-serif:  "Lato", -apple-system, BlinkMacSystemFont,
@@ -69,10 +70,10 @@ $link-hover-decoration:   underline;
 // Tablas
 // ============================================================
 
-$table-border-color:                  $frv-border;
-$table-group-separator-color:         rgba($frv-text, 0.28);
+$table-border-color:                 $frv-border;
+$table-group-separator-color:        rgba($frv-text, 0.28);
 $table-group-separator-color-lighter: rgba($frv-text, 0.12);
-$table-caption-color:                 $frv-text;
+$table-caption-color:                $frv-text;
 
 // ============================================================
 // Código
@@ -102,17 +103,40 @@ $footer-fg:               $frv-text;
 
 // Gris auxiliar para componentes de Bootstrap.
 $gray-200:                mix($frv-surface, $frv-text, 90%);
+
+
 /*-- scss:rules --*/
 
-// Code
+// ============================================================
+// Fondo general del sitio
+// ============================================================
 
-// code block
+body {
+  background-color: $frv-background;
+  background-image: url("assets/images/background/fondo-haeckel-v2-2560x1440.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@media screen and (max-width: 767.98px) {
+  body {
+    background-attachment: scroll;
+  }
+}
+
+// ============================================================
+// Código
+// ============================================================
+
+// Bloques de código.
 div.sourceCode {
   background-color: $code-block-bg;
   border: 1px solid $code-block-border;
 }
 
-// inline code
+// Código en línea.
 p code:not(pre code),
 li code:not(pre code),
 td code:not(pre code) {
@@ -123,7 +147,10 @@ td code:not(pre code) {
   padding: 0.1em 0.3em;
 }
 
-// Blockquotes
+// ============================================================
+// Citas
+// ============================================================
+
 .blockquote {
   color: $frv-text;
   border-left: 3px solid $frv-accent;
@@ -131,18 +158,11 @@ td code:not(pre code) {
   font-style: oblique;
 }
 
-// Social icons
+// ============================================================
+// Iconos y enlaces sociales
+// ============================================================
 
-// footer
-.nav-footer-center i {
-  color: $secondary !important;
-  
-  &:hover {
-    color: $secondary-light !important;
-  }
-}
-
-// home + about pages
+// Portada y páginas de presentación.
 .about-links .about-link i {
   color: $secondary !important;
 
@@ -151,205 +171,161 @@ td code:not(pre code) {
   }
 }
 
-// Contact
-
-// social links
+// Enlaces sociales de contacto.
 .link-dark.me-1 i {
   color: $secondary !important;
 }
 
-// Buttons
+// ============================================================
+// Botones
+// ============================================================
 
-// post links
+// Botón principal: petróleo y texto blanco.
+.btn-primary {
+  color: $frv-surface;
+  background-color: $frv-accent;
+  border-color: $frv-accent;
+}
+
+.btn-primary:hover,
+.btn-primary:focus-visible {
+  color: $frv-surface;
+  background-color: $frv-text;
+  border-color: $frv-text;
+}
+
+// Botones secundarios: discretos, sin un nuevo color.
 .btn-secondary {
-  color: $secondary;
+  color: $frv-text;
   background: transparent;
+  border-color: $frv-border;
   border-radius: 5px;
 }
 
-// contact form
-.btn-primary:hover {
-  background-color: $secondary;
-  border-color: $secondary;
+.btn-secondary:hover,
+.btn-secondary:focus-visible {
+  color: $frv-text;
+  background-color: $frv-soft-background;
+  border-color: $frv-text;
 }
 
-// pagination
+// ============================================================
+// Paginación
+// ============================================================
+
 .page-link {
   color: $primary;
+
   &:hover {
-    color: white;
+    color: $frv-surface;
     background-color: $primary;
     border-color: $primary;
   }
 }
 
-// Categories
+// ============================================================
+// Categorías
+// ============================================================
 
-// posts
+// Categorías de las entradas.
 .quarto-category {
   background-color: $primary;
-  color: white;
+  color: $frv-surface;
   border-color: $primary;
+
   &:hover {
-    background-color: white;
+    background-color: $frv-surface;
     color: $primary;
   }
 }
 
-// listings
+// Categorías de los listados.
 .listing-category {
   color: $secondary !important;
   border-color: $secondary !important;
+
   &:hover {
     background-color: $secondary;
-    color: white !important;
+    color: $frv-surface !important;
   }
 }
 
-// Navbar
+// ============================================================
+// Barra de navegación
+// ============================================================
 
-// header
 .navbar {
-  background-color: $primary;  
+  background-color: $primary;
 }
 
-// title
+// Título.
 .navbar-title {
   font-size: 0.75em;
   font-weight: 500;
-  color: $light;  
+  color: $light;
   text-transform: uppercase;
   letter-spacing: .1em;
 
   &:hover {
-    border-bottom: 1px solid $white !important;  
+    border-bottom: 1px solid $white !important;
   }
 }
 
-// links
+// Enlaces.
+// El borde transparente reserva el espacio del subrayado.
 .navbar-nav .nav-link {
-    color: $white !important;  
-    text-transform: uppercase;
-    letter-spacing: .1em; 
-    border-bottom: 0px hidden $white;    
-    margin: 0px 10px 0px 10px; 
-    padding: 2px 2px 4px 2px !important;
+  color: $white !important;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  border-bottom: 1px solid transparent;
+  margin: 0 10px;
+  padding: 2px 2px 4px !important;
 
-    &:hover {
-      border-bottom: 1px solid $white !important;  
-      padding: 2px 2px 0px 2px !important;
-    }
-}
-
-// Footer
-
-// links on left side
-.nav-footer a {
-    color: $secondary;
-    // link on hover
-    &:hover {
-      color: $secondary-light;
-    }
-}
-
-// links on right side
-.nav-footer .nav-link {
-    &:hover {
-      text-decoration: underline;
-    }
-}
-
-// Listing cards
-.card {
-  background: transparent;
-  border: none;
-  border-radius: 4px;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
-}
-
-.card-img {
-    border-radius: 4px 4px 0px 0px;
-}
-
-// Title block
-
-// style background image on posts
-.featured-image {
-  background-size: cover; 
-  background-position: center;
-  color: white; 
-  box-shadow: inset 0 0 0 1000px rgba($frv-text, 0.75);
-}
-
-// make nav bar be centered in mobile
-// .fixed-top {
-//   position: absolute;
-// }
-
-.aa-DetachedOverlay {
-  position: absolute;
-}
-
-// links in description
-
-.description a {
-  text-decoration: underline !important;
-  &:hover {
-    text-decoration: none !important;
+  &:hover,
+  &:focus-visible {
+    border-bottom-color: $white;
   }
 }
 
-// Throughout the site
-
-// title
-.title {
-  font-size: 2.5em;
-  font-weight: 500;
-  line-height: 1.1em;
+// Icono ORCID de la barra superior.
+.navbar .frv-orcid-tool {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+  text-decoration: none;
 }
 
-// subtitle 
-.subtitle {
-  font-size: 1.2em;
-  // links within subtitles
-  a {
-    color: white;
-    text-decoration: underline !important;
-    &:hover {
-      text-decoration: none !important;
-    }
-  }
+.navbar .frv-orcid-tool i {
+  font-size: 1rem;
 }
 
-/* Justificar texto en los párrafos */
-p {
-  text-align: justify;
-}
-
-
-// Mobile
-
-@media screen and (max-width: 991.98px) {
-  // social media links
-  .about-entity .about-links {
-    flex-direction: row !important;
-    justify-content: center !important;
-  }
-
-
-  .navbar .quarto-navbar-tools {
-    text-align: left;
-  }
-}
-
-// Navegación y pie compartidos por los dos idiomas
+// ============================================================
+// Pie compartido por los dos idiomas
+// ============================================================
 
 // Pie en el flujo normal de la página.
+// Se mantiene opaco para conservar su legibilidad.
 footer.footer {
   position: static;
   width: 100%;
   background-color: $body-bg;
   border-top: 1px solid rgba($primary, 0.15);
+}
+
+// Enlaces del pie.
+.nav-footer a {
+  color: $secondary;
+
+  &:hover {
+    color: $secondary-light;
+  }
+}
+
+.nav-footer .nav-link {
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 // Dos laterales iguales y bloque central centrado.
@@ -416,24 +392,141 @@ footer.footer .nav-footer-center a {
   margin: 0 !important;
 }
 
+// Tamaño y color de los iconos centrales.
 footer.footer .nav-footer-center i {
   font-size: 1rem;
+  color: $frv-text !important;
 }
 
-// Icono ORCID de la barra superior.
-.navbar .frv-orcid-tool {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  color: inherit;
-  text-decoration: none;
+footer.footer .nav-footer-center a:hover i,
+footer.footer .nav-footer-center a:focus-visible i {
+  color: $frv-accent !important;
 }
 
-.navbar .frv-orcid-tool i {
-  font-size: 1rem;
+// ============================================================
+// Tarjetas de los listados
+// ============================================================
+
+.card {
+  background: transparent;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
 }
 
-// En móvil: iconos, enlaces y copyright, en tres filas centradas.
+.card-img {
+  border-radius: 4px 4px 0 0;
+}
+
+// ============================================================
+// Cabeceras con imagen
+// ============================================================
+
+.featured-image {
+  background-size: cover;
+  background-position: center;
+  color: $frv-surface;
+  box-shadow: inset 0 0 0 1000px rgba($frv-text, 0.75);
+}
+
+// ============================================================
+// Búsqueda
+// ============================================================
+
+.aa-DetachedOverlay {
+  position: absolute;
+}
+
+// ============================================================
+// Enlaces de las descripciones
+// ============================================================
+
+.description a {
+  text-decoration: underline !important;
+
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
+// ============================================================
+// Títulos, subtítulos y párrafos
+// ============================================================
+
+// Encabezados generales en grafito.
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $frv-text;
+}
+
+// Encabezados blancos dentro de cabeceras con imagen.
+.featured-image h1,
+.featured-image h2,
+.featured-image h3,
+.featured-image h4,
+.featured-image h5,
+.featured-image h6 {
+  color: $frv-surface;
+}
+
+// Título de página.
+.title {
+  font-size: 2.5em;
+  font-weight: 500;
+  line-height: 1.1em;
+}
+
+// Subtítulo.
+.subtitle {
+  font-size: 1.2em;
+}
+
+// Enlaces de subtítulos sobre el fondo general.
+.subtitle a {
+  color: $link-color;
+  text-decoration: underline !important;
+
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: none !important;
+  }
+}
+
+// Enlaces de subtítulos dentro de cabeceras con imagen.
+.featured-image .subtitle a {
+  color: $frv-surface;
+
+  &:hover {
+    color: $frv-surface;
+  }
+}
+
+// Se mantiene la justificación global del tema original.
+p {
+  text-align: justify;
+}
+
+// ============================================================
+// Adaptación a pantallas pequeñas
+// ============================================================
+
+@media screen and (max-width: 991.98px) {
+  // Enlaces sociales de las páginas de presentación.
+  .about-entity .about-links {
+    flex-direction: row !important;
+    justify-content: center !important;
+  }
+
+  .navbar .quarto-navbar-tools {
+    text-align: left;
+  }
+}
+
+// En móvil: iconos, enlaces y copyright en tres filas centradas.
 @media screen and (max-width: 767.98px) {
   footer.footer .nav-footer {
     grid-template-columns: minmax(0, 1fr);
@@ -460,54 +553,4 @@ footer.footer .nav-footer-center i {
     justify-content: center;
     flex-wrap: wrap;
   }
-}
-
-// ============================================================
-// Ajustes finales: petróleo y gris
-// ============================================================
-
-// Títulos e iconos del pie en grafito.
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: $frv-text;
-}
-
-footer.footer .nav-footer-center i {
-  color: $frv-text !important;
-}
-
-footer.footer .nav-footer-center a:hover i {
-  color: $frv-accent !important;
-}
-
-// Botón principal: petróleo y texto blanco.
-.btn-primary {
-  color: $frv-surface;
-  background-color: $frv-accent;
-  border-color: $frv-accent;
-}
-
-.btn-primary:hover,
-.btn-primary:focus-visible {
-  color: $frv-surface;
-  background-color: $frv-text;
-  border-color: $frv-text;
-}
-
-// Botones secundarios: discretos, sin un nuevo color.
-.btn-secondary {
-  color: $frv-text;
-  background-color: transparent;
-  border-color: $frv-border;
-}
-
-.btn-secondary:hover,
-.btn-secondary:focus-visible {
-  color: $frv-text;
-  background-color: $frv-soft-background;
-  border-color: $frv-text;
 }
