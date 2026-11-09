@@ -50,7 +50,6 @@ I am currently contributing to Phyto-MAP, a global atlas of phytoplankton observ
 
 As part of an interdisciplinary team, I contribute to the synthesis and analysis of large-scale ecological data to study the effects of climate change on marine organisms, particularly phytoplankton. I am interested in linking observations collected at different locations and times to understand plankton variability and changes in marine ecosystems. My work supports the development of predictive models that integrate information from satellite observations, field studies, laboratory experiments, and the fossil record.
 
-Feel free to [contact me](/contact.qmd) if you have any questions or suggestions.
 :::
 
 ## My background
@@ -73,8 +72,6 @@ There, I developed my experience in time-series analysis and workflows using R a
 I have also been involved in teaching and science outreach, from the IMBRSea international master's summer school to activities with organisations such as ONCE and DOWN Vigo. These experiences complement my research and my interest in making marine science accessible to diverse audiences.
 
 To discuss research, marine data, or potential collaborations, please [get in touch](/contact.qmd).
-
-:::
 
 ::: grid
 ::: g-col-6

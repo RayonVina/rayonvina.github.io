@@ -73,8 +73,6 @@ También he participado en docencia y divulgación científica, desde la escuela
 
 Si quieres hablar sobre investigación, datos marinos o posibles colaboraciones, puedes [ponerte en contacto conmigo](/contact.qmd).
 
-:::
-
 ::: grid
 ::: g-col-6
 ## Currículum vítae
