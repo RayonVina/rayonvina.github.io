@@ -14,16 +14,31 @@ format:
         \setmainfont{Carlito}
         \usepackage[a4paper,top=2.3cm,bottom=2cm,left=1.9cm,right=1.9cm,headsep=0.6cm]{geometry}
         \usepackage{xcolor}
-        \definecolor{berlin}{HTML}{2A6099}
-        \definecolor{berlindark}{HTML}{1F4E79}
-        \definecolor{datecol}{HTML}{333333}
+
+        % Paleta compartida con la web: petróleo y gris.
+        \definecolor{frvpetrol}{HTML}{285A66}
+        \definecolor{frvtext}{HTML}{24313A}
+        \definecolor{frvbackground}{HTML}{F5F7F8}
+        \definecolor{frvsurface}{HTML}{FFFFFF}
+
+        % Alias para conservar las macros y la maquetación existentes.
+        \colorlet{berlin}{frvpetrol}
+        \colorlet{berlindark}{frvtext}
+        \colorlet{datecol}{frvtext}
         \usepackage{tabularx,array}
         \usepackage{enumitem}
         \setlist[itemize]{nosep,leftmargin=1.2em,label=\textcolor{berlin}{\small$\bullet$},topsep=1pt}
         \usepackage{fancyhdr}
         \usepackage{lastpage}
         \usepackage[hidelinks]{hyperref}
-        \hypersetup{colorlinks=true,urlcolor=berlindark,linkcolor=berlindark,pdftitle={Curriculum vitae - Fernando Rayón Viña},pdfauthor={Fernando Rayón Viña}}
+        \hypersetup{
+          colorlinks=true,
+          urlcolor=frvpetrol,
+          linkcolor=frvpetrol,
+          citecolor=frvpetrol,
+          pdftitle={Curriculum vitae - Fernando Rayón Viña},
+          pdfauthor={Fernando Rayón Viña}
+        }
         \usepackage{titlesec}
         \newcommand{\secbar}[1]{\colorbox{berlin}{\parbox{\dimexpr\linewidth-2\fboxsep}{\strut\hspace{2mm}#1}}}
         \titleformat{\section}{\normalfont\large\bfseries\color{white}}{}{0pt}{\secbar}
@@ -34,7 +49,7 @@ format:
         \renewcommand{\headrulewidth}{0pt}
         \fancyhead[L]{\color{berlin}\Large\itshape Fernando Rayón Viña}
         \fancyhead[R]{\color{berlin}\Large\itshape Curriculum vitae}
-        \fancyfoot[C]{\small\color{gray}\thepage\,/\,\pageref*{LastPage}}
+        \fancyfoot[C]{\small\color{frvtext}\thepage\,/\,\pageref*{LastPage}}
         \setlength{\parindent}{0pt}
         \setlength{\parskip}{0pt}
         \linespread{1.04}
@@ -42,6 +57,8 @@ format:
         \newcommand{\cventry}[2]{\par\noindent\begin{tabularx}{\linewidth}{@{}D@{\hspace{3mm}}>{\raggedright\arraybackslash}X@{}}#1 & #2\end{tabularx}\par\vspace{4pt}}
         \newcommand{\cvhours}[3]{\par\noindent\begin{tabularx}{\linewidth}{@{}D@{\hspace{3mm}}>{\raggedright\arraybackslash}X@{\hspace{3mm}}>{\raggedleft\arraybackslash\small}p{1.15cm}@{}}#1 & #2 & #3\end{tabularx}\par\vspace{2.5pt}}
         \newcommand{\cvinfo}[4]{\par\noindent\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash\bfseries\leavevmode\color{berlindark}}p{2.35cm}@{\hspace{3mm}}>{\raggedright\arraybackslash}X@{\hspace{3mm}}>{\raggedright\arraybackslash\bfseries\leavevmode\color{berlindark}}p{2.3cm}@{\hspace{2mm}}>{\raggedright\arraybackslash}X@{}}#1 & #2 & #3 & #4\end{tabularx}\par\vspace{2pt}}
+        \AtBeginDocument{\color{frvtext}}
+
 ---
 
 ```{=latex}

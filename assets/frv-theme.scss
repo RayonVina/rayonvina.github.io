@@ -336,28 +336,6 @@ p {
     justify-content: center !important;
   }
 
-  // // navigation footer
-  // .nav-footer {
-  //     flex-direction: row;
-  //   }
-
-  // .nav-footer-center {
-  //   order: 1 !important;
-  //   flex-basis: 100%;
-  //   margin: 0 0 -1.2em 0;
-  // }
-
-  // .nav-footer-right {
-  //   order: 2 !important;
-  //   flex-basis: 100%;
-  //   text-align: center;
-  // }
-
-  // .nav-footer-left {
-  //   order: 3 !important;
-  //   flex-basis: 100%;
-  //   text-align: center;
-  // }
 
   .navbar .quarto-navbar-tools {
     text-align: left;
@@ -366,40 +344,27 @@ p {
 
 // Navegación y pie compartidos por los dos idiomas
 
-:root {
-  --frv-footer-height: 5rem;
-}
-
-// Reservar espacio para que el pie fijo no tape el contenido.
-body {
-  padding-bottom: var(--frv-footer-height) !important;
-}
-
-html {
-  scroll-padding-bottom: calc(var(--frv-footer-height) + 1rem);
-}
-
-// Pie fijo con fondo opaco.
+// Pie en el flujo normal de la página.
 footer.footer {
-  position: fixed;
-  inset: auto 0 0 0;
-  z-index: 1020;
+  position: static;
   width: 100%;
   background-color: $body-bg;
   border-top: 1px solid rgba($primary, 0.15);
 }
 
-// Dos laterales iguales: el bloque central queda centrado en la ventana.
+// Dos laterales iguales y bloque central centrado.
 footer.footer .nav-footer {
   display: grid !important;
   grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
   grid-template-areas: "left center right";
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.5rem;
+
   width: 100%;
   max-width: none;
-  padding: 0.65rem 1rem;
-  padding-bottom: calc(0.65rem + env(safe-area-inset-bottom, 0px));
+  min-height: 0;
+
+  padding: 0.3rem 1rem;
   box-sizing: border-box;
 }
 
@@ -476,9 +441,8 @@ footer.footer .nav-footer-center i {
       "center"
       "right"
       "left";
-    gap: 0.35rem;
-    padding-top: 0.45rem;
-    padding-bottom: calc(0.45rem + env(safe-area-inset-bottom, 0px));
+    gap: 0.2rem;
+    padding: 0.3rem 1rem;
   }
 
   footer.footer .nav-footer-left,

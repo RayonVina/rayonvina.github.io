@@ -3,7 +3,7 @@ title: "¡Nueva versión de mi web! Version 2.0"
 subtitle: "Dos idiomas, nuevos contenidos y un flujo de trabajo más reproducible"
 author: "Fernando Rayón Viña"
 date: "2026-11-06"
-image: lorem-ipsum.jpg
+image: translation.gif
 title-block-banner: featured.jpg
 categories:
   - Quarto
@@ -25,6 +25,9 @@ En su momento pensé «*Oye, tengo la web bastante abandonada y desactualizada*�
 La tecnología de base sigue siendo la misma: Quarto y R. La principal incorporación es  [`babelquarto`](https://docs.ropensci.org/babelquarto/), el paquete que me ha permitido organizar ambas versiones sin mantener dos sitios independientes.
 
 ## Una web en español e inglés
+
+![](translation.gif){fig-align="center"}
+
 Cuando desarrollé la primera versión de esta web había ya intentado generar un sistema bilingüe. Después de bastantes intentonas y pruebas me di cuenta de que, de ser posible, iba a ser un dolor de cabeza enorme el hacerlo. En ese momento me decanté por una solución cutre pero práctica en la que los contenidos en español se enlazaban en el contenido en inglés y viceversa. 
 
 Pero evidentemente la primera idea era que el conjunto de la web se pudiera leer independientemente en cualquiera de los dos idiomas. La navegación, los pies de página, las fichas de proyectos y el resto del contenido tenían que mantener la coherencia entre idiomas. Para ello, como decía antes, he utilizado este `babelquarto`, un paquete de R que permite organizar el renderizado de proyectos multilingües de Quarto y enlazar sus versiones lingüísticas.
