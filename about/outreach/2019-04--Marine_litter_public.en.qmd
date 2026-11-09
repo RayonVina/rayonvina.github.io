@@ -21,8 +21,8 @@ categories:
   - Awareness
   - Perception
   - Age
-description: "Plos One"
-publication_short: "PONE"
+description: "Marine Pollution Bulletin"
+publication_short: "MPB"
 subtitle: "The study suggests that beach cleanups by locals can enhance awareness and correct misconceptions about litter sources, despite existing perception gaps between volunteers and non-volunteers, and among different age groups."
 abstract: ""
    
@@ -30,6 +30,12 @@ format:
   html: 
     page-layout: full
     toc: false
+
+product-icons:
+  - classes: "fa-solid fa-file-contract"
+    label: "Journal article"
+  - classes: "ai ai-closed-access"
+    label: "Closed access"
 ---
 
 {{< fa regular newspaper >}} Find the paper here: {{< ai doi >}}  [10.1016/j.marpolbul.2019.02.034](https://doi.org/10.1016/j.marpolbul.2019.02.034) {{< ai closed-access >}}

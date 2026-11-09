@@ -2,23 +2,23 @@
 title: "Publicaciones" 
 description: |
   Artículos, capítulos de libro, preprints, software, conjuntos de datos y otras contribuciones científicas.
-listing: 
-  contents: 
+listing:
+  contents:
     - "**/outreach/*.qmd"
+  template: outreach-listing.ejs.md
   sort: "date desc"
-  type: default
   categories: false
   sort-ui: false
   filter-ui: false
   fields: [title, description, author, date]
-  image-align: left
-  # image-height: 10em
   page-size: 5
 
-format: 
-  html: 
-    toc: false    
+format:
+  html:
+    toc: false
     page-layout: full
+    css: ../assets/outreach-listing.css
+    include-in-header: ../assets/outreach-icons.html
 
 title-block-banner: false
 ---

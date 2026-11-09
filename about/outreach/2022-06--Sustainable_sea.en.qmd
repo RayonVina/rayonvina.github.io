@@ -27,6 +27,11 @@ format:
   html: 
     page-layout: full
     toc: false
+product-icons:
+  - classes: "fa-solid fa-file-contract"
+    label: "Journal article"
+  - classes: "ai ai-closed-access"
+    label: "Closed access"
 ---
 
 {{< fa regular newspaper >}} Find the paper here: {{< ai doi >}}  [10.1080/1533015X.2021.1930608](https://doi.org/10.1080/1533015X.2021.1930608) {{< ai closed-access >}}

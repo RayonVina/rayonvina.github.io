@@ -44,6 +44,11 @@ format:
   html: 
     page-layout: full
     toc: false
+product-icons:
+  - classes: "fa-solid fa-file-contract"
+    label: "Journal article"
+  - classes: "ai ai-open-access"
+    label: "Open access"
 ---
 
 {{< fa regular newspaper >}} Find the paper here: {{< ai doi >}}  [10.1016/j.ecss.2022.107879](https://doi.org/10.1016/j.ecss.2022.107879) {{< ai open-access >}}

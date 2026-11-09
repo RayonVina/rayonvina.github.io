@@ -29,6 +29,11 @@ format:
   html: 
     page-layout: full
     toc: false
+product-icons:
+  - classes: "fa-solid fa-file-contract"
+    label: "Artículo de revista"
+  - classes: "ai ai-closed-access"
+    label: "Acceso cerrado"
 ---
 
 {{< fa regular newspaper >}} Consulta el artículo aquí: {{< ai doi >}}  [10.1016/j.ocecoaman.2022.106040](https://doi.org/10.1016/j.ocecoaman.2022.106040) {{< ai closed-access >}}

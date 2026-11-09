@@ -28,6 +28,11 @@ format:
   html: 
     page-layout: full
     toc: false
+product-icons:
+  - classes: "fa-solid fa-file-contract"
+    label: "Journal article"
+  - classes: "ai ai-closed-access"
+    label: "Closed access"
 ---
 
 {{< fa regular newspaper >}} Find the paper here: {{< ai doi >}}  [10.1016/j.marpolbul.2018.04.066](https://doi.org/10.1016/j.marpolbul.2018.04.066) {{< ai closed-access >}}

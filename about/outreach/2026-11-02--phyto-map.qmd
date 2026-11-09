@@ -20,6 +20,11 @@ format:
   html:
     page-layout: full
     toc: false
+product-icons:
+  - classes: "fa-solid fa-database"
+    label: "Base de datos"
+  - classes: "ai ai-open-data"
+    label: "Datos abiertos"
 ---
 
 [{{< ai doi >}} DOI: 10.5281/zenodo.23424052](https://doi.org/10.5281/zenodo.23424052)

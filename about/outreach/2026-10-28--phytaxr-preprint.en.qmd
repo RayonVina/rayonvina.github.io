@@ -19,6 +19,11 @@ format:
   html:
     page-layout: full
     toc: false
+product-icons:
+  - classes: "ai ai-biorxiv"
+    label: "Preprint on bioRxiv"
+  - classes: "ai ai-open-access"
+    label: "Open access"
 ---
 
 [{{< ai doi >}} DOI: 10.64898/2026.10.23.761320](https://doi.org/10.64898/2026.10.23.761320) {{< ai open-access >}}

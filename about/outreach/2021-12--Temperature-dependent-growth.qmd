@@ -22,7 +22,7 @@ categories:
   - Sexualidad
   - Cambio climático
 description: "Harmful Algae"
-# publication_short: ""
+publication_short: "HA"
 subtitle: "El estudio indica que el crecimiento de las especies de Gambierdiscus varía con la temperatura, siendo G. australes la que muestra una tolerancia térmica más amplia, lo que sugiere que la temperatura influye en su distribución y que la reproducción sexual podría ser una respuesta a las temperaturas extremas."
 abstract: ""
 
@@ -30,6 +30,11 @@ format:
   html: 
     page-layout: full
     toc: false
+product-icons:
+  - classes: "fa-solid fa-file-contract"
+    label: "Journal article"
+  - classes: "ai ai-open-access"
+    label: "Open access"
 ---
 
 {{< fa regular newspaper >}} Consulta el artículo aquí: {{< ai doi >}}  [10.1016/j.hal.2021.102130](https://doi.org/10.1016/j.hal.2021.102130) {{< ai open-access >}}
