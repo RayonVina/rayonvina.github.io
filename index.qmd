@@ -65,7 +65,7 @@ execute:
 
 ::: {#hero-heading}
 
-Soy biólogo y científico de datos, e investigador asociado en el Marine Microbial Macroecology Lab de Dalhousie University. Mi trabajo combina ecología marina, programación y gestión de datos para estudiar el plancton y comprender los cambios en los ecosistemas oceánicos.
+Soy biólogo y científico de datos, y trabajo como investigador asociado en el Marine Microbial Macroecology Lab de Dalhousie University. Mi trabajo combina ecología marina, programación y gestión de datos para estudiar el plancton y comprender los cambios en los ecosistemas oceánicos.
 
 Actualmente contribuyo a Phyto-MAP, un atlas global de observaciones de fitoplancton. Desarrollo herramientas en R y flujos de trabajo reproducibles para recopilar, depurar, integrar y analizar series históricas de datos de plancton y otras variables oceanográficas. También diseño herramientas que facilitan la recogida, el archivo y la compilación de datos en bases de datos PostgreSQL y SQLite, apoyando la investigación de mi grupo sobre los ecosistemas marinos.
 
