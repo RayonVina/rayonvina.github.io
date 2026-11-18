@@ -102,7 +102,7 @@
     "href": "about/resume.html",
     "title": "Curriculum vitae",
     "section": "",
-    "text": "This page presents a selection of my experience, education, and scientific contributions.\nDownload full CV in English · PDF"
+    "text": "This page presents a selection of my experience, education, and scientific contributions."
   },
   {
     "objectID": "about/resume.html#professional-and-research-experience",
@@ -151,7 +151,7 @@
     "href": "about/resume.html#selected-additional-training",
     "title": "Curriculum vitae",
     "section": "Selected additional training",
-    "text": "Selected additional training\n\nBeyond Beginner R: Advancing Your Coding Skills. Physalia Courses · 24 h · 2026.\nHandling Missing Data in R. Physalia Courses · 15 h · 2026.\nIntroduction to Python for Scientists. CSIC · 30 h · 2023.\nVersion Control with Git and GitHub. CSIC · 25 h · 2023.\nPostgreSQL for Everybody. University of Michigan / Coursera · 60 h · 2022."
+    "text": "Selected additional training\n\nBeyond Beginner R: Advancing Your Coding Skills. Physalia Courses\nHandling Missing Data in R. Physalia Courses\nIntroduction to Python for Scientists. CSIC\nVersion Control with Git and GitHub. CSIC\nPostgreSQL for Everybody. University of Michigan"
   },
   {
     "objectID": "about/outreach/2026-10-28--phytaxr-preprint.html",
@@ -424,7 +424,7 @@
     "href": "license.html",
     "title": "License",
     "section": "",
-    "text": "Last version 2026-11-09\n\n\n  \n\nAll contents of this website are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License, except for the publications, which are subject to their own licenses depending on the editorial (please check each publication for more details).\n\n\n\n Back to top"
+    "text": "Last version 2026-11-18\n\n\n  \n\nAll contents of this website are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License, except for the publications, which are subject to their own licenses depending on the editorial (please check each publication for more details).\n\n\n\n Back to top"
   },
   {
     "objectID": "projects/index.html",

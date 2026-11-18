@@ -1,6 +1,6 @@
 ---
 title: "Currículum"
-date-modified: 2026-11-05
+date-modified: 2026-11-18
 format:
   html:
     page-layout: full
@@ -13,12 +13,7 @@ format:
 Esta página recoge una selección de mi experiencia, formación y
 contribuciones científicas.
 
-[Descargar CV completo en español · PDF](CV.es.pdf){.btn .btn-primary}
-
-> Última actualización del contenido: noviembre de 2026.
-
 ## Experiencia profesional e investigadora
-
 ### Investigador asociado (Postdoctoral)
 
 Marine Microbial Macroecology Lab · Dalhousie University, Canadá  
@@ -166,12 +161,16 @@ basura marina y conservación.
 ## Formación complementaria seleccionada
 
 - Beyond Beginner R: Advancing Your Coding Skills.
-  Physalia Courses · 24 h · 2026.
+  Physalia Courses
 - Handling Missing Data in R.
-  Physalia Courses · 15 h · 2026.
+  Physalia Courses
 - Introducción a Python para científicos.
-  CSIC · 30 h · 2023.
+  CSIC
 - Control de versiones con Git y GitHub.
-  CSIC · 25 h · 2023.
-- PostgreSQL for Everybody.
-  University of Michigan / Coursera · 60 h · 2022.
+  CSIC
+- PostgreSQL for Everybody
+  University of Michigan
+
+<!-- [Descargar CV completo en español · PDF](CV.es.pdf){.btn .btn-primary}
+
+> Última actualización del contenido: noviembre de 2026. -->

@@ -1,6 +1,6 @@
 ---
 title: "Curriculum vitae"
-date-modified: 2026-11-05
+date-modified: 2026-11-18
 format:
   html:
     page-layout: full
@@ -13,12 +13,7 @@ format:
 This page presents a selection of my experience, education, and
 scientific contributions.
 
-[Download full CV in English · PDF](CV.en.pdf){.btn .btn-primary}
-
-> Content last updated: November 2026.
-
 ## Professional and research experience
-
 ### Research Associate (Postdoctoral)
 
 Marine Microbial Macroecology Lab · Dalhousie University, Canada  
@@ -170,12 +165,17 @@ and conservation.
 ## Selected additional training
 
 - Beyond Beginner R: Advancing Your Coding Skills.
-  Physalia Courses · 24 h · 2026.
+  Physalia Courses
 - Handling Missing Data in R.
-  Physalia Courses · 15 h · 2026.
+  Physalia Courses
 - Introduction to Python for Scientists.
-  CSIC · 30 h · 2023.
+  CSIC
 - Version Control with Git and GitHub.
-  CSIC · 25 h · 2023.
+  CSIC
 - PostgreSQL for Everybody.
-  University of Michigan / Coursera · 60 h · 2022.
+  University of Michigan
+
+
+<!-- [Download full CV in English · PDF](CV.en.pdf){.btn .btn-primary}
+
+> Content last updated: November 2026. -->

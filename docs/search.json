@@ -102,7 +102,7 @@
     "href": "about/resume.html",
     "title": "Currículum",
     "section": "",
-    "text": "Esta página recoge una selección de mi experiencia, formación y contribuciones científicas.\nDescargar CV completo en español · PDF"
+    "text": "Esta página recoge una selección de mi experiencia, formación y contribuciones científicas."
   },
   {
     "objectID": "about/resume.html#experiencia-profesional-e-investigadora",
@@ -151,7 +151,7 @@
     "href": "about/resume.html#formación-complementaria-seleccionada",
     "title": "Currículum",
     "section": "Formación complementaria seleccionada",
-    "text": "Formación complementaria seleccionada\n\nBeyond Beginner R: Advancing Your Coding Skills. Physalia Courses · 24 h · 2026.\nHandling Missing Data in R. Physalia Courses · 15 h · 2026.\nIntroducción a Python para científicos. CSIC · 30 h · 2023.\nControl de versiones con Git y GitHub. CSIC · 25 h · 2023.\nPostgreSQL for Everybody. University of Michigan / Coursera · 60 h · 2022."
+    "text": "Formación complementaria seleccionada\n\nBeyond Beginner R: Advancing Your Coding Skills. Physalia Courses\nHandling Missing Data in R. Physalia Courses\nIntroducción a Python para científicos. CSIC\nControl de versiones con Git y GitHub. CSIC\nPostgreSQL for Everybody University of Michigan"
   },
   {
     "objectID": "about/outreach/2026-10-28--phytaxr-preprint.html",
@@ -424,7 +424,7 @@
     "href": "license.html",
     "title": "Licencia",
     "section": "",
-    "text": "Última versión: 2026-11-09\n\n\n  \n\nTodos los contenidos de esta web están publicados bajo una licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional, salvo las publicaciones, que están sujetas a sus propias licencias según la editorial (consulta cada publicación para más detalles).\n\n\n\n Volver arriba"
+    "text": "Última versión: 2026-11-18\n\n\n  \n\nTodos los contenidos de esta web están publicados bajo una licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional, salvo las publicaciones, que están sujetas a sus propias licencias según la editorial (consulta cada publicación para más detalles).\n\n\n\n Volver arriba"
   },
   {
     "objectID": "projects/index.html",
